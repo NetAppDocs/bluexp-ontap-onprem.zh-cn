@@ -53,8 +53,6 @@
   <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">在 * 数字电子邮件 * 中，单击 * 内部部署 ONTAP * 选项卡。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">每个集群的行上都会显示软件合同和硬件合同到期日期。</block>
   <block id="3f844e426a10085ba24d2a77f32144b3" category="list-text">如果合同即将到期或已到期，您可以单击 Cloud Manager 右下角的聊天图标以请求延长合同。</block>
-  <block id="ddd53e8927c624ebcbf44e804dd39950" category="inline-image-macro">注意</block>
-  <block id="d69c8f5affd800d0b387db4764fa4a30" category="list-text">对于要了解其他详细信息的集群，请单击 <block ref="3cc4b517e471a9470762ff8efb27bddb" category="inline-image-macro-rx" type="image"></block> 以展开集群信息。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">展开集群详细信息以查看集群许可证信息的屏幕截图。</block>
   <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
   <block id="521890c2a62a1a85cbecc2bafda74ce4" category="section-title">从 Cloud Manager 发现内部集群</block>
@@ -221,7 +219,6 @@
   <block id="7ae492186bd46e832a6b64cff9b1575a" category="paragraph">此模板应使您的工作更轻松，因为模板中已定义某些卷参数，例如磁盘类型，大小，协议，快照策略等。如果已预定义某个参数，则只需跳到下一个 volume 参数即可。</block>
   <block id="395f4870d887a81edabc6ad40f5a84f0" category="admonition">使用模板时，您只能创建 NFS 或 CIFS 卷。</block>
   <block id="ec8d6cd563b6f9acbaf5d348267aeb5c" category="list-text">在 " 画布 " 页面上，单击要配置卷的内部 ONTAP 系统的名称。</block>
-  <block id="5bc96ba8ddc4433dd0df94e6350c496e" category="list-text">单击 <block ref="a5c9b85c9e509567688aed8106bc419c" category="inline-image-macro-rx" type="image"></block> &gt; * 从模板添加卷 * 。</block>
   <block id="74099e7b70c30e3a55db543cda9bfc1e" category="inline-image-macro">显示如何从模板添加新卷的屏幕截图。</block>
   <block id="f5cfbd56be4d95a78f70efb70e2e9079" category="paragraph"><block ref="f5cfbd56be4d95a78f70efb70e2e9079" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5b33742921c3a09b3c0916cff2d87632" category="list-text">在 _Select Template_ 页面中，选择要用于创建卷的模板，然后单击 * 下一步 * 。</block>
@@ -417,4 +414,8 @@
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">数据保护</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="e9c2ec7472702d9e84d77a3ecb12f454" category="sidebar">使用System Manager进行管理</block>
+  <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">包含三个点的图标。</block>
+  <block id="a78d007a06bac736eaadb47926ca0155" category="list-text">单击 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt; * 从模板添加卷 * 。</block>
+  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">停用图标</block>
+  <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">对于要了解其他详细信息的集群，请单击 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 以展开集群信息。</block>
 </blocks>

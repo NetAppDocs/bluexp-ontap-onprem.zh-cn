@@ -99,7 +99,7 @@ NOTE: 如果您的支持合同到期，系统将从发现页面中删除。但�
 每个集群的行上都会显示软件合同和硬件合同到期日期。
 
 . 如果合同即将到期或已到期，您可以单击 Cloud Manager 右下角的聊天图标以请求延长合同。
-. 对于要了解其他详细信息的集群，请单击 image:button_down_caret.png["注意"] 以展开集群信息。
+. 对于要了解其他详细信息的集群，请单击 image:button_down_caret.png["停用图标"] 以展开集群信息。
 +
 image:screenshot_digital_wallet_license_info.png["展开集群详细信息以查看集群许可证信息的屏幕截图。"]
 

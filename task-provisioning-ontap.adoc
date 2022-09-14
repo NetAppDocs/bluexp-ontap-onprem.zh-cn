@@ -89,7 +89,7 @@ NOTE: 使用模板时，您只能创建 NFS 或 CIFS 卷。
 
 .步骤
 . 在 " 画布 " 页面上，单击要配置卷的内部 ONTAP 系统的名称。
-. 单击 image:screenshot_gallery_options.gif[""] > * 从模板添加卷 * 。
+. 单击 image:screenshot_gallery_options.gif["包含三个点的图标。"] > * 从模板添加卷 * 。
 +
 image:screenshot_template_add_vol_ontap.png["显示如何从模板添加新卷的屏幕截图。"]
 
