@@ -8,7 +8,6 @@
   <block id="f23bd56e3b5d6f7f6472fcb2b4cd3d5a" category="paragraph">删除工作环境不会影响 ONTAP 集群。您可以随时从 Cloud Manager 重新发现它。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="0280e7f2fa84bc4f3c493a7a89c90d28" category="list-text">在 " 画布 " 页面上，双击内部 ONTAP 工作环境的名称。</block>
-  <block id="80e3b13d71092100ec711ddee84d23a4" category="list-text">单击菜单图标并选择 * 删除 * 。</block>
   <block id="82efd2783df66726ca1b3a680a181ac8" category="inline-image-macro">显示页面右上角菜单和删除选项的屏幕截图。</block>
   <block id="fdc54b68e260b5861ecabd7cfd437124" category="paragraph"><block ref="fdc54b68e260b5861ecabd7cfd437124" category="inline-image-macro-rx" type="image"></block></block>
   <block id="40b851aafab82c78484c46169f816fd2" category="list-text">单击 * 删除 * 进行确认。</block>
@@ -188,9 +187,7 @@
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">这些步骤</block>
   <block id="ba9dee2f877a286e797bf6a3232b07bb" category="paragraph">通过 Cloud Manager 的 " 模板 " 功能，您可以创建针对特定应用程序（例如数据库或流式服务）的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作 <block ref="e476f8430392eaa6984ef9c1426bdf73" category="inline-xref-macro-rx"></block>。</block>
   <block id="7c1c859794874e74db7044dd733c5ca7" category="list-text">在 " 画布 " 页面上，双击要配置卷的内部 ONTAP 集群的名称。</block>
-  <block id="e0e02b01eefffa92ef6dd41ca0bfddaa" category="list-text">单击 * 添加新卷 * 。</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">按照向导中的步骤创建卷。</block>
-  <block id="3c4fc22bba56c8a041aad60e63c7450f" category="list-text">* 详细信息和保护 * ：输入有关卷的基本详细信息，然后选择 Snapshot 策略。</block>
   <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">此页面上的某些字段不言自明。以下列表介绍了可能需要指导的字段：</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">字段</block>
   <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="cell">Description</block>
@@ -198,7 +195,6 @@
   <block id="7b975bd58356ec64d88f70d7f167a299" category="cell">您可以输入的最大大小在很大程度上取决于您是否启用精简配置、这样您就可以创建一个大于当前可用物理存储的卷。</block>
   <block id="426fb47479d0477ed5dbc9388b9add76" category="cell">快照策略</block>
   <block id="052c4d27b63fed6776d46336a295d801" category="cell">Snapshot 副本策略指定自动创建的 NetApp Snapshot 副本的频率和数量。NetApp Snapshot 副本是一个时间点文件系统映像、对性能没有影响、并且只需要极少的存储。您可以选择默认策略或无。您可以为瞬态数据选择无：例如， Microsoft SQL Server 的 tempdb 。</block>
-  <block id="5090bb88c9aa49ab33053342a61490ca" category="list-text">* 协议 * ：选择卷的协议（ NFS 或 CIFS ），然后设置卷的访问控制或权限。</block>
   <block id="32532e671368d9ba8ec11ef9121e8520" category="paragraph">如果您选择 CIFS ，但尚未设置服务器，则 Cloud Manager 会提示您使用 Active Directory 或工作组设置 CIFS 服务器。</block>
   <block id="10ca883ec839df9958683234c16faa0c" category="paragraph">以下列表介绍了可能需要指导的字段：</block>
   <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">访问控制</block>
@@ -240,17 +236,12 @@
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">如果配置了 CIFS 共享、请授予用户或组对文件和文件夹的权限、并验证这些用户是否可以访问该共享并创建文件。</block>
   <block id="9471c2e49e82f1450164e486a41810fd" category="section-title">复制数据</block>
   <block id="d67fa48b66fcc0b221394da39a91b7bd" category="paragraph">您可以在 Cloud Volumes ONTAP 系统和 ONTAP 集群之间复制数据、方法是选择一次性数据复制、该复制可以帮助您将数据移入或移出云、或定期计划、这有助于灾难恢复或长期保留。</block>
-  <block id="4bfd6df89ae3683de5e81c0d2d601355" category="inline-link">单击此处了解更多详细信息</block>
-  <block id="a8a96c36866372f961b611932778c533" category="paragraph"><block ref="740522bad1dae5d9c555be7717efd2a7" category="inline-link-rx"></block>。</block>
   <block id="69d7d8f5eb94524f8d67bd4810ecd3b4" category="section-title">备份数据</block>
   <block id="4dafc83aff4c0c428f00d14ba637d08e" category="paragraph">您可以使用云备份将内部 ONTAP 系统中的数据备份到云中的低成本对象存储。此服务提供备份和还原功能，用于保护内部数据和云数据并对其进行长期归档。</block>
-  <block id="bfdc46d4c7e2c86b2f36ab608613b0a1" category="paragraph"><block ref="92bb2af477ec46204a7fbf4ac8f25c07" category="inline-link-rx"></block>。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">扫描，映射和分类数据</block>
   <block id="8c5469d13e648a63a3b3954844a606d5" category="paragraph">Cloud Data sense 可以对企业内部集群进行扫描，以便对数据进行映射和分类，并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。</block>
-  <block id="3a5ae3c8370ec0420f4d5f09975f9473" category="paragraph"><block ref="4ac871f2acbfe21994d476b705580307" category="inline-link-rx"></block>。</block>
   <block id="8eb970559649a4b00ff570ac7b611b1a" category="section-title">将数据分层到云</block>
   <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">通过使用云分层将 ONTAP 集群中的非活动数据自动分层到对象存储，将数据中心扩展到云。</block>
-  <block id="06ed7fc16cefcce74b94962584869b39" category="paragraph"><block ref="240bb627dd9982017efa6d3b711a39ad" category="inline-link-rx"></block>。</block>
   <block id="ce21e7ae4271271294ccbf54c8fd6864" category="summary">NetApp 通过多种方式为 Cloud Manager 提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
@@ -353,19 +344,14 @@
   <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
   <block id="bff60abbc46aceed0f73a3a4f6cfb123" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进 Cloud Manager 。</block>
   <block id="0659d428df833a806e29e65e632d380a" category="section-title">NetApp 支持</block>
-  <block id="c91b5a63849b8d2db01014ed33192735" category="paragraph">除了上述自助支持选项之外，您还可以在激活支持后与 NetApp 支持工程师合作解决任何问题。</block>
   <block id="6c08c57e382a25a778455184cd9b1a4a" category="list-text">在 Cloud Manager 中，单击 * 帮助 &gt; 支持 * 。</block>
   <block id="f5052c65917d7341726235d4d4941461" category="list-text">在 "Technical Support" 下选择一个可用选项：</block>
-  <block id="bece28b158ab337d9ed24b00d7d02cc7" category="list-text">单击 * 致电我们 * 可查找 NetApp 技术支持的电话号码。</block>
-  <block id="efe81cff8e6f47ec59ef94167b76bf5a" category="list-text">单击 * 打开问题描述 * ，选择一个选项，然后单击 * 发送 * 。</block>
-  <block id="cbb1040836732e478409dacf7e45171a" category="paragraph">NetApp 代表将审核您的案例，并尽快与您联系。</block>
   <block id="f8b475a3fefebada77a30229238d0a1a" category="section-title">2022年6月7日</block>
   <block id="4f03a5c652641013d1e43811930f5769" category="paragraph">连接器3.9.19版引入了以下更改。</block>
   <block id="ffe3ec3b5faef58a758d9449470882a0" category="section-title">新建高级视图</block>
   <block id="5549a52d6578bcb66138c7319ef4ea11" category="paragraph">如果您需要对ONTAP 内部集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在Cloud Manager中提供了System Manager界面、因此您无需离开Cloud Manager进行高级管理。</block>
   <block id="99721ad2e6d601b2966a9d9e1c7de770" category="paragraph">对于运行9.10.0或更高版本的内部ONTAP 集群、此高级视图为预览视图。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
   <block id="f303a87fe6efba259b752f5a9e11064b" category="inline-link-macro">了解有关高级视图的更多信息</block>
-  <block id="0c6e9220b6dd38f763ce6082c0125be9" category="paragraph"><block ref="cf41d716430563f350a841f38af568db" category="inline-link-macro-rx"></block>。</block>
   <block id="d7ce0ccf910efd77ec00e6d9bde719ca" category="doc">使用高级视图管理ONTAP</block>
   <block id="74593b49f99b6e21d38ca3d969b213f3" category="paragraph">此高级视图可作为预览版使用。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。</block>
   <block id="98a1dd953dfcb1729fd4013fc440cb56" category="paragraph">通过Cloud Manager中的高级视图、您可以访问其他管理功能：</block>
@@ -419,4 +405,51 @@
   <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">停用图标</block>
   <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">对于要了解其他详细信息的集群，请单击 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 以展开集群信息。</block>
   <block id="7ff191df90fac0fa94ab5c2b5101a5e9" category="sidebar">所有 Cloud Manager 文档</block>
+  <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
+  <block id="440be74a67502f9c3d55890782329328" category="paragraph">连接器3.9.22版引入了以下更改。</block>
+  <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新的"概述"页面</block>
+  <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">我们引入了一个新的"概述"页面、用于提供有关内部ONTAP 集群的关键详细信息。例如、您现在可以查看存储效率、容量分布和系统信息等详细信息。</block>
+  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">您还可以查看有关与其他NetApp云服务集成的详细信息、这些服务支持数据分层、数据复制和备份。</block>
+  <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">显示内部ONTAP 集群的"概述"页面的屏幕截图。</block>
+  <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">重新设计的卷页面</block>
+  <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">我们重新设计了卷页面、以提供集群上卷的摘要。此摘要将显示卷的总数、已配置容量、已用容量和预留容量以及分层数据的数量。</block>
+  <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">显示内部ONTAP 集群的卷页面的屏幕截图。</block>
+  <block id="bb4feb07894e787f9d7a8a9c00fa4d55" category="paragraph"><block ref="bb4feb07894e787f9d7a8a9c00fa4d55" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="677a2aadb254e7c4efbc10a593c2f4db" category="paragraph"><block ref="869a420ba883bbe1b303fc03706f8b2f" category="inline-link-rx"></block>。</block>
+  <block id="d71f4e248e7b72dc823a682ad81ee0a7" category="list-text">单击菜单图标并选择*从工作空间中删除*。</block>
+  <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
+  <block id="e2a733504c4088b809813bbb35a3ddfd" category="inline-link-macro">了解如何注册获取支持</block>
+  <block id="09651e14b46d7e8697d32de90d0deacb" category="paragraph">要使用*创建案例*功能、您必须先一次性注册Cloud Manager帐户ID序列号(即960xxxx)。 <block ref="3349e4b3d05f646f2f1421bee7c2ad26" category="inline-link-macro-rx"></block>。</block>
+  <block id="383133cb6f7207b1c65c3ace94aa5e95" category="list-text">如果您要通过电话与某人通话、请单击*致电我们*。系统会将您定向到netapp.com上的一个页面、其中列出了您可以拨打的电话号码。</block>
+  <block id="bf5bc6ab0f95f17f4e98c9d766b8c11d" category="list-text">单击*创建案例*、向NetApp支持专家开一个服务单：</block>
+  <block id="b53e0a259f4a0c8e7da80d6c94e26c84" category="list-text">* NetApp 支持站点 Account*：选择与创建支持案例的人员关联的适用帐户。除下面提供的其他电子邮件外、此人还将是NetApp的主要联系人。</block>
+  <block id="ec65cc87efda54741062da1fce99ff76" category="paragraph">如果未看到您的NSS帐户、您可以导航到Cloud Manager支持部分中的* NSS管理*选项卡将其添加到该选项卡中。</block>
+  <block id="b3144caf7d928b7954447c757b3ed77b" category="list-text">*服务*：选择与问题描述 关联的服务。例如、Cloud Manager适用于具有服务中工作流或功能的技术支持问题描述。</block>
+  <block id="2e50c5f85523f0aba9ff2db10f18279c" category="list-text">*工作环境*：如果适用于存储、请选择* Cloud Volumes ONTAP *或* on-Prem*、然后选择关联的工作环境。</block>
+  <block id="1e38219c106fb9d07d173c027b8911c7" category="paragraph">工作环境列表属于您在服务顶部横幅中选择的Cloud Manager帐户、工作空间和连接器的范围。</block>
+  <block id="e6f29fb3c7636dc0040600dd0e84bb79" category="list-text">*案例优先级*：选择案例的优先级、可以是"低"、"中"、"高"或"严重"。</block>
+  <block id="835eb4008e97c2a7f69bbb2725285e34" category="paragraph">要了解有关这些优先级的更多详细信息、请将鼠标悬停在字段名称旁边的信息图标上。</block>
+  <block id="0f7d9319c95a8be1492e74601c4b3259" category="list-text">*问题描述 *：提供问题的详细问题描述 、包括任何适用的错误消息或您执行的故障排除步骤。</block>
+  <block id="002c6f26fb01affb37b8cf3cef7a1fb0" category="list-text">*其他电子邮件地址*：如果您希望其他人了解此问题描述 、请输入其他电子邮件地址。</block>
+  <block id="baaf0e61add7d12cf8d12e023d5aef18" category="inline-image-macro">创建案例表的屏幕截图、可用于向NetApp支持部门创建案例。</block>
+  <block id="a2ff30886e1baf1e7d5045b5fc24f5b9" category="paragraph"><block ref="a2ff30886e1baf1e7d5045b5fc24f5b9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="18f487556417bb6d9721a7005ae097c9" category="paragraph">此时将显示一个弹出窗口、其中包含您的支持案例编号。NetApp支持专家将审核您的案例、并尽快与您联系。</block>
+  <block id="04e15da1deae9568b4dcda64fbb0c8d5" category="paragraph">有关支持案例的历史记录、您可以单击*设置&gt;时间线*并查找名为"创建支持案例"的操作。 最右侧的按钮可用于展开操作以查看详细信息。</block>
+  <block id="5c56753585e89a84941bb3a78bc681af" category="paragraph">尝试创建案例时、您可能会遇到以下错误消息：</block>
+  <block id="a30f69ab0ec85d427a3e8835713525bd" category="paragraph">"您无权针对选定服务创建案例"</block>
+  <block id="148f13242c3e296dc276821cdc574921" category="paragraph">此错误可能意味着NSS帐户及其关联的记录公司与Cloud Manager帐户序列号(即960xxxx)或工作环境序列号。您可以查看*创建案例*表顶部的NSS帐户列表以找到正确的匹配项、也可以使用以下选项之一寻求帮助：</block>
+  <block id="e01df0b4dfd95eba2c59333419e4fac6" category="list-text">使用产品内聊天功能</block>
+  <block id="639be990cfca56ab4b63685d8bacd437" category="list-text">通过提交非技术案例<block ref="2298f47e4dad19a3156da7ce6116d9b1" category="inline-link-rx"></block></block>
+  <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">单击*卷&gt;添加卷*。</block>
+  <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*详细信息、保护和标记*：输入有关卷的详细信息及其名称和大小、选择Snapshot策略并根据需要指定卷标记。</block>
+  <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*协议*：选择卷的协议(NFS、CIFS或iSCSI)、然后设置卷的访问控制或权限。</block>
+  <block id="0c57608b3dc99c491ccf28333d1a1ffd" category="inline-link">了解如何复制数据</block>
+  <block id="057bdd599f52bea71a4eb64fb5283528" category="paragraph"><block ref="057bdd599f52bea71a4eb64fb5283528" category="inline-link-rx"></block></block>
+  <block id="b1d61988f64b60df32fb40aafa9a8a72" category="inline-link">了解如何将数据备份到云</block>
+  <block id="0c8aebb65487842ae7cee0153641a2c0" category="paragraph"><block ref="0c8aebb65487842ae7cee0153641a2c0" category="inline-link-rx"></block></block>
+  <block id="657194a3b23d82061f3c6bde831200e2" category="inline-link">了解如何扫描、映射和分类数据</block>
+  <block id="87297131944257017f4fa2ace90b4993" category="paragraph"><block ref="87297131944257017f4fa2ace90b4993" category="inline-link-rx"></block></block>
+  <block id="e8d45bdb0673c56f56414b928ee6a759" category="inline-link">了解如何将数据分层到云</block>
+  <block id="f3ad359fcb06b212c3249a38f6d003e4" category="paragraph"><block ref="f3ad359fcb06b212c3249a38f6d003e4" category="inline-link-rx"></block></block>
 </blocks>

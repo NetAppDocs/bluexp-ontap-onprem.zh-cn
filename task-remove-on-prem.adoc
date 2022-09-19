@@ -20,7 +20,7 @@ summary: 如果您不想再从 Cloud Manager 管理内部 ONTAP 工作环境，�
 
 .步骤
 . 在 " 画布 " 页面上，双击内部 ONTAP 工作环境的名称。
-. 单击菜单图标并选择 * 删除 * 。
+. 单击菜单图标并选择*从工作空间中删除*。
 +
 image:screenshot_remove_onprem.png["显示页面右上角菜单和删除选项的屏幕截图。"]
 

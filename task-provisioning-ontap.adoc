@@ -25,10 +25,10 @@ summary: 从 Cloud Manager 发现内部 ONTAP 集群后，您可以打开工作�
 
 .步骤
 . 在 " 画布 " 页面上，双击要配置卷的内部 ONTAP 集群的名称。
-. 单击 * 添加新卷 * 。
+. 单击*卷>添加卷*。
 . 按照向导中的步骤创建卷。
 +
-.. * 详细信息和保护 * ：输入有关卷的基本详细信息，然后选择 Snapshot 策略。
+.. *详细信息、保护和标记*：输入有关卷的详细信息及其名称和大小、选择Snapshot策略并根据需要指定卷标记。
 +
 此页面上的某些字段不言自明。以下列表介绍了可能需要指导的字段：
 
@@ -43,7 +43,7 @@ summary: 从 Cloud Manager 发现内部 ONTAP 集群后，您可以打开工作�
 
 | 快照策略 | Snapshot 副本策略指定自动创建的 NetApp Snapshot 副本的频率和数量。NetApp Snapshot 副本是一个时间点文件系统映像、对性能没有影响、并且只需要极少的存储。您可以选择默认策略或无。您可以为瞬态数据选择无：例如， Microsoft SQL Server 的 tempdb 。 
 |===
-.. * 协议 * ：选择卷的协议（ NFS 或 CIFS ），然后设置卷的访问控制或权限。
+.. *协议*：选择卷的协议(NFS、CIFS或iSCSI)、然后设置卷的访问控制或权限。
 +
 如果您选择 CIFS ，但尚未设置服务器，则 Cloud Manager 会提示您使用 Active Directory 或工作组设置 CIFS 服务器。
 
@@ -127,7 +127,7 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 您可以在 Cloud Volumes ONTAP 系统和 ONTAP 集群之间复制数据、方法是选择一次性数据复制、该复制可以帮助您将数据移入或移出云、或定期计划、这有助于灾难恢复或长期保留。
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["单击此处了解更多详细信息"^]。
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["了解如何复制数据"^]
 
 
 
@@ -135,7 +135,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 您可以使用云备份将内部 ONTAP 系统中的数据备份到云中的低成本对象存储。此服务提供备份和还原功能，用于保护内部数据和云数据并对其进行长期归档。
 
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["单击此处了解更多详细信息"^]。
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["了解如何将数据备份到云"^]
 
 
 
@@ -143,7 +143,7 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-clo
 
 Cloud Data sense 可以对企业内部集群进行扫描，以便对数据进行映射和分类，并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
 
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["单击此处了解更多详细信息"^]。
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["了解如何扫描、映射和分类数据"^]
 
 
 
@@ -151,4 +151,4 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.
 
 通过使用云分层将 ONTAP 集群中的非活动数据自动分层到对象存储，将数据中心扩展到云。
 
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["单击此处了解更多详细信息"^]。
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["了解如何将数据分层到云"^]

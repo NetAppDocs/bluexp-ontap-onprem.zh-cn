@@ -18,6 +18,30 @@ summary: 了解内部 ONTAP 集群的新增功能。
 
 
 
+== 2022年9月18日
+
+连接器3.9.22版引入了以下更改。
+
+
+
+=== 新的"概述"页面
+
+我们引入了一个新的"概述"页面、用于提供有关内部ONTAP 集群的关键详细信息。例如、您现在可以查看存储效率、容量分布和系统信息等详细信息。
+
+您还可以查看有关与其他NetApp云服务集成的详细信息、这些服务支持数据分层、数据复制和备份。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["显示内部ONTAP 集群的\"概述\"页面的屏幕截图。"]
+
+
+
+=== 重新设计的卷页面
+
+我们重新设计了卷页面、以提供集群上卷的摘要。此摘要将显示卷的总数、已配置容量、已用容量和预留容量以及分层数据的数量。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-volumes.png["显示内部ONTAP 集群的卷页面的屏幕截图。"]
+
+
+
 == 2022年6月7日
 
 连接器3.9.19版引入了以下更改。
@@ -30,7 +54,7 @@ summary: 了解内部 ONTAP 集群的新增功能。
 
 对于运行9.10.0或更高版本的内部ONTAP 集群、此高级视图为预览视图。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。
 
-link:task-administer-advanced-view.html["了解有关高级视图的更多信息"]。
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advanced-view.html["了解有关高级视图的更多信息"]。
 
 
 
