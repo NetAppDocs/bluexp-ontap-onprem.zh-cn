@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-aiq-digital-advisor.html 
 keywords: concepts, active iq digital advisor, ontap 
-summary: Active IQ 数字顾问集成在 Cloud Manager UI 中，因此您可以在一个管理平台中优化 ONTAP 集群的操作，安全性和性能。 
+summary: Active IQ 数字顾问集成在BlueXP用户界面中、因此您可以在一个管理平台中优化ONTAP 集群的操作、安全性和性能。 
 ---
-= 使用 Active IQ 数字顾问优化集群
+= 使用Digital Advisor优化集群
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Active IQ 数字顾问集成在 Cloud Manager UI 中，因此您可以�
 
 
 [role="lead"]
-https://www.netapp.com/services/support/active-iq/["Active IQ 数字顾问"^] 集成到 Cloud Manager UI 中，以便您可以在一个管理平台中优化 ONTAP 集群的操作，安全性和性能。
+https://www.netapp.com/services/support/active-iq/["Digital Advisor"^] (以前称为Active IQ)集成在BlueXP UI中、因此您可以在一个管理平台中优化ONTAP 集群的操作、安全性和性能。
 
 
 
 == 功能
 
-您可以使用 Active IQ 数字顾问在监视列表级别查看存储系统的整体状态，有关系统运行状况的详细信息，清单，规划，升级以及有价值的见解。
+您可以使用Digital Advisor在监视列表级别查看存储系统的整体状态、有关系统运行状况的详细信息、清单、规划、升级以及有价值的见解。
 
 * 分析并优化存储系统的运行状况
 * 深入了解存储系统面临的所有风险以及降低风险的措施
@@ -34,34 +34,16 @@ https://www.netapp.com/services/support/active-iq/["Active IQ 数字顾问"^] �
 
 == 支持的 ONTAP 系统
 
-Active IQ 数字顾问可提供有关您的 NSS 帐户中所有内部 ONTAP 系统和 Cloud Volumes ONTAP 系统的信息。
+Digital Advisor可提供有关NSS帐户中所有内部ONTAP 系统和Cloud Volumes ONTAP 系统的信息。
 
 
 
 == 成本
 
-通过 Cloud Manager 使用此服务无需任何成本。
+通过BlueXP免费使用此服务。
 
 
 
-== Active IQ 数字顾问如何与 Cloud Manager 配合使用
+== Digital Advisor如何与BlueXP配合使用
 
-Active IQ 数字顾问用户界面完全集成在 Cloud Manager 中。
-
-在云管理器中，单击 * Active IQ * 服务。
-
-* 如果您已经在 Cloud Manager 中注册了现有的 NSS 帐户，则 Active IQ 数字顾问用户界面就像您在中的独立实施中看到的一样 https://activeiq.netapp.com/[]。
-+
-image:screenshot_aiq_digital_advisor.png["Cloud Manager 中 Active IQ 数字顾问用户界面的屏幕截图。"]
-
-* 如果您尚未在 Cloud Manager 中注册 NSS 帐户， https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-adding-nss-accounts.html["立即注册 NSS 帐户"^] 然后，将显示 Active IQ 数字顾问用户界面。
-
-
-
-NOTE: 截至 2021 年 12 月， NetApp 已采用一种新方法为 NSS 帐户注册凭据。 https://kb.netapp.com/Advice_and_Troubleshooting/Miscellaneous/FAQs_for_NetApp_adoption_of_MS_Azure_AD_B2C_for_login["有关详细信息，请参见此常见问题解答"^]。如果您的 NSS 帐户使用旧的凭据集，则需要将此帐户更新为新凭据。
-
-
-
-== 下一步行动
-
-请参见 https://docs.netapp.com/us-en/active-iq/index.html["Active IQ 数字顾问文档"^] 了解详细信息。
+请参见 https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisor文档"^] 了解详细信息。

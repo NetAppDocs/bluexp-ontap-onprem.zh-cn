@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-provisioning-ontap.html 
 keywords: ontap, cluster, manage, provision, provisioning, volumes, discovering, fas, aff, creating volumes, adding volumes 
-summary: 从 Cloud Manager 发现内部 ONTAP 集群后，您可以打开工作环境来配置和管理存储。 
+summary: 从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来配置和管理存储。 
 ---
 = 管理内部 ONTAP 集群的存储
 :hardbreaks:
@@ -13,17 +13,18 @@ summary: 从 Cloud Manager 发现内部 ONTAP 集群后，您可以打开工作�
 :imagesdir: ./media/
 
 
-从 Cloud Manager 发现内部 ONTAP 集群后，您可以打开工作环境来配置和管理存储。
+从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来配置和管理存储。
 
 
 
 == 正在创建卷
 
-您可以使用 Cloud Manager 在现有聚合上创建 NFS 或 CIFS 卷。您不能通过 Cloud Manager 在内部 ONTAP 集群上创建新聚合。
+通过BlueXP、您可以在现有聚合上创建NFS或CIFS卷。您不能从BlueXP在内部ONTAP 集群上创建新聚合。
 
-通过 Cloud Manager 的 " 模板 " 功能，您可以创建针对特定应用程序（例如数据库或流式服务）的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作  volumes from templates,这些步骤。
+通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作  volumes from templates,这些步骤。
 
 .步骤
+. 从导航菜单中、选择*存储>画布*。
 . 在 " 画布 " 页面上，双击要配置卷的内部 ONTAP 集群的名称。
 . 单击*卷>添加卷*。
 . 按照向导中的步骤创建卷。
@@ -45,7 +46,7 @@ summary: 从 Cloud Manager 发现内部 ONTAP 集群后，您可以打开工作�
 |===
 .. *协议*：选择卷的协议(NFS、CIFS或iSCSI)、然后设置卷的访问控制或权限。
 +
-如果您选择 CIFS ，但尚未设置服务器，则 Cloud Manager 会提示您使用 Active Directory 或工作组设置 CIFS 服务器。
+如果您选择CIFS、但服务器尚未设置、则BlueXP会提示您使用Active Directory或工作组设置CIFS服务器。
 
 +
 以下列表介绍了可能需要指导的字段：
@@ -56,7 +57,7 @@ summary: 从 Cloud Manager 发现内部 ONTAP 集群后，您可以打开工作�
 | 字段 | Description 
 
 
-| 访问控制 | NFS 导出策略定义子网中可访问卷的客户端。默认情况下， Cloud Manager 会输入一个值、用于访问子网中的所有实例。 
+| 访问控制 | NFS 导出策略定义子网中可访问卷的客户端。默认情况下、BlueXP输入一个值、用于访问子网中的所有实例。 
 
 
 | 权限和用户 / 组 | 通过这些字段，您可以控制用户和组（也称为访问控制列表或 ACL ）对 SMB 共享的访问级别。您可以指定本地或域 Windows 用户或组、 UNIX 用户或组。如果指定域 Windows 用户名，则必须使用 domain\username 格式包含用户的域。 
@@ -111,7 +112,7 @@ image:screenshot_define_ontap_vol_from_template.png["显示创建卷所需填写
 . 定义完此卷所需的所有参数后，单击 * 运行模板 * 。
 
 
-Cloud Manager 会配置卷并显示一个页面，以便您可以查看进度。
+BlueXP会配置卷并显示一个页面、以便您可以查看进度。
 
 image:screenshot_template_creating_resource_ontap.png["显示通过模板创建新卷的进度的屏幕截图。"]
 

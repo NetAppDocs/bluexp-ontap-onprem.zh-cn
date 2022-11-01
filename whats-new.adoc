@@ -14,7 +14,7 @@ summary: 了解内部 ONTAP 集群的新增功能。
 
 
 [role="lead"]
-了解内部 ONTAP 集群的新增功能。
+了解BlueXP (以前称为Cloud Manager)中的内部ONTAP 集群管理的新增功能。
 
 
 

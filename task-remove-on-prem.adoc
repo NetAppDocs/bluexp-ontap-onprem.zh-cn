@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-remove-on-prem.html 
 keywords: ontap, cluster, remove, delete, remove ontap cluster, remove onprem, delete cluster, delete working environment, remove working environment 
-summary: 如果您不想再从 Cloud Manager 管理内部 ONTAP 工作环境，请将其删除。 
+summary: 如果您不想再从BlueXP管理内部ONTAP 工作环境、请将其删除。 
 ---
 = 删除内部 ONTAP 工作环境
 :hardbreaks:
@@ -14,9 +14,9 @@ summary: 如果您不想再从 Cloud Manager 管理内部 ONTAP 工作环境，�
 
 
 [role="lead"]
-如果您不想再从 Cloud Manager 管理内部 ONTAP 工作环境，请将其删除。
+如果您不想再从BlueXP管理内部ONTAP 工作环境、请将其删除。
 
-删除工作环境不会影响 ONTAP 集群。您可以随时从 Cloud Manager 重新发现它。
+删除工作环境不会影响 ONTAP 集群。您可以随时从BlueXP中重新发现它。
 
 .步骤
 . 在 " 画布 " 页面上，双击内部 ONTAP 工作环境的名称。
