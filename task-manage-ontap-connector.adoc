@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
-permalink: task-provisioning-ontap.html 
-keywords: ontap, cluster, manage, provision, provisioning, volumes, discovering, fas, aff, creating volumes, adding volumes 
-summary: 从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来配置和管理存储。 
+permalink: task-manage-ontap-connector.html 
+keywords: system manager, advanced view, access system manager, load system manager, use system manager 
+summary: 如果您需要对ONTAP 内部集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。 
 ---
-= 管理内部 ONTAP 集群的存储
+= 管理使用Connector发现的内部ONTAP 集群
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -13,13 +13,20 @@ summary: 从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来�
 :imagesdir: ./media/
 
 
-从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来配置和管理存储。
+[role="lead"]
+如果您使用连接器发现了内部ONTAP 集群、则可以从标准视图创建卷、从高级视图使用System Manager并启用BlueXP数据服务。
 
 
 
-== 正在创建卷
+== 从标准视图创建卷
 
-通过BlueXP、您可以在现有聚合上创建NFS或CIFS卷。您不能从BlueXP在内部ONTAP 集群上创建新聚合。
+在使用Connector从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来配置和管理存储。
+
+
+
+=== 创建卷
+
+通过BlueXP、您可以在现有聚合上创建NFS或CIFS卷。您不能从BlueXP标准视图在内部ONTAP 集群上创建新聚合。您需要使用高级视图创建聚合。
 
 通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作  volumes from templates,这些步骤。
 
@@ -62,16 +69,7 @@ summary: 从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来�
 
 | 权限和用户 / 组 | 通过这些字段，您可以控制用户和组（也称为访问控制列表或 ACL ）对 SMB 共享的访问级别。您可以指定本地或域 Windows 用户或组、 UNIX 用户或组。如果指定域 Windows 用户名，则必须使用 domain\username 格式包含用户的域。 
 |===
-.. * 使用情况配置文件 * ：选择是在卷上启用还是禁用存储效率功能。
-+
-ONTAP 包含多种存储效率功能、可以减少您所需的存储总量。NetApp 存储效率功能具有以下优势：
-
-+
-精简配置:: 为主机或用户提供的逻辑存储比实际在物理存储池中提供的存储多。在写入数据时，存储空间将动态分配给每个卷而不是预先分配存储空间。
-重复数据删除:: 通过定位相同的数据块并将其替换为单个共享块的引用来提高效率。此技术通过消除驻留在同一卷中的冗余数据块来降低存储容量需求。
-压缩:: 通过在主存储、二级存储和归档存储上的卷中压缩数据来减少存储数据所需的物理容量。
-
-
+.. *使用情况配置文件*：选择是在卷上启用还是禁用存储效率功能、以减少所需的总存储量。
 .. * 审阅 * ：查看有关卷的详细信息，然后单击 * 添加 * 。
 
 
@@ -79,7 +77,7 @@ ONTAP 包含多种存储效率功能、可以减少您所需的存储总量。Ne
 
 
 
-== 使用模板创建卷
+=== 使用模板创建卷
 
 如果您的组织已创建内部 ONTAP 卷模板，以便您可以部署针对特定应用程序的工作负载要求进行优化的卷，请按照本节中的步骤进行操作。
 
@@ -108,7 +106,10 @@ image:screenshot_define_ontap_vol_from_template.png["显示创建卷所需填写
 * 注： * 如果要查看这些参数的值，您可以单击 * 显示只读参数 * 复选框以显示模板锁定的所有字段。默认情况下，这些预定义字段将被隐藏，并且仅显示需要填写的字段。
 
 . 在 _context_ 区域中，工作环境将使用您启动的工作环境的名称进行填充。您需要选择要在其中创建卷的 * 存储虚拟机 * 和 * 聚合 * 。
-. 为模板中未硬编码的所有参数添加值。请参见  volumes,正在创建卷 有关部署内部 ONTAP 卷所需完成的所有参数的详细信息。
+. 为模板中未硬编码的所有参数添加值。
++
+ volumes,了解创建卷所需的参数。
+
 . 定义完此卷所需的所有参数后，单击 * 运行模板 * 。
 
 
@@ -124,7 +125,112 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 
 
-== 复制数据
+== 使用高级视图管理ONTAP
+
+如果您需要对内部ONTAP 集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。
+
+此高级视图可作为预览版使用。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。
+
+
+
+=== 功能
+
+通过BlueXP中的高级视图、您可以访问其他管理功能：
+
+* 高级存储管理
++
+管理一致性组、共享、qtree、配额和Storage VM。
+
+* 网络管理
++
+管理IP空间、网络接口、端口集和以太网端口。
+
+* 事件和作业
++
+查看事件日志、系统警报、作业和审核日志。
+
+* 高级数据保护
++
+保护Storage VM、LUN和一致性组。
+
+* 主机管理
++
+设置SAN启动程序组和NFS客户端。
+
+
+
+
+
+=== 支持的配置
+
+运行9.10.0或更高版本的内部ONTAP 集群支持通过System Manager进行高级管理。
+
+在GovCloud地区或无法访问出站Internet的地区不支持System Manager集成。
+
+
+
+=== 限制
+
+在BlueXP中使用高级视图时、内部ONTAP 集群不支持某些System Manager功能：
+
+* 集群设置
++
+在内部ONTAP 集群上设置管理IP地址并配置管理员密码后、您可以在BlueXP中发现此集群、然后从高级视图继续设置集群。
+
+* Cloud Backup激活
++
+直接从Cloud Backup在内部集群上启用Cloud Backup。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["了解如何开始使用"^]。
+
+* 按需升级
++
+无法按需升级固件和软件。
+
+* 基于角色的访问控制
++
+不支持从System Manager进行基于角色的访问控制。
+
+
+
+
+
+=== 如何开始使用
+
+打开内部ONTAP 工作环境、然后单击高级视图选项。
+
+.步骤
+. 在"画布"页面上、双击内部ONTAP 工作环境的名称。
+. 在右上角、单击*切换到高级视图*。
++
+image:screenshot-advanced-view.png["内部ONTAP 工作环境的屏幕截图、其中显示了切换到高级视图选项。"]
+
+. 如果显示确认消息、请通读该消息并单击*关闭*。
+. 使用System Manager管理ONTAP。
+. 如果需要、请单击*切换到标准视图*以通过BlueXP返回到标准管理。
++
+image:screenshot-standard-view.png["内部ONTAP 工作环境的屏幕截图、其中显示了切换到标准视图选项。"]
+
+
+
+
+
+=== 获取有关System Manager的帮助
+
+如果在ONTAP 中使用System Manager需要帮助、请参见 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文档"^] 了解分步说明。以下链接可能会有所帮助：
+
+* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["卷和LUN管理"^]
+* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["网络管理"^]
+* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["数据保护"^]
+
+
+
+
+== 启用BlueXP数据服务
+
+在您的工作环境中启用BlueXP数据服务以复制、备份、扫描和分层数据。
+
+
+
+=== 复制数据
 
 您可以在 Cloud Volumes ONTAP 系统和 ONTAP 集群之间复制数据、方法是选择一次性数据复制、该复制可以帮助您将数据移入或移出云、或定期计划、这有助于灾难恢复或长期保留。
 
@@ -132,7 +238,7 @@ https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.ht
 
 
 
-== 备份数据
+=== 备份数据
 
 您可以使用云备份将内部 ONTAP 系统中的数据备份到云中的低成本对象存储。此服务提供备份和还原功能，用于保护内部数据和云数据并对其进行长期归档。
 
@@ -140,7 +246,7 @@ https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-clo
 
 
 
-== 扫描，映射和分类数据
+=== 扫描，映射和分类数据
 
 Cloud Data sense 可以对企业内部集群进行扫描，以便对数据进行映射和分类，并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
 
@@ -148,7 +254,7 @@ https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.
 
 
 
-== 将数据分层到云
+=== 将数据分层到云
 
 通过使用云分层将 ONTAP 集群中的非活动数据自动分层到对象存储，将数据中心扩展到云。
 

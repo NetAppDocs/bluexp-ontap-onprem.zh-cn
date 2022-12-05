@@ -38,12 +38,6 @@ Digital Advisor可提供有关NSS帐户中所有内部ONTAP 系统和Cloud Volum
 
 
 
-== 成本
-
-通过BlueXP免费使用此服务。
-
-
-
 == Digital Advisor如何与BlueXP配合使用
 
 请参见 https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisor文档"^] 了解详细信息。

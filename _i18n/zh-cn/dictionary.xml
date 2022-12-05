@@ -8,9 +8,7 @@
   <block id="82efd2783df66726ca1b3a680a181ac8" category="inline-image-macro">显示页面右上角菜单和删除选项的屏幕截图。</block>
   <block id="fdc54b68e260b5861ecabd7cfd437124" category="paragraph"><block ref="fdc54b68e260b5861ecabd7cfd437124" category="inline-image-macro-rx" type="image"></block></block>
   <block id="40b851aafab82c78484c46169f816fd2" category="list-text">单击 * 删除 * 进行确认。</block>
-  <block id="99cef0e0b5f9d9d8e28e23f9098ec0b6" category="doc">发现内部 ONTAP 集群</block>
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">要求</block>
-  <block id="1f4a04b80ac0fff1532fab464942b834" category="list-text">安装在云提供商或内部环境中的 Connector 。</block>
   <block id="cb754929bd2884eb53bfc39ddd5aadad" category="paragraph">如果您要将冷数据分层到云，则应根据您计划将冷数据分层的位置查看 Connector 的要求。</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">了解连接器</block>
   <block id="da1264a616f156bd6836a85f7dfdea5a" category="list-text"><block ref="da1264a616f156bd6836a85f7dfdea5a" category="inline-link-rx"></block></block>
@@ -22,35 +20,14 @@
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">如果 Connector 位于云中，则预定义的安全组允许所有出站通信。</block>
   <block id="6f94f90ef34d6e0c2ce0a93e0edc57d7" category="list-text">ONTAP 集群必须允许通过端口 443 进行入站 HTTPS 访问。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">默认的“管理”防火墙策略允许从所有 IP 地址进行入站 HTTPS 访问。如果您修改了此默认策略，或者创建了自己的防火墙策略，则必须将 HTTPS 协议与该策略关联，并启用从 Connector 主机进行访问。</block>
-  <block id="a629e0a77229bc88612039da60ff1fcb" category="section-title">查看已发现和未发现的内部集群</block>
-  <block id="fdc520fd72025accf572613a40564176" category="list-text">单击 * 内部部署 ONTAP * 选项卡。</block>
-  <block id="705316ae4d75d35f1e961cab58a5d5df" category="inline-image-macro">内部 ONTAP 集群的 " 数字电子钱包 " 页面的屏幕截图。</block>
-  <block id="7d584a90892954972995f98a62f03440" category="paragraph"><block ref="7d584a90892954972995f98a62f03440" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="93416f52fcce3ab7a37ed87d0aeb8134" category="paragraph">如果系统提示您先输入 NetApp 支持站点（ NSS ）帐户凭据，请在支持信息板中输入这些凭据。添加帐户后，将显示该帐户中包含的集群。</block>
-  <block id="7f50c223930d4a02cade2b9c75256f8f" category="section-title">查看集群信息和合同详细信息</block>
   <block id="e6dfd5017eebf97461338fa01b9cb076" category="paragraph">您可以使用 _Digital Walkes_ 查看集群详细信息以及硬件和软件合同状态。</block>
   <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">在 * 数字电子邮件 * 中，单击 * 内部部署 ONTAP * 选项卡。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">每个集群的行上都会显示软件合同和硬件合同到期日期。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">展开集群详细信息以查看集群许可证信息的屏幕截图。</block>
   <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="c9ecc8a69079ef340936f1093bfada6d" category="section-title">从数字市场中发现集群</block>
-  <block id="908ef7c718a69fa183e13e4c8b3ab47d" category="paragraph">您可以从数字资源包中发现 ONTAP 集群，并将其添加为工作环境。</block>
-  <block id="36d55ec313e00378aaaf5ec3b1bcff58" category="list-text">在 * 数字电子邮件 * 中，单击 * 内部部署 ONTAP * 选项卡。</block>
-  <block id="8d2ff04d10c442ed57703018babe9f96" category="inline-image-macro">内部部署 ONTAP 页面的屏幕截图，其中显示了在您的 NSS 帐户中找到的所有集群。</block>
-  <block id="5f5cb0a23f869bcd760424b63ca7ccbe" category="paragraph"><block ref="5f5cb0a23f869bcd760424b63ca7ccbe" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f024b01de8a49fd78376b5b34e191e05" category="list-text">在 _Discover ONTAP Cluster_ 页面上，输入管理员用户帐户的密码，然后单击 * 发现 * 。</block>
   <block id="8de100c0dba6b3831c0b2881ceb2cda0" category="inline-image-macro">屏幕截图显示了 ONTAP 集群详细信息页面的示例：集群管理 IP 地址，用户名和密码。</block>
-  <block id="357d0c6bce7e8c970eebbf9c77a986a3" category="paragraph"><block ref="357d0c6bce7e8c970eebbf9c77a986a3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3c3c9057924029bd556e6edcfa649159" category="paragraph">请注意，集群管理 IP 地址是根据数字电子钱包中的信息填充的。</block>
-  <block id="fc45e850f400ce201ca92baeb830649a" category="paragraph">集群在 _On-Premises ONTAP 页面中的状态变为 * 已发现 * 。</block>
-  <block id="487e5c142c79949705e4fec4bdaf1798" category="inline-image-macro">Canvas 中的内部 ONTAP 集群的屏幕截图。</block>
-  <block id="55b907f18f62b7afccbe773678898915" category="paragraph"><block ref="55b907f18f62b7afccbe773678898915" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="5001076d3540a9fadfaa9abbcd7c0a33" category="paragraph">您可以在右侧面板中为此集群启用服务，以便在集群之间复制数据，设置云数据分层，将卷备份到云或对卷运行合规性扫描。您也可以创建新卷或启动 System Manager 以执行高级任务。</block>
   <block id="a84799eaf08f86932722efc82243f9c5" category="paragraph"><block ref="a84799eaf08f86932722efc82243f9c5" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="1093fa2422906ba065f8a75ad66f4a5e" category="section-title">从 " 画布 " 页面发现集群</block>
-  <block id="97707ad60b3e5459995b6db6d5086ef2" category="list-text">在 " 画布 " 页面上，单击 * 添加工作环境 * 并选择 * 内部部署 ONTAP * 。</block>
   <block id="2f799a76b51c894f217a81de4e75abc1" category="list-text">如果出现提示，请创建 Connector 。</block>
-  <block id="937fa9b8cdf644357e79a543061b3118" category="paragraph">有关详细信息，请参见上述链接。</block>
   <block id="669e31e2ded4144ba1ab8e5d140217fa" category="list-text">在 _Cluster ONTAP 详细信息 _ 页面上，输入集群管理 IP 地址和管理员用户帐户的密码，然后单击 * 添加 * 。</block>
   <block id="67fe55a3364c0f403605fc5a0962dd79" category="list-text">在 _Details &amp; Credentials_ 页面上，输入工作环境的名称和问题描述，然后单击 * 执行 * 。</block>
   <block id="1e54529331fefb19128d41707045a526" category="summary">了解内部 ONTAP 集群的新增功能。</block>
@@ -71,8 +48,6 @@
   <block id="1ebb52f6b09efabdd77b2a2848b85455" category="list-text">新的 <block ref="6662d2379ae546ce8e2cb9fe679f2897" category="inline-link-macro-rx"></block> 提供我们确定最适合从内部 ONTAP 集群迁移到云的工作负载或卷列表。移动其中一些卷可以降低成本，提高性能和故障恢复能力。</block>
   <block id="9e49141228614f46674f3e99aa052d48" category="inline-link-macro">什么是升降和移动？</block>
   <block id="40e7938989b9c693ef9d2535a73efc96" category="paragraph">请参见 <block ref="e6e341fabb88ca4be499965211728d47" category="inline-link-macro-rx"></block></block>
-  <block id="b310817751b4e8272bdb5072c505baef" category="doc">管理内部 ONTAP 集群的存储</block>
-  <block id="38eaccec7e82003efc63778895a9ac9d" category="section-title">正在创建卷</block>
   <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">这些步骤</block>
   <block id="7c1c859794874e74db7044dd733c5ca7" category="list-text">在 " 画布 " 页面上，双击要配置卷的内部 ONTAP 集群的名称。</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">按照向导中的步骤创建卷。</block>
@@ -87,16 +62,7 @@
   <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">访问控制</block>
   <block id="4f365bcd27fae641194545a5a823e30f" category="cell">权限和用户 / 组</block>
   <block id="5cd4beaa083f2301775c1a1bc84f2afc" category="cell">通过这些字段，您可以控制用户和组（也称为访问控制列表或 ACL ）对 SMB 共享的访问级别。您可以指定本地或域 Windows 用户或组、 UNIX 用户或组。如果指定域 Windows 用户名，则必须使用 domain\username 格式包含用户的域。</block>
-  <block id="63c4ac4a1d6cda8f9ce366cee0962eb7" category="list-text">* 使用情况配置文件 * ：选择是在卷上启用还是禁用存储效率功能。</block>
-  <block id="1fd2dba2020c106a2c49da0e6ad7e868" category="paragraph">ONTAP 包含多种存储效率功能、可以减少您所需的存储总量。NetApp 存储效率功能具有以下优势：</block>
-  <block id="6cd880eabbec3488232c6cba3fbcf998" category="list-text">精简配置</block>
-  <block id="e0a869114b17393f8a2fea22f17329ae" category="list-text">为主机或用户提供的逻辑存储比实际在物理存储池中提供的存储多。在写入数据时，存储空间将动态分配给每个卷而不是预先分配存储空间。</block>
-  <block id="83f45cad5e6f535ff10e564a526baad0" category="list-text">重复数据删除</block>
-  <block id="9baaeec0cd7e25ec2d4277d7befe94c7" category="list-text">通过定位相同的数据块并将其替换为单个共享块的引用来提高效率。此技术通过消除驻留在同一卷中的冗余数据块来降低存储容量需求。</block>
-  <block id="82af841589057aa8922b1ac3bb4a28a4" category="list-text">压缩</block>
-  <block id="f5061de48feb872d5a805e7385702973" category="list-text">通过在主存储、二级存储和归档存储上的卷中压缩数据来减少存储数据所需的物理容量。</block>
   <block id="eb5c6869b3fc04254530622723507f79" category="list-text">* 审阅 * ：查看有关卷的详细信息，然后单击 * 添加 * 。</block>
-  <block id="721171135447663f810b8610ea482f5a" category="section-title">使用模板创建卷</block>
   <block id="afe466f073b1387a5eab0283552b7517" category="paragraph">如果您的组织已创建内部 ONTAP 卷模板，以便您可以部署针对特定应用程序的工作负载要求进行优化的卷，请按照本节中的步骤进行操作。</block>
   <block id="7ae492186bd46e832a6b64cff9b1575a" category="paragraph">此模板应使您的工作更轻松，因为模板中已定义某些卷参数，例如磁盘类型，大小，协议，快照策略等。如果已预定义某个参数，则只需跳到下一个 volume 参数即可。</block>
   <block id="395f4870d887a81edabc6ad40f5a84f0" category="admonition">使用模板时，您只能创建 NFS 或 CIFS 卷。</block>
@@ -111,21 +77,16 @@
   <block id="19c51733b2ad780abc1dd51dfb4774d0" category="paragraph"><block ref="19c51733b2ad780abc1dd51dfb4774d0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31f425aaa6a26f3fc5e635704753602f" category="paragraph">* 注： * 如果要查看这些参数的值，您可以单击 * 显示只读参数 * 复选框以显示模板锁定的所有字段。默认情况下，这些预定义字段将被隐藏，并且仅显示需要填写的字段。</block>
   <block id="44e06c3ed2de64bcd539ac10a3a31173" category="list-text">在 _context_ 区域中，工作环境将使用您启动的工作环境的名称进行填充。您需要选择要在其中创建卷的 * 存储虚拟机 * 和 * 聚合 * 。</block>
-  <block id="b4798c3f6907cfb67d2e44f900cd8761" category="inline-xref">正在创建卷</block>
-  <block id="d6fbed7ed4f7f24d5424eed00308902b" category="list-text">为模板中未硬编码的所有参数添加值。请参见 <block ref="0987d6f2734ae944e1736c1f24a760ec" category="inline-xref-macro-rx"></block> 有关部署内部 ONTAP 卷所需完成的所有参数的详细信息。</block>
   <block id="2bc51d1d472e80f2611fe5ff280c4ebe" category="list-text">定义完此卷所需的所有参数后，单击 * 运行模板 * 。</block>
   <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">显示通过模板创建新卷的进度的屏幕截图。</block>
   <block id="1d2547b9bcbb0f13f704545fd4b3b7b0" category="paragraph"><block ref="1d2547b9bcbb0f13f704545fd4b3b7b0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">然后，新卷将添加到工作环境中。</block>
   <block id="0ca2ea4d1ed88de2980b88af718eedaf" category="paragraph">此外，如果在模板中实施了任何二级操作，例如在卷上启用 Cloud Backup ，则也会执行此操作。</block>
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">如果配置了 CIFS 共享、请授予用户或组对文件和文件夹的权限、并验证这些用户是否可以访问该共享并创建文件。</block>
-  <block id="9471c2e49e82f1450164e486a41810fd" category="section-title">复制数据</block>
   <block id="d67fa48b66fcc0b221394da39a91b7bd" category="paragraph">您可以在 Cloud Volumes ONTAP 系统和 ONTAP 集群之间复制数据、方法是选择一次性数据复制、该复制可以帮助您将数据移入或移出云、或定期计划、这有助于灾难恢复或长期保留。</block>
-  <block id="69d7d8f5eb94524f8d67bd4810ecd3b4" category="section-title">备份数据</block>
   <block id="4dafc83aff4c0c428f00d14ba637d08e" category="paragraph">您可以使用云备份将内部 ONTAP 系统中的数据备份到云中的低成本对象存储。此服务提供备份和还原功能，用于保护内部数据和云数据并对其进行长期归档。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">扫描，映射和分类数据</block>
   <block id="8c5469d13e648a63a3b3954844a606d5" category="paragraph">Cloud Data sense 可以对企业内部集群进行扫描，以便对数据进行映射和分类，并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。</block>
-  <block id="8eb970559649a4b00ff570ac7b611b1a" category="section-title">将数据分层到云</block>
   <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">通过使用云分层将 ONTAP 集群中的非活动数据自动分层到对象存储，将数据中心扩展到云。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
@@ -138,18 +99,12 @@
   <block id="c0b44a835cfaa8886063c96fb9342411" category="list-text">使用 Ansible 升级存储系统软件并更新 ONTAP 固件</block>
   <block id="696fbf3ecd0e89c737f9c5b7adddfb8e" category="section-title">支持的 ONTAP 系统</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="2631cea4d4184b173c4d7b153d959556" category="doc">内部 ONTAP 集群文档</block>
-  <block id="9a30b78b07a6b42c9e4998f9c5d5640f" category="sidebar">内部 ONTAP 集群文档</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
   <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">发现 ONTAP 集群</block>
   <block id="019323681c39b462d0fd30312fc741c2" category="sidebar">管理内部 ONTAP 集群</block>
-  <block id="8ad62e3eb63519f91a079cc6e3b60ae4" category="sidebar">管理内部 ONTAP 卷</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
-  <block id="72d4138d424c03eaee16ca8b76b4263d" category="sidebar">查看已发现和未发现的内部集群</block>
-  <block id="5fef629b836b60819e0c0ce49cd2b9d7" category="sidebar">新增功能</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="sidebar">创建卷</block>
-  <block id="ef8e14c9c12dfb15fa021d5c96021bb8" category="sidebar">下载新的磁盘和磁盘架固件</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
@@ -227,7 +182,6 @@
   <block id="2384fee5ec28c392c4824455705673ad" category="list-text">使用System Manager管理ONTAP。</block>
   <block id="54cf4bb0cf2034f534f1bd85ab4a6bb0" category="inline-image-macro">内部ONTAP 工作环境的屏幕截图、其中显示了切换到标准视图选项。</block>
   <block id="922a5d434113f5026172e4d3ab5969a9" category="paragraph"><block ref="922a5d434113f5026172e4d3ab5969a9" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9091c5cdacecb3d4082594d5d5a31855" category="section-title">有关使用System Manager的帮助</block>
   <block id="eb75aeb3b4b2b9734ba3e52f5483f0b2" category="inline-link">ONTAP 文档</block>
   <block id="9c1bd416df0d466347865d11e934dec2" category="paragraph">如果在ONTAP 中使用System Manager需要帮助、请参见<block ref="e4712fca3ed0fd9138bc58dbf36327e9" category="inline-link-rx"></block> 了解分步说明。以下链接可能会有所帮助：</block>
   <block id="b9cf2d579e6b088870d384fe9910b52f" category="inline-link">卷和LUN管理</block>
@@ -236,7 +190,6 @@
   <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">数据保护</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
-  <block id="e9c2ec7472702d9e84d77a3ecb12f454" category="sidebar">使用System Manager进行管理</block>
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">包含三个点的图标。</block>
   <block id="a78d007a06bac736eaadb47926ca0155" category="list-text">单击 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt; * 从模板添加卷 * 。</block>
   <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">停用图标</block>
@@ -299,24 +252,10 @@
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">如果您不想再从BlueXP管理内部ONTAP 工作环境、请将其删除。</block>
   <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">删除工作环境不会影响 ONTAP 集群。您可以随时从BlueXP中重新发现它。</block>
   <block id="3adfbda333fab4f80c22cc56cfa3d639" category="summary">BlueXP可以在内部环境、NetApp私有存储配置和IBM云中发现ONTAP 集群。通过将内部集群添加到BlueXP Canvas、您可以使用与Cloud Volumes ONTAP 和其他云存储解决方案相同的工具来管理这些集群。</block>
-  <block id="277b7ceb1bfab0ba13f2c86afe7d913c" category="paragraph">除了能够在这些系统上配置存储之外、将这些系统添加到BlueXP中还可以轻松地在数字市场中查看硬件和软件合同状态信息、并为这些集群配置基于云的关键服务。其中包括将数据复制到云，将数据备份到云，将冷数据分层到云以及对这些数据运行合规性扫描。</block>
-  <block id="a69c3666a25d7a9cb5cda147f4ac733f" category="list-text">用于将集群添加到BlueXP的管理员用户帐户的集群管理IP地址和密码。</block>
   <block id="7e5d9a5421498db733ec66073d7872b4" category="paragraph">BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略，则它们必须满足以下要求：</block>
-  <block id="bae190eec3db4a0dd635ae72756acde8" category="inline-link">将NSS帐户添加到BlueXP</block>
-  <block id="3996f5343e31c40d88a456d2a2da8bad" category="list-text">一组有效的 NetApp 支持站点凭据。请参见操作说明<block ref="6d9745cd4f1d60b55f06aef4c5cb6ec4" category="inline-link-rx"></block>。</block>
-  <block id="353b531ce49e5cb9354c64d1a900b33d" category="paragraph">您可以使用BlueXP中的_Digital Walkes_服务查看、发现和管理受支持合同约束的内部ONTAP 集群。</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">从BlueXP导航菜单中、选择*监管&gt;数字电子钱包*。</block>
-  <block id="87da2020c8af95926fb116d2b2f60639" category="paragraph">此时将显示您的ONTAP 集群、并显示其状态为是否已在BlueXP中发现。</block>
   <block id="891b391e7c699621fb61d87adcf4faba" category="list-text">如果合同即将到期或已到期、您可以单击BlueXP右下角的聊天图标以请求延长合同。</block>
-  <block id="b6bfd622c67d8be451bda964be43143a" category="section-title">从BlueXP发现内部集群</block>
-  <block id="009e53752315e58328115aa9af28a354" category="paragraph">您可以从_Digital Walkes_或_Canvas_在BlueXP中发现内部ONTAP 集群。发现后、它们将在BlueXP中用作工作环境、以便您可以管理集群。</block>
-  <block id="0cd51dae8d109dd3491432cc2fd0c1fa" category="list-text">对于要通过BlueXP管理的集群、请单击*发现*。</block>
-  <block id="46922e6b0c07daba7c3d3a262105baa4" category="paragraph">BlueXP会发现集群、并使用集群名称作为工作环境名称将其添加到Canvas中的工作环境中。</block>
-  <block id="0af11461611dbac12763d963c917dbbb" category="paragraph">您可以从 " 画布 " 页面发现 ONTAP 集群并将其添加为工作环境。如果集群由于当前没有支持合同而未列在"数字市场"中、则可以使用这些步骤。</block>
   <block id="769902a337681b650f09da3f18c10aa4" category="paragraph">BlueXP会发现集群并将其添加到Canvas中的工作环境中。</block>
-  <block id="f989ea5df305456333c8a7339f0da28c" category="summary">从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来配置和管理存储。</block>
-  <block id="bd04c8a93cfcc3fc5f178afa23276edf" category="paragraph">通过BlueXP、您可以在现有聚合上创建NFS或CIFS卷。您不能从BlueXP在内部ONTAP 集群上创建新聚合。</block>
-  <block id="e4fb805db891f0f4a09e5d1b97adb1bf" category="paragraph">通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作 <block ref="e476f8430392eaa6984ef9c1426bdf73" category="inline-xref-macro-rx"></block>。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">从导航菜单中、选择*存储&gt;画布*。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">如果您选择CIFS、但服务器尚未设置、则BlueXP会提示您使用Active Directory或工作组设置CIFS服务器。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS 导出策略定义子网中可访问卷的客户端。默认情况下、BlueXP输入一个值、用于访问子网中的所有实例。</block>
@@ -340,9 +279,7 @@
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">了解如何向NetApp注册</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>。</block>
   <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">将NSS帐户添加到BlueXP</block>
-  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">通过支持信息板、您可以添加和管理NetApp 支持站点 帐户、以便与Cloud Manager结合使用。</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您拥有客户级别的帐户、则可以添加一个或多个NSS帐户。</block>
-  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">如果您有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户一起添加。</block>
   <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">在BlueXP控制台的右上角、单击帮助图标、然后选择*支持*。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
@@ -366,26 +303,21 @@
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">请务必复制上面用于序列号字段的BlueXP帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp的新品牌</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp的新客户、并且没有NSS帐户、请按照以下每个步骤进行操作。</block>
-  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">从支持注册页面找到您的Cloud Manager帐户ID序列号。</block>
   <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp的支持注册站点</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航到<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> 并选择*我不是NetApp注册客户*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段(带有红色星号的字段)。</block>
   <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">在*产品线*字段中、选择*云管理器*、然后选择适用的计费提供商。</block>
-  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">复制上述第2步中的Cloud Manager帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">系统会立即向提供的邮箱发送一封电子邮件、以完成此安全事务。如果验证电子邮件未在几分钟内收到、请务必检查您的垃圾邮件文件夹。</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">在电子邮件中确认操作。</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">确认将向NetApp提交您的请求、并建议您创建NetApp 支持站点 帐户。</block>
-  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">请务必复制上面用于序列号字段的Cloud Manager帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">在此过程中、NetApp应与您联系。这是针对新用户的一次性入职练习。</block>
   <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">拥有NetApp 支持站点 帐户后、您可以导航到BlueXP以添加此NSS帐户以供将来注册。</block>
   <block id="0c726404ad0f4ebb2cb2a2d0bdc04192" category="summary">Active IQ 数字顾问集成在BlueXP用户界面中、因此您可以在一个管理平台中优化ONTAP 集群的操作、安全性和性能。</block>
-  <block id="ce905a0ed9468044e760294ebbac9f39" category="doc">使用Digital Advisor优化集群</block>
   <block id="f079f17b0940258743d34e7b771c715f" category="inline-link">Digital Advisor</block>
   <block id="3cc843c9493ef45c6bf2c9ccc0f047aa" category="paragraph"><block ref="6f877bd6e1a5dde59d706a7e9ecadb7f" category="inline-link-rx"></block> (以前称为Active IQ)集成在BlueXP UI中、因此您可以在一个管理平台中优化ONTAP 集群的操作、安全性和性能。</block>
   <block id="346661910d62d25c1475a0a09bd7a473" category="paragraph">您可以使用Digital Advisor在监视列表级别查看存储系统的整体状态、有关系统运行状况的详细信息、清单、规划、升级以及有价值的见解。</block>
   <block id="1dba3e6a495ee6df07aa2319c84850b9" category="paragraph">Digital Advisor可提供有关NSS帐户中所有内部ONTAP 系统和Cloud Volumes ONTAP 系统的信息。</block>
-  <block id="442a1ebc0b1897741c68b149d0cff869" category="paragraph">通过BlueXP免费使用此服务。</block>
   <block id="1708a7899dbb54c155b6283363ffb7ca" category="section-title">Digital Advisor如何与BlueXP配合使用</block>
   <block id="ea7b2437ddd14dce6ba3f65494d634fd" category="inline-link">Digital Advisor文档</block>
   <block id="0d3c9b9e85d797576ff3dd7d69000330" category="paragraph">请参见<block ref="ec9c12602878d9d46f06e78e6704d9d1" category="inline-link-rx"></block> 了解详细信息。</block>
@@ -400,4 +332,101 @@
   <block id="643ed1d8ada28dc21c68f0cf27770cdf" category="sidebar">使用Digital Advisor优化集群</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
+  <block id="4c36467537ed03dcde201f2a693ba5ec" category="summary">您可以使用数字电子钱包查看集群详细信息以及硬件和软件合同状态。</block>
+  <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">查看集群信息和合同详细信息</block>
+  <block id="c5fbee6586294d81141f8dd158707985" category="doc">发现内部ONTAP 集群</block>
+  <block id="04ad3429f3b4aabaf65a66534789fe27" category="paragraph">从BlueXP中发现内部ONTAP 集群、以便您可以使用ONTAP System Manager开始管理卷并执行高级管理、该工具可从BlueXP获得、因此您无需离开BlueXP即可进行高级管理。</block>
+  <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">发现和管理选项</block>
+  <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXP提供了两种方法来发现和管理内部ONTAP 集群：</block>
+  <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">通过Connector进行发现</block>
+  <block id="9099bf7c5b970d6d29d762b19812bc2a" category="list-text">使用此选项、您可以使用以下功能管理集群：</block>
+  <block id="dad407e605b93746e62dec356ab5303e" category="list-text">标准视图、提供基本卷操作</block>
+  <block id="f546502444f55f37cfa6d472a2a3b008" category="list-text">高级视图、可通过System Manager进行管理</block>
+  <block id="90050bf1ae850c8b086b4d648fb45152" category="list-text">与BlueXP数据服务集成、提供数据复制、备份和恢复、数据分类和数据分层功能</block>
+  <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">必须在云提供商或内部安装Connector。</block>
+  <block id="9023f6f288dd42621136db54ed1a4521" category="list-text">直接发现</block>
+  <block id="2567b12ded3466509f685280c4aa8384" category="list-text">使用此选项可以使用System Manager管理集群。没有其他可用管理选项。</block>
+  <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">此选项不需要Connector。</block>
+  <block id="5883223e097bdc0962b33579a610a819" category="paragraph">发现后、您的集群将在BlueXP Canvas上用作工作环境。</block>
+  <block id="5f0721d5f4c3654b1df18083ddb89b2b" category="section-title">使用Connector发现集群</block>
+  <block id="3a631896bab850237847c094a439aa27" category="paragraph">使用Connector发现您的内部ONTAP 集群、充分利用BlueXP提供的所有管理功能。</block>
+  <block id="5b972456043217ec9e0b836b869e5061" category="list-text">您应已开始使用BlueXP、其中包括登录和设置帐户。</block>
+  <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">了解如何开始使用BlueXP</block>
+  <block id="69c4d579a506c05e94d3e4986ec536a3" category="paragraph"><block ref="69c4d579a506c05e94d3e4986ec536a3" category="inline-link-rx"></block></block>
+  <block id="3864c0f13f4179fc92547b3c40d33079" category="list-text">要将集群添加到BlueXP、您需要集群管理IP地址和管理员用户帐户的密码。</block>
+  <block id="7d613f340824eb9c65d2bc768aa43577" category="list-text">在"画布"页面上、单击*添加工作环境*并选择*内部部署*。</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">选择*内部部署ONTAP *。</block>
+  <block id="81105897419bed39cbb9fc6973142dd1" category="paragraph">有关详细信息、请参见上述要求。</block>
+  <block id="b20b6e4ac1108003e7b2ba6bfd95de2a" category="inline-link-macro">了解如何管理集群</block>
+  <block id="3faaa4d9abbf0518a74d53b5d6e0f801" category="paragraph"><block ref="caf49889e252782a270685d64c3e3413" category="inline-link-macro-rx"></block>。</block>
+  <block id="b30b65f2681ed2d6502197f4610e70c8" category="section-title">直接发现集群</block>
+  <block id="e08ee5a36e032624fb49ba25ecf80f33" category="paragraph">直接从BlueXP发现内部ONTAP 集群、以便使用System Manager管理这些集群。</block>
+  <block id="7e88fc68853866bfdfc0a0b49e0f2399" category="admonition">在运行9.12.1或更高版本并连接到BlueXP服务的内部ONTAP 集群上访问System Manager时、系统将提示您直接从BlueXP管理此集群。如果您按照此提示操作、它将在BlueXP中发现集群、如本节所述。</block>
+  <block id="9d77980fa3ff27250f01b3c6e5071013" category="list-text">内部ONTAP 集群必须运行9.12.1或更高版本并连接到BlueXP服务(\https://bluexp.netapp.com)。</block>
+  <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要集群管理IP地址和管理员用户帐户的密码。</block>
+  <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。</block>
+  <block id="ffaf5a6e69763e444841985add398d73" category="list-text">选择*本地内部部署ONTAP (Direct)*。</block>
+  <block id="410c3a4ce3803e4bdbcbbf969c24bdce" category="list-text">输入集群管理IP地址和管理员用户帐户的密码、然后单击*添加*。</block>
+  <block id="e96d56a9c8ca0d87fcde35a47ac41c52" category="paragraph"><block ref="c2342ddccc2ac1db59cff8f653ff5a7b" category="inline-link-macro-rx"></block>。</block>
+  <block id="5c4425fb4da620b6fcdee80150d6eaf9" category="doc">管理使用Connector发现的内部ONTAP 集群</block>
+  <block id="09d84fd04db90be9065d2babb3cfc106" category="paragraph">如果您使用连接器发现了内部ONTAP 集群、则可以从标准视图创建卷、从高级视图使用System Manager并启用BlueXP数据服务。</block>
+  <block id="95f71a487fe91fc0ea6cb5ded3a59cc3" category="section-title">从标准视图创建卷</block>
+  <block id="b340c8312764799ec774b8e6fe16fec6" category="paragraph">在使用Connector从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来配置和管理存储。</block>
+  <block id="afb7adc3debe75aa13a1fc4fdb7c0a81" category="paragraph">通过BlueXP、您可以在现有聚合上创建NFS或CIFS卷。您不能从BlueXP标准视图在内部ONTAP 集群上创建新聚合。您需要使用高级视图创建聚合。</block>
+  <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>。</block>
+  <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*使用情况配置文件*：选择是在卷上启用还是禁用存储效率功能、以减少所需的总存储量。</block>
+  <block id="a37f6000ecd62b3a2058de32fa603d0a" category="section-title">使用模板创建卷</block>
+  <block id="c3865611609b6bd4b2a95ed4f83f6261" category="list-text">为模板中未硬编码的所有参数添加值。</block>
+  <block id="8b7f5e90385d9570cd1e8c028e829385" category="inline-xref">了解创建卷所需的参数</block>
+  <block id="88e156005e08cd20db096e992009e8e5" category="paragraph"><block ref="c936b096dc7fb0bdb7ac3b472aa3a0a3" category="inline-xref-macro-rx"></block>。</block>
+  <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">如果您需要对内部ONTAP 集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。</block>
+  <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">获取有关System Manager的帮助</block>
+  <block id="9094954a45207debf588da430f00322f" category="section-title">启用BlueXP数据服务</block>
+  <block id="5c4d507eeba73d584fcde6e4f2f1b172" category="paragraph">在您的工作环境中启用BlueXP数据服务以复制、备份、扫描和分层数据。</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">复制数据</block>
+  <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">备份数据</block>
+  <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">将数据分层到云</block>
+  <block id="9ac91148b1f0257152bc376ab38bf436" category="doc">内部ONTAP 集群文档</block>
+  <block id="64b5ac71fb7ec208d91ceb7344aa0b37" category="summary">BlueXP可以发现在AFF/FAS控制器和ONTAP Select 上运行的ONTAP 集群。通过将内部ONTAP 系统添加到BlueXP、您可以从一个界面管理所有存储和数据资产。</block>
+  <block id="6e81f0148dafd5ebdc4b99d02355fea7" category="doc">通过BlueXP进行内部ONTAP 集群管理</block>
+  <block id="fb24315d532abea28c978f8643868013" category="list-text">管理NFS和CIFS卷</block>
+  <block id="3c5335f4270215aa7b16adf996cdf82d" category="list-text">使用ONTAP 系统管理器执行高级管理</block>
+  <block id="f040aeb46f1ebe5c4940eb6054748170" category="list-text">借助BlueXP分析和控制功能、获得运行状况和性能可观察性</block>
+  <block id="7c43ba708deecd15aad23a3cf40ef5ef" category="list-text">使用BlueXP的数据服务复制、备份、扫描、分类和分层数据</block>
+  <block id="878dda247caccb5e11ebd045025d171c" category="list-text">在Digital Wallet中查看硬件和软件合同状态信息</block>
+  <block id="4021c0d07bda2ea80ded248828507d76" category="paragraph">可能会关联成本、但这取决于以下因素：</block>
+  <block id="f0ec06c8888b911820be6e1fcc689c0b" category="list-text">是否部署Connector来发现和管理集群。</block>
+  <block id="0d29d27599c2af161506dbd9dbafba3f" category="paragraph">您可以在云中或内部环境中安装Connector。</block>
+  <block id="8750ef20d1caf40f87b4773f2d8980f4" category="list-text">是否启用Cloud Backup、Cloud Tiering和Data sense等可选数据服务。</block>
+  <block id="83ec139c80a3d5b2f11f1a94eed47cd2" category="section-title">2022年12月4日</block>
+  <block id="612111851a1740ab34a9d35045621084" category="paragraph">连接器3.9.24版引入了以下更改。</block>
+  <block id="bad2ca9843e053dbde9d0f5cf2f18a7b" category="section-title">发现内部ONTAP 集群的新方式</block>
+  <block id="d69d6ceca70ae4e3b7cf6949930f5168" category="paragraph">现在、您无需使用Connector即可直接发现内部ONTAP 集群。此选项仅支持通过System Manager进行集群管理。您无法在此类工作环境中启用任何BlueXP数据服务。</block>
+  <block id="336404297eaddf0051e1d62c3d3bb48e" category="inline-link">详细了解此发现和管理选项</block>
+  <block id="7b755afb39a1416600c762f9fe472d98" category="paragraph"><block ref="72c8a0f1bc00bb52f3d78997feb64e77" category="inline-link-rx"></block>。</block>
+  <block id="ee1ef6cf0f3971b44eb2abcac958fb8d" category="section-title">FlexGroup 卷</block>
+  <block id="3fb631a563e0a478dc6771d75c7f7094" category="paragraph">对于通过连接器发现的内部ONTAP 集群、BlueXP中的标准视图现在会显示通过System Manager或ONTAP 命令行界面创建的FlexGroup 卷。您还可以通过克隆这些卷、编辑其设置、删除这些卷等方式来管理这些卷。</block>
+  <block id="2907843476579cb2696e8e0e783a2a07" category="inline-image-macro">在内部ONTAP 集群的卷页面上显示FlexGroup 卷的屏幕截图。</block>
+  <block id="aa60f08e9c5a748d9b57c0e7689a43f5" category="paragraph"><block ref="aa60f08e9c5a748d9b57c0e7689a43f5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1c081854506aed2f757f753e779bc45f" category="paragraph">BlueXP不支持创建FlexGroup 卷。您需要继续使用System Manager或命令行界面创建FlexGroup 卷。</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">通过支持信息板、您可以添加和管理用于BlueXP的NetApp 支持站点 帐户。</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户ID序列号。</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">复制上述第2步中的帐户序列号、完成安全检查、然后确认您已阅读NetApp的全球数据隐私政策。</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">请务必复制上面用于序列号字段的帐户序列号(960xxxx)。这样可以加快帐户处理速度。</block>
+  <block id="e99ba2e85cd14247616b34e8e537a2a3" category="summary">如果您在未使用连接器的情况下直接发现了内部ONTAP 集群、则可以使用System Manager进入工作环境来管理集群。</block>
+  <block id="1baa0a6e8459b336e97ce9f196d90c4a" category="doc">管理直接发现的内部ONTAP 集群</block>
+  <block id="4b00b5b65d810ab0ae0bc0144d73b71a" category="paragraph">如果您在未使用连接器的情况下直接发现了内部ONTAP 集群、则可以使用System Manager打开工作环境来管理集群。</block>
+  <block id="32faa0550ff2e3aac4989c67c25e8d67" category="paragraph">以下System Manager功能不可用：</block>
+  <block id="cff5bc039637fff679fead59b27d79c4" category="list-text">全局搜索</block>
+  <block id="32b7aee13f0d228336f5d78012a3586e" category="list-text">数字顾问(原Active IQ)集成、包括风险和修复信息、容量使用历史记录、固件可用性通知以及查看未解决的支持案例的功能</block>
+  <block id="382f24d48bc1efa5dd974e166ac8df58" category="list-text">用户界面设置</block>
+  <block id="41e328166e8eef7104364ecfeb21af85" category="list-text">云小工具</block>
+  <block id="a73d930c552e6d3ace1bddae5b1dcc68" category="list-text">手动升级ONTAP 和固件</block>
+  <block id="78c63c413212cfcf000b470d56f80428" category="list-text">Cloud Backup集成</block>
+  <block id="3014dc2d87cf02248e7abe6b8ac89106" category="sidebar">内部ONTAP 集群文档</block>
+  <block id="7a57cd895ed6c692c6eaacc459f5c5b2" category="sidebar">了解内部ONTAP 集群管理</block>
+  <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">管理直接发现的集群</block>
+  <block id="d7bca90a91d0f08eecc40f650240e677" category="sidebar">管理使用Connector发现的集群</block>
+  <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">查看集群信息和合同详细信息</block>
 </blocks>

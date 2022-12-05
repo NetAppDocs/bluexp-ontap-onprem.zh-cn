@@ -1,0 +1,41 @@
+---
+sidebar: sidebar 
+permalink: concept-onprem-ontap.html 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
+summary: BlueXP可以发现在AFF/FAS控制器和ONTAP Select 上运行的ONTAP 集群。通过将内部ONTAP 系统添加到BlueXP、您可以从一个界面管理所有存储和数据资产。 
+---
+= 通过BlueXP进行内部ONTAP 集群管理
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+BlueXP可以发现在AFF/FAS控制器和ONTAP Select 上运行的ONTAP 集群。通过将内部ONTAP 系统添加到BlueXP、您可以从一个界面管理所有存储和数据资产。
+
+
+
+== 功能
+
+* 管理NFS和CIFS卷
+* 使用ONTAP 系统管理器执行高级管理
+* 借助BlueXP分析和控制功能、获得运行状况和性能可观察性
+* 使用BlueXP的数据服务复制、备份、扫描、分类和分层数据
+* 在Digital Wallet中查看硬件和软件合同状态信息
+
+
+
+
+== 成本
+
+可能会关联成本、但这取决于以下因素：
+
+* 是否部署Connector来发现和管理集群。
++
+您可以在云中或内部环境中安装Connector。
+
+* 是否启用Cloud Backup、Cloud Tiering和Data sense等可选数据服务。
+

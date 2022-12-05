@@ -18,6 +18,30 @@ summary: 了解内部 ONTAP 集群的新增功能。
 
 
 
+== 2022年12月4日
+
+连接器3.9.24版引入了以下更改。
+
+
+
+=== 发现内部ONTAP 集群的新方式
+
+现在、您无需使用Connector即可直接发现内部ONTAP 集群。此选项仅支持通过System Manager进行集群管理。您无法在此类工作环境中启用任何BlueXP数据服务。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.html["详细了解此发现和管理选项"]。
+
+
+
+=== FlexGroup 卷
+
+对于通过连接器发现的内部ONTAP 集群、BlueXP中的标准视图现在会显示通过System Manager或ONTAP 命令行界面创建的FlexGroup 卷。您还可以通过克隆这些卷、编辑其设置、删除这些卷等方式来管理这些卷。
+
+image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在内部ONTAP 集群的卷页面上显示FlexGroup 卷的屏幕截图。"]
+
+BlueXP不支持创建FlexGroup 卷。您需要继续使用System Manager或命令行界面创建FlexGroup 卷。
+
+
+
 == 2022年9月18日
 
 连接器3.9.22版引入了以下更改。

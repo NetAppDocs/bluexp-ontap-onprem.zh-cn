@@ -1,6 +1,6 @@
 ---
 settings:
-  name: On-prem ONTAP clusters
+  name: On-premises ONTAP clusters
   platform: cloud
   internal:
     pdf_enabled: true
@@ -11,20 +11,24 @@ settings:
   langs: zh-cn,us-en,ja-jp,zh-tw,ko-kr,fr-fr,de-de
 sidebar:
   entries:
-  - title: 内部 ONTAP 集群文档
+  - title: 内部ONTAP 集群文档
     url: "/index.html"
   - title: 发行说明
     url: "/whats-new.html"
   - title: 入门
     entries:
+    - title: 了解内部ONTAP 集群管理
+      url: "/concept-onprem-ontap.html"
     - title: 发现 ONTAP 集群
       url: "/task-discovering-ontap.html"
   - title: 管理内部 ONTAP 集群
     entries:
-    - title: 管理内部 ONTAP 卷
-      url: "/task-provisioning-ontap.html"
-    - title: 使用System Manager进行管理
-      url: "/task-administer-advanced-view.html"
+    - title: 管理直接发现的集群
+      url: "/task-manage-ontap-direct.html"
+    - title: 管理使用Connector发现的集群
+      url: "/task-manage-ontap-connector.html"
+    - title: 查看集群信息和合同详细信息
+      url: "/task-view-cluster-info.html"
     - title: 使用Digital Advisor优化集群
       url: "/concept-aiq-digital-advisor.html"
     - title: 删除内部 ONTAP 工作环境
@@ -41,18 +45,16 @@ homepage:
   tiles:
   - title: 入门
     links:
-    - title: 查看已发现和未发现的内部集群
-      url: task-discovering-ontap.html#viewing-discovered-and-undiscovered-on-prem-clusters
+    - title: 了解内部ONTAP 集群管理
+      url: concept-onprem-ontap.html
     - title: 发现 ONTAP 集群
       url: task-discovering-ontap.html
-    - title: 新增功能
-      url: whats-new.html
   - title: 管理内部 ONTAP 集群
     links:
-    - title: 创建卷
-      url: task-provisioning-ontap.html
-    - title: 下载新的磁盘和磁盘架固件
-      url: task-managing-ontap.html#downloading-new-disk-and-shelf-firmware
+    - title: 管理直接发现的集群
+      url: task-manage-ontap-direct.html
+    - title: 管理使用Connector发现的集群
+      url: task-manage-ontap-connector.html
   - title: 博客社区
     links:
     - title: NetApp 社区
