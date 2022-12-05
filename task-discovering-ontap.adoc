@@ -114,7 +114,7 @@ TIP: 在运行9.12.1或更高版本并连接到BlueXP服务的内部ONTAP 集群
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["了解如何开始使用BlueXP"^]
 
-* 内部ONTAP 集群必须运行9.12.1或更高版本并连接到BlueXP服务(\https://bluexp.netapp.com)。
+* 内部ONTAP 集群必须运行9.12.1或更高版本并连接到BlueXP服务。
 * 您需要集群管理IP地址和管理员用户帐户的密码。
 +
 BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。

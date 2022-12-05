@@ -193,7 +193,7 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 
 
-=== 如何开始使用
+=== 使用高级视图(System Manager)
 
 打开内部ONTAP 工作环境、然后单击高级视图选项。
 
