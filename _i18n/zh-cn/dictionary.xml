@@ -167,11 +167,8 @@
   <block id="e710f9addfdf1e48c1320d497696c4fc" category="list-text">集群设置</block>
   <block id="bec7e4750178c449b47b3663cb2804ea" category="list-text">Cloud Backup激活</block>
   <block id="7d782479a41a3941b57cc7c2b60d318a" category="inline-link">了解如何开始使用</block>
-  <block id="4bd7d8add0f25e108898d306e19a3841" category="paragraph">直接从Cloud Backup在内部集群上启用Cloud Backup。<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block>。</block>
   <block id="dc7f30ec5bd878efd2189fe1b0703118" category="list-text">按需升级</block>
   <block id="729efe039f733cfbcd1a94fd02a8b2c6" category="paragraph">无法按需升级固件和软件。</block>
-  <block id="01ab8fe0565c01eb93456b579d969d66" category="list-text">基于角色的访问控制</block>
-  <block id="83f5656d14cbf1628e806237dd016ac6" category="paragraph">不支持从System Manager进行基于角色的访问控制。</block>
   <block id="bbd3883401d7cab6239afc1bb95269c5" category="paragraph">打开内部ONTAP 工作环境、然后单击高级视图选项。</block>
   <block id="30712363115d96bac17774981ad3a874" category="list-text">在"画布"页面上、双击内部ONTAP 工作环境的名称。</block>
   <block id="a31b079030fd3d406e06a9ce180abf58" category="list-text">在右上角、单击*切换到高级视图*。</block>
@@ -254,7 +251,6 @@
   <block id="7e5d9a5421498db733ec66073d7872b4" category="paragraph">BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略，则它们必须满足以下要求：</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">从BlueXP导航菜单中、选择*监管&gt;数字电子钱包*。</block>
   <block id="891b391e7c699621fb61d87adcf4faba" category="list-text">如果合同即将到期或已到期、您可以单击BlueXP右下角的聊天图标以请求延长合同。</block>
-  <block id="769902a337681b650f09da3f18c10aa4" category="paragraph">BlueXP会发现集群并将其添加到Canvas中的工作环境中。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">从导航菜单中、选择*存储&gt;画布*。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">如果您选择CIFS、但服务器尚未设置、则BlueXP会提示您使用Active Directory或工作组设置CIFS服务器。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS 导出策略定义子网中可访问卷的客户端。默认情况下、BlueXP输入一个值、用于访问子网中的所有实例。</block>
@@ -325,8 +321,6 @@
   <block id="03f975e839e4278228720a5d19656288" category="list-text"><block ref="03f975e839e4278228720a5d19656288" category="inline-link-macro-rx"></block></block>
   <block id="c6b78f20a92771fa152f068d245ad75e" category="summary">如果您需要对ONTAP 内部集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。</block>
   <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">通过BlueXP中的高级视图、您可以访问其他管理功能：</block>
-  <block id="51b39d6b18a087bb361f52d3d3f3adc2" category="paragraph">在BlueXP中使用高级视图时、内部ONTAP 集群不支持某些System Manager功能：</block>
-  <block id="4f160231c0de198033f98003f3c9e665" category="paragraph">在内部ONTAP 集群上设置管理IP地址并配置管理员密码后、您可以在BlueXP中发现此集群、然后从高级视图继续设置集群。</block>
   <block id="e7b3f56c45c6705f279b059a9274225d" category="list-text">如果需要、请单击*切换到标准视图*以通过BlueXP返回到标准管理。</block>
   <block id="643ed1d8ada28dc21c68f0cf27770cdf" category="sidebar">使用Digital Advisor优化集群</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
@@ -340,12 +334,9 @@
   <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">通过Connector进行发现</block>
   <block id="9099bf7c5b970d6d29d762b19812bc2a" category="list-text">使用此选项、您可以使用以下功能管理集群：</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">标准视图、提供基本卷操作</block>
-  <block id="f546502444f55f37cfa6d472a2a3b008" category="list-text">高级视图、可通过System Manager进行管理</block>
   <block id="90050bf1ae850c8b086b4d648fb45152" category="list-text">与BlueXP数据服务集成、提供数据复制、备份和恢复、数据分类和数据分层功能</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">必须在云提供商或内部安装Connector。</block>
   <block id="9023f6f288dd42621136db54ed1a4521" category="list-text">直接发现</block>
-  <block id="2567b12ded3466509f685280c4aa8384" category="list-text">使用此选项可以使用System Manager管理集群。没有其他可用管理选项。</block>
-  <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">此选项不需要Connector。</block>
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">发现后、您的集群将在BlueXP Canvas上用作工作环境。</block>
   <block id="5f0721d5f4c3654b1df18083ddb89b2b" category="section-title">使用Connector发现集群</block>
   <block id="3a631896bab850237847c094a439aa27" category="paragraph">使用Connector发现您的内部ONTAP 集群、充分利用BlueXP提供的所有管理功能。</block>
@@ -415,18 +406,40 @@
   <block id="e99ba2e85cd14247616b34e8e537a2a3" category="summary">如果您在未使用连接器的情况下直接发现了内部ONTAP 集群、则可以使用System Manager进入工作环境来管理集群。</block>
   <block id="1baa0a6e8459b336e97ce9f196d90c4a" category="doc">管理直接发现的内部ONTAP 集群</block>
   <block id="4b00b5b65d810ab0ae0bc0144d73b71a" category="paragraph">如果您在未使用连接器的情况下直接发现了内部ONTAP 集群、则可以使用System Manager打开工作环境来管理集群。</block>
-  <block id="32faa0550ff2e3aac4989c67c25e8d67" category="paragraph">以下System Manager功能不可用：</block>
   <block id="cff5bc039637fff679fead59b27d79c4" category="list-text">全局搜索</block>
-  <block id="32b7aee13f0d228336f5d78012a3586e" category="list-text">数字顾问(原Active IQ)集成、包括风险和修复信息、容量使用历史记录、固件可用性通知以及查看未解决的支持案例的功能</block>
   <block id="382f24d48bc1efa5dd974e166ac8df58" category="list-text">用户界面设置</block>
-  <block id="41e328166e8eef7104364ecfeb21af85" category="list-text">云小工具</block>
-  <block id="a73d930c552e6d3ace1bddae5b1dcc68" category="list-text">手动升级ONTAP 和固件</block>
-  <block id="78c63c413212cfcf000b470d56f80428" category="list-text">Cloud Backup集成</block>
   <block id="3014dc2d87cf02248e7abe6b8ac89106" category="sidebar">内部ONTAP 集群文档</block>
   <block id="7a57cd895ed6c692c6eaacc459f5c5b2" category="sidebar">了解内部ONTAP 集群管理</block>
   <block id="86c7810a751199da86e2984eefab0cbf" category="sidebar">管理直接发现的集群</block>
   <block id="d7bca90a91d0f08eecc40f650240e677" category="sidebar">管理使用Connector发现的集群</block>
   <block id="d3db502b671c154b98dfced0b397de36" category="sidebar">查看集群信息和合同详细信息</block>
-  <block id="c6c831233d61f4d380266d4dc57c8f7e" category="list-text">内部ONTAP 集群必须运行9.12.1或更高版本并连接到BlueXP服务。</block>
   <block id="00134a9d28b6398470ee6b1362eeb303" category="section-title">使用高级视图(System Manager)</block>
+  <block id="1eba71d64e6c5e410e558530711e835b" category="summary">已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。</block>
+  <block id="482723983a4f2af954e36ff41e567451" category="doc">已知限制</block>
+  <block id="d7eb6312f68de520afbf446e19850f73" category="paragraph">BlueXP不支持某些System Manager功能：</block>
+  <block id="bbbaee2173c1bbfdec1f9145d05f9f6e" category="paragraph">在内部ONTAP 集群上设置管理IP地址并配置管理员密码后、您可以在BlueXP中发现此集群。</block>
+  <block id="ef8d24c115f07ff9475a999250c2a5d8" category="list-text">基于角色的访问控制(仅限连接器)</block>
+  <block id="4a2ee857fe0aa1483d07a75bf8d71bec" category="paragraph">使用Connector发现和管理内部ONTAP 集群时、不支持从System Manager进行基于角色的访问控制。在发现过程中、系统会提示您输入管理员凭据。这些凭据用于从System Manager执行的所有操作。</block>
+  <block id="75116741b7b623681d2dd352ea2ef388" category="paragraph">使用直接发现选项、每次打开工作环境时、系统都会提示您使用ONTAP 凭据登录。</block>
+  <block id="e57ef19ca7d4e00e73b11a38b0a89a63" category="paragraph">直接从Cloud Backup在内部集群上启用Cloud Backup。<block ref="d78fdae783f693d400093119494a670a" category="inline-link-rx"></block></block>
+  <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">高级视图、可通过System Manager进行管理(ONTAP 9.10.0及更高版本支持此视图)</block>
+  <block id="18913a11bfb9265ce650e9b06d80da69" category="inline-xref">查看以下要求和分步说明</block>
+  <block id="b96973ab12dad5cf917d59fa426d501e" category="paragraph">必须在云提供商或内部安装Connector。 <block ref="578fb4b6eccb6dc6ce978336e196fff7" category="inline-xref-macro-rx"></block>。</block>
+  <block id="48162a37cddfdaa963ac3204f7595591" category="list-text">使用此选项可以使用System Manager管理集群。没有其他可用管理选项。您无法使用标准视图、也无法启用数据服务。</block>
+  <block id="be7a52baf7d7b7389782214033190cd4" category="paragraph">此选项不需要Connector。 <block ref="0820951a94f165da4a5239e04ce4e106" category="inline-xref-macro-rx"></block>。</block>
+  <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">如果您决定稍后使用另一个发现选项、则需要在Canvas上将内部集群作为单独的工作环境进行发现。然后、您可以选择删除另一个工作环境。</block>
+  <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
+  <block id="95cf39b88222fd06560109489ee91506" category="paragraph">BlueXP会发现集群并将其添加为Canvas上的工作环境。</block>
+  <block id="971b56bb19698ede33f8f4ef782f3774" category="list-text">内部集群必须运行ONTAP 9.12.1或更高版本。</block>
+  <block id="d8140eebe21fbc87913a211d15aa72f0" category="list-text">集群必须与BlueXP服务建立入站和出站连接：</block>
+  <block id="3693065b074c131d0dd4c103327a1d7b" category="paragraph">https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">完成后</block>
+  <block id="ae5ebdf987b9634f1c41168db5af6124" category="paragraph">在BlueXP中使用高级视图时、内部ONTAP 集群不支持某些System Manager功能。</block>
+  <block id="480454c8f8beef2524f1fbdddc48ea12" category="inline-link-macro">查看限制列表</block>
+  <block id="bfe73fc0abe25019e3e0d76f17653911" category="paragraph"><block ref="736a4b96dd4361a68ef1dd0a557122e0" category="inline-link-macro-rx"></block>。</block>
+  <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">开始之前</block>
+  <block id="bc3d7bdad28e2f8cac321d5cae0b897c" category="paragraph">BlueXP不支持某些System Manager功能。</block>
+  <block id="059eb0e13bd9e186363bedd175a5226b" category="list-text">出现提示时、输入您的ONTAP 凭据。</block>
+  <block id="e62e400b7f916eb360e1c51ccb93a44f" category="paragraph">每次打开工作环境时、系统都会提示您使用ONTAP 凭据登录。</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
 </blocks>

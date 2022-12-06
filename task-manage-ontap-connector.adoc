@@ -28,7 +28,7 @@ summary: 如果您需要对ONTAP 内部集群执行高级管理、可以使用ON
 
 通过BlueXP、您可以在现有聚合上创建NFS或CIFS卷。您不能从BlueXP标准视图在内部ONTAP 集群上创建新聚合。您需要使用高级视图创建聚合。
 
-通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作  volumes from templates,这些步骤。
+通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作 <<使用模板创建卷,这些步骤>>。
 
 .步骤
 . 从导航菜单中、选择*存储>画布*。
@@ -108,11 +108,12 @@ image:screenshot_define_ontap_vol_from_template.png["显示创建卷所需填写
 . 在 _context_ 区域中，工作环境将使用您启动的工作环境的名称进行填充。您需要选择要在其中创建卷的 * 存储虚拟机 * 和 * 聚合 * 。
 . 为模板中未硬编码的所有参数添加值。
 +
- volumes,了解创建卷所需的参数。
+<<创建卷,了解创建卷所需的参数>>。
 
 . 定义完此卷所需的所有参数后，单击 * 运行模板 * 。
 
 
+.结果
 BlueXP会配置卷并显示一个页面、以便您可以查看进度。
 
 image:screenshot_template_creating_resource_ontap.png["显示通过模板创建新卷的进度的屏幕截图。"]
@@ -121,6 +122,7 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 此外，如果在模板中实施了任何二级操作，例如在卷上启用 Cloud Backup ，则也会执行此操作。
 
+.完成后
 如果配置了 CIFS 共享、请授予用户或组对文件和文件夹的权限、并验证这些用户是否可以访问该共享并创建文件。
 
 
@@ -171,25 +173,9 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 === 限制
 
-在BlueXP中使用高级视图时、内部ONTAP 集群不支持某些System Manager功能：
+在BlueXP中使用高级视图时、内部ONTAP 集群不支持某些System Manager功能。
 
-* 集群设置
-+
-在内部ONTAP 集群上设置管理IP地址并配置管理员密码后、您可以在BlueXP中发现此集群、然后从高级视图继续设置集群。
-
-* Cloud Backup激活
-+
-直接从Cloud Backup在内部集群上启用Cloud Backup。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["了解如何开始使用"^]。
-
-* 按需升级
-+
-无法按需升级固件和软件。
-
-* 基于角色的访问控制
-+
-不支持从System Manager进行基于角色的访问控制。
-
-
+link:reference-limitations.html["查看限制列表"]。
 
 
 

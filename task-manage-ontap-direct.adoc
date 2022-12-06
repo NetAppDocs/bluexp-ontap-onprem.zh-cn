@@ -16,18 +16,17 @@ summary: 如果您在未使用连接器的情况下直接发现了内部ONTAP �
 [role="lead"]
 如果您在未使用连接器的情况下直接发现了内部ONTAP 集群、则可以使用System Manager打开工作环境来管理集群。
 
-以下System Manager功能不可用：
+.限制
+BlueXP不支持某些System Manager功能。
 
-* 全局搜索
-* 数字顾问(原Active IQ)集成、包括风险和修复信息、容量使用历史记录、固件可用性通知以及查看未解决的支持案例的功能
-* 用户界面设置
-* 云小工具
-* 手动升级ONTAP 和固件
-* Cloud Backup集成
-
+link:reference-limitations.html["查看限制列表"]。
 
 .步骤
 . 在"画布"页面上、双击内部ONTAP 工作环境的名称。
+. 出现提示时、输入您的ONTAP 凭据。
++
+每次打开工作环境时、系统都会提示您使用ONTAP 凭据登录。
+
 . 使用System Manager管理ONTAP。
 +
 如果在ONTAP 中使用System Manager需要帮助、请参见 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文档"^] 了解分步说明。以下链接可能会有所帮助：

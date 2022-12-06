@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: reference-limitations.html 
+keywords: limitations, system manager, unsupported features 
+summary: 已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。 
+---
+= 已知限制
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。
+
+BlueXP不支持某些System Manager功能：
+
+* 集群设置
++
+在内部ONTAP 集群上设置管理IP地址并配置管理员密码后、您可以在BlueXP中发现此集群。
+
+* 基于角色的访问控制(仅限连接器)
++
+使用Connector发现和管理内部ONTAP 集群时、不支持从System Manager进行基于角色的访问控制。在发现过程中、系统会提示您输入管理员凭据。这些凭据用于从System Manager执行的所有操作。
+
++
+使用直接发现选项、每次打开工作环境时、系统都会提示您使用ONTAP 凭据登录。
+
+* Cloud Backup激活
++
+直接从Cloud Backup在内部集群上启用Cloud Backup。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["了解如何开始使用"^]
+
+* 按需升级
++
+无法按需升级固件和软件。
+
+* 全局搜索
+* 用户界面设置
+
