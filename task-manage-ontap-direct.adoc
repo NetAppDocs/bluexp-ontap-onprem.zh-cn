@@ -16,6 +16,9 @@ summary: 如果您在未使用连接器的情况下直接发现了内部ONTAP �
 [role="lead"]
 如果您在未使用连接器的情况下直接发现了内部ONTAP 集群、则可以使用System Manager打开工作环境来管理集群。
 
+.要求
+用于访问BlueXP控制台的计算机必须与内部ONTAP 集群建立网络连接、就像在专用网络中提供与其他资源的连接一样。
+
 .限制
 BlueXP不支持某些System Manager功能。
 

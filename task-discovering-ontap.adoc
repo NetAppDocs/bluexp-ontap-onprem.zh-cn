@@ -120,6 +120,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 +
 https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 
+* 用于访问BlueXP控制台的计算机必须与内部ONTAP 集群建立网络连接、就像在专用网络中提供与其他资源的连接一样。
 * 您需要集群管理IP地址和管理员用户帐户的密码。
 * BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。
 +
