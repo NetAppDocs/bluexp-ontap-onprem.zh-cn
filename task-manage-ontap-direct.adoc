@@ -28,7 +28,10 @@ link:reference-limitations.html["查看限制列表"]。
 . 在"画布"页面上、双击内部ONTAP 工作环境的名称。
 . 出现提示时、输入您的ONTAP 凭据。
 +
-每次打开工作环境时、系统都会提示您使用ONTAP 凭据登录。
+每次打开工作环境时、系统都会提示您使用ONTAP 凭据登录。您可以选择保存凭据、这样每次都不需要输入凭据。如果使用此选项、则凭据仅与您的BlueXP用户关联。它们不会保存供您帐户中的任何其他人使用。
+
++
+image:screenshot-credentials.png["屏幕截图显示了输入ONTAP 集群用户名和密码的提示。"]
 
 . 使用System Manager管理ONTAP。
 +

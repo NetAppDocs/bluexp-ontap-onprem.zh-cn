@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, on-prem' 
-summary: 了解内部 ONTAP 集群的新增功能。 
+summary: 了解BlueXP中的内部ONTAP 集群管理的新增功能。 
 ---
 = 内部 ONTAP 集群的新增功能
 :hardbreaks:
@@ -15,6 +15,18 @@ summary: 了解内部 ONTAP 集群的新增功能。
 
 [role="lead"]
 了解BlueXP (以前称为Cloud Manager)中的内部ONTAP 集群管理的新增功能。
+
+
+
+== 2023年1月1日
+
+
+
+=== 保存ONTAP 凭据
+
+当您打开在未使用连接器的情况下直接发现的内部ONTAP 工作环境时、现在可以选择保存ONTAP 集群凭据、这样您就无需在每次打开工作环境时都输入这些凭据。
+
+https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-manage-ontap-direct.html["了解有关此选项的更多信息。"]
 
 
 
@@ -86,7 +98,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-administer-advance
 
 
 
-=== 数字电子邮件中提供了一个 " 内部部署 ONTAP " 选项卡。
+=== 数字电子邮件中提供了一个"内部部署ONTAP "选项卡
 
 现在，您可以查看内部 ONTAP 集群的清单及其硬件和服务合同到期日期。此外，我们还提供了有关这些集群的其他详细信息。
 
@@ -98,7 +110,7 @@ https://docs.netapp.com/us-en/cloud-manager-ontap-onprem/task-discovering-ontap.
 
 
 
-=== 您添加到内部 ONTAP 集群上的卷的标记可以与标记服务结合使用。
+=== 您添加到内部ONTAP 集群上的卷的标记可以与标记服务结合使用
 
 添加到卷的标记现在与应用程序模板服务的标记功能相关联，该功能有助于您组织和简化资源管理。
 
