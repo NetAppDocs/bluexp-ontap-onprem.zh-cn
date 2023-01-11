@@ -22,7 +22,7 @@ summary: BlueXP可以在内部环境、NetApp私有存储配置和IBM云中发�
 
 BlueXP提供了两种方法来发现和管理内部ONTAP 集群：
 
-通过Connector进行发现:: 使用此选项、您可以使用以下功能管理集群：
+通过Connector进行发现:: 通过此选项、您可以使用以下功能管理运行ONTAP 8.3的集群：
 +
 --
 * 标准视图、提供基本卷操作
@@ -33,7 +33,7 @@ BlueXP提供了两种方法来发现和管理内部ONTAP 集群：
 必须在云提供商或内部安装Connector。 <<使用Connector发现集群,查看以下要求和分步说明>>。
 
 --
-直接发现:: 使用此选项可以使用System Manager管理集群。没有其他可用管理选项。您无法使用标准视图、也无法启用数据服务。
+直接发现:: 使用此选项、您可以使用System Manager管理运行ONTAP 9.12.1及更高版本的集群。没有其他可用管理选项。您无法使用标准视图、也无法启用数据服务。
 +
 --
 此选项不需要Connector。 <<直接发现集群,查看以下要求和分步说明>>。
@@ -56,6 +56,7 @@ BlueXP提供了两种方法来发现和管理内部ONTAP 集群：
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["了解如何开始使用BlueXP"^]
 
+* 内部集群必须运行ONTAP 8.3或更高版本。
 * 必须在云提供商或内部安装Connector。
 +
 如果您要将冷数据分层到云，则应根据您计划将冷数据分层的位置查看 Connector 的要求。

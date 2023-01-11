@@ -329,7 +329,6 @@
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">发现和管理选项</block>
   <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXP提供了两种方法来发现和管理内部ONTAP 集群：</block>
   <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">通过Connector进行发现</block>
-  <block id="9099bf7c5b970d6d29d762b19812bc2a" category="list-text">使用此选项、您可以使用以下功能管理集群：</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">标准视图、提供基本卷操作</block>
   <block id="90050bf1ae850c8b086b4d648fb45152" category="list-text">与BlueXP数据服务集成、提供数据复制、备份和恢复、数据分类和数据分层功能</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">必须在云提供商或内部安装Connector。</block>
@@ -422,7 +421,6 @@
   <block id="05280ae0f52dfc03d23962982cf79f21" category="list-text">高级视图、可通过System Manager进行管理(ONTAP 9.10.0及更高版本支持此视图)</block>
   <block id="18913a11bfb9265ce650e9b06d80da69" category="inline-xref">查看以下要求和分步说明</block>
   <block id="b96973ab12dad5cf917d59fa426d501e" category="paragraph">必须在云提供商或内部安装Connector。 <block ref="578fb4b6eccb6dc6ce978336e196fff7" category="inline-xref-macro-rx"></block>。</block>
-  <block id="48162a37cddfdaa963ac3204f7595591" category="list-text">使用此选项可以使用System Manager管理集群。没有其他可用管理选项。您无法使用标准视图、也无法启用数据服务。</block>
   <block id="be7a52baf7d7b7389782214033190cd4" category="paragraph">此选项不需要Connector。 <block ref="0820951a94f165da4a5239e04ce4e106" category="inline-xref-macro-rx"></block>。</block>
   <block id="797c4c6d452fc60610219b263c22393d" category="paragraph">如果您决定稍后使用另一个发现选项、则需要在Canvas上将内部集群作为单独的工作环境进行发现。然后、您可以选择删除另一个工作环境。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">结果</block>
@@ -451,4 +449,7 @@
   <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">每次打开工作环境时、系统都会提示您使用ONTAP 凭据登录。您可以选择保存凭据、这样每次都不需要输入凭据。如果使用此选项、则凭据仅与您的BlueXP用户关联。它们不会保存供您帐户中的任何其他人使用。</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">屏幕截图显示了输入ONTAP 集群用户名和密码的提示。</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2a921d78113b3701fe44f302cea12ade" category="list-text">通过此选项、您可以使用以下功能管理运行ONTAP 8.3的集群：</block>
+  <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">使用此选项、您可以使用System Manager管理运行ONTAP 9.12.1及更高版本的集群。没有其他可用管理选项。您无法使用标准视图、也无法启用数据服务。</block>
+  <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">内部集群必须运行ONTAP 8.3或更高版本。</block>
 </blocks>
