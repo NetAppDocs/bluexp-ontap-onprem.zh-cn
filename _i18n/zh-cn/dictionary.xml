@@ -449,7 +449,7 @@
   <block id="a3712341ec8d6b2a8227c05fca90e65c" category="paragraph">每次打开工作环境时、系统都会提示您使用ONTAP 凭据登录。您可以选择保存凭据、这样每次都不需要输入凭据。如果使用此选项、则凭据仅与您的BlueXP用户关联。它们不会保存供您帐户中的任何其他人使用。</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">屏幕截图显示了输入ONTAP 集群用户名和密码的提示。</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2a921d78113b3701fe44f302cea12ade" category="list-text">通过此选项、您可以使用以下功能管理运行ONTAP 8.3的集群：</block>
   <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">使用此选项、您可以使用System Manager管理运行ONTAP 9.12.1及更高版本的集群。没有其他可用管理选项。您无法使用标准视图、也无法启用数据服务。</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">内部集群必须运行ONTAP 8.3或更高版本。</block>
+  <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">通过此选项、您可以使用以下功能管理运行ONTAP 8.3及更高版本的集群：</block>
 </blocks>
