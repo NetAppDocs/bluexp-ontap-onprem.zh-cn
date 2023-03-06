@@ -85,7 +85,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 .步骤
 . 从导航菜单中、选择*存储>画布*。
 . 在"画布"页面上、单击*添加工作环境*并选择*内部部署*。
-. 选择*内部部署ONTAP *。
+. 在On-Premises ONTAP 旁边、选择*发现*。
 . 如果出现提示，请创建 Connector 。
 +
 有关详细信息、请参见上述要求。
@@ -132,7 +132,7 @@ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 .步骤
 . 从导航菜单中、选择*存储>画布*。
 . 在"画布"页面上、单击*添加工作环境*并选择*内部部署*。
-. 选择*本地内部部署ONTAP (Direct)*。
+. 在Local On-Premises ONTAP (Direct)旁边、选择*发现*。
 . 输入集群管理IP地址和管理员用户帐户的密码、然后单击*添加*。
 
 
