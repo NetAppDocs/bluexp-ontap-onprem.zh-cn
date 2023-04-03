@@ -16,6 +16,12 @@ summary: 如果您需要对ONTAP 内部集群执行高级管理、可以使用ON
 [role="lead"]
 如果您使用连接器发现了内部ONTAP 集群、则可以从标准视图创建卷、从高级视图使用System Manager并启用BlueXP数据服务。
 
+在Canvas上、您使用Connector发现的集群的工作环境图标应类似于以下内容：
+
+image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的屏幕截图"]
+
+如果直接发现工作环境、则工作环境图标将包含"direct"一词。
+
 
 
 == 从标准视图创建卷

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
-summary: BlueXP可以在内部环境、NetApp私有存储配置和IBM云中发现ONTAP 集群。通过将内部集群添加到BlueXP Canvas、您可以使用与Cloud Volumes ONTAP 和其他云存储解决方案相同的工具来管理这些集群。 
+summary: 从BlueXP中发现内部ONTAP 集群、以便您可以使用ONTAP System Manager开始管理卷并执行高级管理、该工具可从BlueXP获得。 
 ---
 = 发现内部ONTAP 集群
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: BlueXP可以在内部环境、NetApp私有存储配置和IBM云中发�
 
 
 [role="lead"]
-从BlueXP中发现内部ONTAP 集群、以便您可以使用ONTAP System Manager开始管理卷并执行高级管理、该工具可从BlueXP获得、因此您无需离开BlueXP即可进行高级管理。
+从BlueXP中发现内部ONTAP 集群、以便您可以使用ONTAP System Manager开始管理卷并执行高级管理、该工具可从BlueXP获得。
 
 
 
@@ -30,13 +30,15 @@ BlueXP提供了两种方法来发现和管理内部ONTAP 集群：
 * 与BlueXP数据服务集成、提供数据复制、备份和恢复、数据分类和数据分层功能
 
 
-必须在云提供商或内部安装Connector。 <<使用Connector发现集群,查看以下要求和分步说明>>。
+此选项需要一个Connector、您可以将其安装在云提供商或内部环境中。
 
 --
 直接发现:: 使用此选项、您可以使用System Manager管理运行ONTAP 9.12.1及更高版本的集群。没有其他可用管理选项。您无法使用标准视图、也无法启用数据服务。
 +
 --
-此选项不需要Connector。 <<直接发现集群,查看以下要求和分步说明>>。
+此选项不需要Connector。
+
+在运行9.12.1或更高版本并连接到BlueXP服务的内部ONTAP 集群上访问System Manager时、系统将提示您直接从BlueXP管理此集群。如果您按照此提示操作、它将使用直接发现选项在BlueXP中发现集群。
 
 --
 
@@ -47,14 +49,28 @@ BlueXP提供了两种方法来发现和管理内部ONTAP 集群：
 
 
 
-== 使用Connector发现集群
+== 要求
 
-使用Connector发现您的内部ONTAP 集群、充分利用BlueXP提供的所有管理功能。
+在发现内部ONTAP 集群之前、请确保满足以下要求。
 
-.要求
+
+
+=== 一般要求
+
 * 您应已开始使用BlueXP、其中包括登录和设置帐户。
 +
 https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["了解如何开始使用BlueXP"^]
+
+* 您需要集群管理IP地址和管理员用户帐户的密码。
+* BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。
++
+默认的“管理”防火墙策略允许从所有 IP 地址进行入站 HTTPS 访问。如果您修改了此默认策略，或者创建了自己的防火墙策略，则必须将 HTTPS 协议与该策略关联，并启用从 Connector 主机进行访问。
+
+
+
+
+
+=== 连接器发现和管理的要求
 
 * 内部集群必须运行ONTAP 8.3或更高版本。
 * 必须在云提供商或内部安装Connector。
@@ -67,54 +83,15 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 ** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["了解 Cloud Tiering"^]
 
 
-* 要将集群添加到BlueXP、您需要集群管理IP地址和管理员用户帐户的密码。
-* BlueXP使用HTTPS发现ONTAP 集群。如果使用自定义防火墙策略，则它们必须满足以下要求：
-+
-** Connector 主机必须允许通过端口 443 进行出站 HTTPS 访问。
+* Connector 主机必须允许通过端口 443 进行出站 HTTPS 访问。
 +
 如果 Connector 位于云中，则预定义的安全组允许所有出站通信。
 
-** ONTAP 集群必须允许通过端口 443 进行入站 HTTPS 访问。
-+
-默认的“管理”防火墙策略允许从所有 IP 地址进行入站 HTTPS 访问。如果您修改了此默认策略，或者创建了自己的防火墙策略，则必须将 HTTPS 协议与该策略关联，并启用从 Connector 主机进行访问。
 
 
 
 
-
-.步骤
-. 从导航菜单中、选择*存储>画布*。
-. 在"画布"页面上、单击*添加工作环境*并选择*内部部署*。
-. 在On-Premises ONTAP 旁边、选择*发现*。
-. 如果出现提示，请创建 Connector 。
-+
-有关详细信息、请参见上述要求。
-
-. 在 _Cluster ONTAP 详细信息 _ 页面上，输入集群管理 IP 地址和管理员用户帐户的密码，然后单击 * 添加 * 。
-+
-image:screenshot_discover_ontap.png["屏幕截图显示了 ONTAP 集群详细信息页面的示例：集群管理 IP 地址，用户名和密码。"]
-
-. 在 _Details & Credentials_ 页面上，输入工作环境的名称和问题描述，然后单击 * 执行 * 。
-
-
-.结果
-BlueXP会发现集群并将其添加为Canvas上的工作环境。
-
-link:task-manage-ontap-connector.html["了解如何管理集群"]。
-
-
-
-== 直接发现集群
-
-直接从BlueXP发现内部ONTAP 集群、以便使用System Manager管理这些集群。
-
-
-TIP: 在运行9.12.1或更高版本并连接到BlueXP服务的内部ONTAP 集群上访问System Manager时、系统将提示您直接从BlueXP管理此集群。如果您按照此提示操作、它将在BlueXP中发现集群、如本节所述。
-
-.要求
-* 您应已开始使用BlueXP、其中包括登录和设置帐户。
-+
-https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["了解如何开始使用BlueXP"^]
+=== 直接发现和管理的要求
 
 * 内部集群必须运行ONTAP 9.12.1或更高版本。
 * 集群必须与BlueXP服务建立入站和出站连接：
@@ -122,21 +99,33 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 
 * 用于访问BlueXP控制台的计算机必须与内部ONTAP 集群建立网络连接、就像在专用网络中提供与其他资源的连接一样。
-* 您需要集群管理IP地址和管理员用户帐户的密码。
-* BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。
-+
-默认的“管理”防火墙策略允许从所有 IP 地址进行入站 HTTPS 访问。如果您修改了此默认策略，或者创建了自己的防火墙策略，则必须将 HTTPS 协议与该策略关联，并启用从 Connector 主机进行访问。
 
+
+
+
+== 发现集群
+
+从BlueXP中的"画布"中发现您的内部ONTAP 集群。启动发现过程时、BlueXP将按如下所示发现集群：
+
+* 如果您的活动连接器已连接到ONTAP 集群、则BlueXP将使用此连接器发现和管理集群。
+* 如果您没有连接器、或者您的连接器没有连接到ONTAP 集群、则BlueXP将自动使用直接发现和管理选项。
 
 
 .步骤
 . 从导航菜单中、选择*存储>画布*。
 . 在"画布"页面上、单击*添加工作环境*并选择*内部部署*。
-. 在Local On-Premises ONTAP (Direct)旁边、选择*发现*。
-. 输入集群管理IP地址和管理员用户帐户的密码、然后单击*添加*。
+. 在On-Premises ONTAP 旁边、选择*发现*。
+. 在_Discover页面上、输入集群管理IP地址和管理员用户帐户的密码。
+. 如果您要直接发现集群(不使用Connector)、则可以选择*保存凭据*。
++
+如果选择此选项、则每次打开工作环境时都不需要重新输入凭据。这些凭据仅与您的BlueXP用户关联。它们不会保存供您帐户中的任何其他人使用。
+
+. 选择*发现*。
 
 
 .结果
-BlueXP会发现集群并将其添加为Canvas上的工作环境。
+BlueXP会发现集群并将其添加为Canvas上的工作环境。现在、您可以开始管理集群。
 
-link:task-manage-ontap-direct.html["了解如何管理集群"]。
+* link:task-manage-ontap-direct.html["了解如何管理直接发现的集群"]
+* link:task-manage-ontap-connector.html["了解如何管理使用Connector发现的集群"]
+
