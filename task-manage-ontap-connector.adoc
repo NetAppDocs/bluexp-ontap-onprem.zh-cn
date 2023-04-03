@@ -218,36 +218,42 @@ image:screenshot-standard-view.png["内部ONTAP 工作环境的屏幕截图、�
 
 == 启用BlueXP数据服务
 
-在您的工作环境中启用BlueXP数据服务以复制、备份、扫描和分层数据。
+在您的工作环境中启用BlueXP数据服务、以复制数据、备份数据、对数据进行分层等。
 
+复制数据:: 在Cloud Volumes ONTAP 系统、适用于ONTAP 的Amazon FSx文件系统和ONTAP 集群之间复制数据。选择一次性数据复制(可帮助您将数据移入和移出云)、或者选择重复计划(有助于灾难恢复或长期数据保留)。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["复制文档"^]
 
+--
+备份数据:: 使用云备份将数据从内部ONTAP 系统备份到云中的低成本对象存储。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["Cloud Backup 文档"^]
 
-=== 复制数据
+--
+扫描，映射和分类数据:: 扫描企业内部集群以映射数据并对数据进行分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["Cloud Data sense 文档"^]
 
-您可以在 Cloud Volumes ONTAP 系统和 ONTAP 集群之间复制数据、方法是选择一次性数据复制、该复制可以帮助您将数据移入或移出云、或定期计划、这有助于灾难恢复或长期保留。
+--
+将数据分层到云:: 通过使用云分层将 ONTAP 集群中的非活动数据自动分层到对象存储，将数据中心扩展到云。
++
+--
+https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["Cloud Tiering 文档"^]
 
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["了解如何复制数据"^]
+--
+保持运行状况、正常运行时间和性能:: 在发生中断或故障之前、对ONTAP 集群实施建议的修复。
++
+--
+https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["操作故障恢复能力文档"^]
 
+--
+确定容量较低的集群:: 确定容量较低的集群、查看集群的当前容量和预测容量等。
++
+--
+https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["经济效率文档"^]
 
+--
 
-=== 备份数据
-
-您可以使用云备份将内部 ONTAP 系统中的数据备份到云中的低成本对象存储。此服务提供备份和还原功能，用于保护内部数据和云数据并对其进行长期归档。
-
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["了解如何将数据备份到云"^]
-
-
-
-=== 扫描，映射和分类数据
-
-Cloud Data sense 可以对企业内部集群进行扫描，以便对数据进行映射和分类，并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
-
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["了解如何扫描、映射和分类数据"^]
-
-
-
-=== 将数据分层到云
-
-通过使用云分层将 ONTAP 集群中的非活动数据自动分层到对象存储，将数据中心扩展到云。
-
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["了解如何将数据分层到云"^]

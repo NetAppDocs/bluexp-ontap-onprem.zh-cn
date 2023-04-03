@@ -86,7 +86,7 @@ BlueXP不支持创建FlexGroup 卷。您需要继续使用System Manager或命�
 
 我们引入了一个新的"概述"页面、用于提供有关内部ONTAP 集群的关键详细信息。例如、您现在可以查看存储效率、容量分布和系统信息等详细信息。
 
-您还可以查看有关与其他NetApp云服务集成的详细信息、这些服务支持数据分层、数据复制和备份。
+您还可以查看有关与其他BlueXP服务集成的详细信息、这些服务可实现数据分层、数据复制和备份。
 
 image:https://raw.githubusercontent.com/NetAppDocs/cloud-manager-ontap-onprem/main/media/screenshot-overview.png["显示内部ONTAP 集群的\"概述\"页面的屏幕截图。"]
 

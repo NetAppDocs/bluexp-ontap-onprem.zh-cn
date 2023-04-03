@@ -74,10 +74,7 @@
   <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">然后，新卷将添加到工作环境中。</block>
   <block id="0ca2ea4d1ed88de2980b88af718eedaf" category="paragraph">此外，如果在模板中实施了任何二级操作，例如在卷上启用 Cloud Backup ，则也会执行此操作。</block>
   <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">如果配置了 CIFS 共享、请授予用户或组对文件和文件夹的权限、并验证这些用户是否可以访问该共享并创建文件。</block>
-  <block id="d67fa48b66fcc0b221394da39a91b7bd" category="paragraph">您可以在 Cloud Volumes ONTAP 系统和 ONTAP 集群之间复制数据、方法是选择一次性数据复制、该复制可以帮助您将数据移入或移出云、或定期计划、这有助于灾难恢复或长期保留。</block>
-  <block id="4dafc83aff4c0c428f00d14ba637d08e" category="paragraph">您可以使用云备份将内部 ONTAP 系统中的数据备份到云中的低成本对象存储。此服务提供备份和还原功能，用于保护内部数据和云数据并对其进行长期归档。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">扫描，映射和分类数据</block>
-  <block id="8c5469d13e648a63a3b3954844a606d5" category="paragraph">Cloud Data sense 可以对企业内部集群进行扫描，以便对数据进行映射和分类，并识别私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。</block>
   <block id="74f0cc3c17958e80b4ccd076c9e50493" category="paragraph">通过使用云分层将 ONTAP 集群中的非活动数据自动分层到对象存储，将数据中心扩展到云。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
@@ -182,7 +179,6 @@
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">连接器3.9.22版引入了以下更改。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新的"概述"页面</block>
   <block id="8e41db9b51f790909ef80a064153f722" category="paragraph">我们引入了一个新的"概述"页面、用于提供有关内部ONTAP 集群的关键详细信息。例如、您现在可以查看存储效率、容量分布和系统信息等详细信息。</block>
-  <block id="bcc757acad6812aeb9904ad6e30c0738" category="paragraph">您还可以查看有关与其他NetApp云服务集成的详细信息、这些服务支持数据分层、数据复制和备份。</block>
   <block id="fba766c98683be4af93f93b5d7909f1e" category="inline-image-macro">显示内部ONTAP 集群的"概述"页面的屏幕截图。</block>
   <block id="5277a2f54c2173b12f8eb86ae9da078e" category="paragraph"><block ref="5277a2f54c2173b12f8eb86ae9da078e" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">重新设计的卷页面</block>
@@ -211,14 +207,6 @@
   <block id="bfd7860b885159ef1631572dc506bf0e" category="list-text">单击*卷&gt;添加卷*。</block>
   <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*详细信息、保护和标记*：输入有关卷的详细信息及其名称和大小、选择Snapshot策略并根据需要指定卷标记。</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*协议*：选择卷的协议(NFS、CIFS或iSCSI)、然后设置卷的访问控制或权限。</block>
-  <block id="0c57608b3dc99c491ccf28333d1a1ffd" category="inline-link">了解如何复制数据</block>
-  <block id="057bdd599f52bea71a4eb64fb5283528" category="paragraph"><block ref="057bdd599f52bea71a4eb64fb5283528" category="inline-link-rx"></block></block>
-  <block id="b1d61988f64b60df32fb40aafa9a8a72" category="inline-link">了解如何将数据备份到云</block>
-  <block id="0c8aebb65487842ae7cee0153641a2c0" category="paragraph"><block ref="0c8aebb65487842ae7cee0153641a2c0" category="inline-link-rx"></block></block>
-  <block id="657194a3b23d82061f3c6bde831200e2" category="inline-link">了解如何扫描、映射和分类数据</block>
-  <block id="87297131944257017f4fa2ace90b4993" category="paragraph"><block ref="87297131944257017f4fa2ace90b4993" category="inline-link-rx"></block></block>
-  <block id="e8d45bdb0673c56f56414b928ee6a759" category="inline-link">了解如何将数据分层到云</block>
-  <block id="f3ad359fcb06b212c3249a38f6d003e4" category="paragraph"><block ref="f3ad359fcb06b212c3249a38f6d003e4" category="inline-link-rx"></block></block>
   <block id="ac77698b17043bc79661d58433294c87" category="summary">通过BlueXP (以前称为Cloud Manager)管理NetApp AFF 和FAS 系统、以配置存储、复制数据和配置基于云的关键数据服务。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp通过多种方式为BlueXP提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="7c5661ab6b39ee901cea00a6e7020a49" category="paragraph">NetApp通过多种方式为BlueXP及其云服务提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
@@ -336,7 +324,6 @@
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">如果您需要对内部ONTAP 集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">获取有关System Manager的帮助</block>
   <block id="9094954a45207debf588da430f00322f" category="section-title">启用BlueXP数据服务</block>
-  <block id="5c4d507eeba73d584fcde6e4f2f1b172" category="paragraph">在您的工作环境中启用BlueXP数据服务以复制、备份、扫描和分层数据。</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">复制数据</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">备份数据</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">将数据分层到云</block>
@@ -509,4 +496,25 @@
   <block id="adae1368fef895169a40e9765864c2d0" category="paragraph"><block ref="adae1368fef895169a40e9765864c2d0" category="inline-image-macro-rx" type="image"></block></block>
   <block id="d6a0741adb3101b3ac8caa5bee63eb9e" category="list-text">如果出现提示、请输入您的ONTAP 凭据。</block>
   <block id="45d2775227d0faf611658c52b9e5d2da" category="paragraph">每次打开工作环境时、如果不保存ONTAP 凭据、系统都会提示您使用这些凭据登录。您可以选择保存凭据、这样每次都不需要输入凭据。如果使用此选项、则凭据仅与您的BlueXP用户关联。它们不会保存供您帐户中的任何其他人使用。</block>
+  <block id="d35ea0fa6a3d81047f0a36a7dfac1c07" category="paragraph">您还可以查看有关与其他BlueXP服务集成的详细信息、这些服务可实现数据分层、数据复制和备份。</block>
+  <block id="c0c23b19a5402f833c9c6d50dc076f38" category="paragraph">在您的工作环境中启用BlueXP数据服务、以复制数据、备份数据、对数据进行分层等。</block>
+  <block id="7dfe1792c76bc1bec7f64c0b01460178" category="list-text">在Cloud Volumes ONTAP 系统、适用于ONTAP 的Amazon FSx文件系统和ONTAP 集群之间复制数据。选择一次性数据复制(可帮助您将数据移入和移出云)、或者选择重复计划(有助于灾难恢复或长期数据保留)。</block>
+  <block id="dc699e704dec5502b9aa219f9381ad94" category="inline-link">复制文档</block>
+  <block id="5f87e564b371518f04853fd701600836" category="paragraph"><block ref="5f87e564b371518f04853fd701600836" category="inline-link-rx"></block></block>
+  <block id="5cb29a187dfa39bb23966a4d01f66e5a" category="list-text">使用云备份将数据从内部ONTAP 系统备份到云中的低成本对象存储。</block>
+  <block id="846099e77083903f32f72c0e2156c3c5" category="inline-link">Cloud Backup 文档</block>
+  <block id="ac0eb00d0ec982bf3152bc023bc35e99" category="paragraph"><block ref="ac0eb00d0ec982bf3152bc023bc35e99" category="inline-link-rx"></block></block>
+  <block id="6c8d5da78ab1fbae76a8c2a84cdb0a7c" category="list-text">扫描企业内部集群以映射数据并对数据进行分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。</block>
+  <block id="c0554a6d8deefa28ad0d9e99455a69f7" category="inline-link">Cloud Data sense 文档</block>
+  <block id="7eeb485682479a1e26ec3839825c2fef" category="paragraph"><block ref="7eeb485682479a1e26ec3839825c2fef" category="inline-link-rx"></block></block>
+  <block id="18b67cdd6c50872fa0de2de9dfd11343" category="inline-link">Cloud Tiering 文档</block>
+  <block id="3e6d42d31ee577e8f72ad9c3894d3cf5" category="paragraph"><block ref="3e6d42d31ee577e8f72ad9c3894d3cf5" category="inline-link-rx"></block></block>
+  <block id="d645b6604b6bed9eead9cae8fe011de8" category="list-text">保持运行状况、正常运行时间和性能</block>
+  <block id="a49bfeae157cc560a89bac37a142be7d" category="list-text">在发生中断或故障之前、对ONTAP 集群实施建议的修复。</block>
+  <block id="5e37dded84c4efba1c6c22de468101ca" category="inline-link">操作故障恢复能力文档</block>
+  <block id="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="paragraph"><block ref="cca0aaac8a4ddfadb9d4340ee5c58c3d" category="inline-link-rx"></block></block>
+  <block id="81e1fcaa1ce96a674b79e47a02d7f4ba" category="list-text">确定容量较低的集群</block>
+  <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">确定容量较低的集群、查看集群的当前容量和预测容量等。</block>
+  <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">经济效率文档</block>
+  <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
 </blocks>
