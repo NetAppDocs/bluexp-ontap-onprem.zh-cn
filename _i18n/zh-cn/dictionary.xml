@@ -19,11 +19,8 @@
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">Connector 主机必须允许通过端口 443 进行出站 HTTPS 访问。</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">如果 Connector 位于云中，则预定义的安全组允许所有出站通信。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">默认的“管理”防火墙策略允许从所有 IP 地址进行入站 HTTPS 访问。如果您修改了此默认策略，或者创建了自己的防火墙策略，则必须将 HTTPS 协议与该策略关联，并启用从 Connector 主机进行访问。</block>
-  <block id="e6dfd5017eebf97461338fa01b9cb076" category="paragraph">您可以使用 _Digital Walkes_ 查看集群详细信息以及硬件和软件合同状态。</block>
-  <block id="7d8cc3d1d840829a8cdda42ed1f06341" category="list-text">在 * 数字电子邮件 * 中，单击 * 内部部署 ONTAP * 选项卡。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">每个集群的行上都会显示软件合同和硬件合同到期日期。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">展开集群详细信息以查看集群许可证信息的屏幕截图。</block>
-  <block id="5796086a716a7059f711cc33be934605" category="paragraph"><block ref="5796086a716a7059f711cc33be934605" category="inline-image-macro-rx" type="image"></block></block>
   <block id="25203f9c21dc384a4870095f19f67811" category="doc">内部 ONTAP 集群的新增功能</block>
   <block id="d3f07c4c7baf0c60bc64c1cdc48732af" category="paragraph">现在，您可以查看内部 ONTAP 集群的清单及其硬件和服务合同到期日期。此外，我们还提供了有关这些集群的其他详细信息。</block>
   <block id="184ca21b83c54a7ba12f9b1077ccb494" category="inline-link-macro">请参见如何查看此重要的内部集群信息</block>
@@ -122,7 +119,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
   <block id="5e4b821a1a82558dead1ef6961e90666" category="paragraph">这些选项每周 7 天，每天 24 小时免费提供：</block>
   <block id="19111351b69b6b15668130b38b7f6038" category="inline-link">知识库</block>
-  <block id="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="list-text"><block ref="fd6bb4fa1ad0caeedd6782d92cc54ea3" category="inline-link-rx"></block></block>
   <block id="14526abd8bda5af347775025cd5342cf" category="inline-link">社区</block>
   <block id="410fdb9caa9c64da2ff3f88f4836960d" category="list-text"><block ref="410fdb9caa9c64da2ff3f88f4836960d" category="inline-link-rx"></block></block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
@@ -173,8 +169,6 @@
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
   <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">包含三个点的图标。</block>
   <block id="a78d007a06bac736eaadb47926ca0155" category="list-text">单击 <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt; * 从模板添加卷 * 。</block>
-  <block id="2dc127a72bebec759447c53e48d44a81" category="inline-image-macro">停用图标</block>
-  <block id="c3dcc3698432aa0b6e568ec48b5fe13f" category="list-text">对于要了解其他详细信息的集群，请单击 <block ref="88c68341c12fbc9f1bcf1c9927535845" category="inline-image-macro-rx" type="image"></block> 以展开集群信息。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">连接器3.9.22版引入了以下更改。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新的"概述"页面</block>
@@ -223,7 +217,6 @@
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">如果您不想再从BlueXP管理内部ONTAP 工作环境、请将其删除。</block>
   <block id="bd60ce6149853fe9cc7d5bd848c0bde4" category="paragraph">删除工作环境不会影响 ONTAP 集群。您可以随时从BlueXP中重新发现它。</block>
   <block id="43bfd35e9b57eaace0eafa6750af5ff7" category="list-text">从BlueXP导航菜单中、选择*监管&gt;数字电子钱包*。</block>
-  <block id="891b391e7c699621fb61d87adcf4faba" category="list-text">如果合同即将到期或已到期、您可以单击BlueXP右下角的聊天图标以请求延长合同。</block>
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">从导航菜单中、选择*存储&gt;画布*。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">如果您选择CIFS、但服务器尚未设置、则BlueXP会提示您使用Active Directory或工作组设置CIFS服务器。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS 导出策略定义子网中可访问卷的客户端。默认情况下、BlueXP输入一个值、用于访问子网中的所有实例。</block>
@@ -294,7 +287,6 @@
   <block id="643ed1d8ada28dc21c68f0cf27770cdf" category="sidebar">使用Digital Advisor优化集群</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">所有BlueXP文档</block>
-  <block id="4c36467537ed03dcde201f2a693ba5ec" category="summary">您可以使用数字电子钱包查看集群详细信息以及硬件和软件合同状态。</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">查看集群信息和合同详细信息</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">发现内部ONTAP 集群</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">发现和管理选项</block>
@@ -517,4 +509,16 @@
   <block id="6469bc932e571a70af6dc9f155dc8c4f" category="list-text">确定容量较低的集群、查看集群的当前容量和预测容量等。</block>
   <block id="68eb93c26a1fa5e191126273ae12b097" category="inline-link">经济效率文档</block>
   <block id="5a1ba2c518bc284a53dce33562379ae9" category="paragraph"><block ref="5a1ba2c518bc284a53dce33562379ae9" category="inline-link-rx"></block></block>
+  <block id="942c9249796cf6b78c981ebf15195809" category="list-text"><block ref="942c9249796cf6b78c981ebf15195809" category="inline-link-rx"></block></block>
+  <block id="94fd71e366753efc2c71fcdd0fc3afd4" category="summary">您可以通过BlueXP数字电子钱包查看每个内部ONTAP 集群的合同详细信息。如果您尚未在BlueXP中发现集群、也可以从数字市场中进行此操作。</block>
+  <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">开始之前</block>
+  <block id="2b474be1d4faf7d5e70a3977fa183a0a" category="paragraph">BlueXP数字电子钱包显示有关您发现为工作环境或与您添加到BlueXP的NetApp 支持站点 帐户关联的内部ONTAP 集群的详细信息。</block>
+  <block id="e65135bd79d15db91bec6c98a9f8dabe" category="list-text">选择*内部部署ONTAP *。</block>
+  <block id="93416f52fcce3ab7a37ed87d0aeb8134" category="paragraph">如果系统提示您先输入 NetApp 支持站点 (NSS) 帐户凭据，请在支持信息板中输入这些凭据。添加帐户后，将显示该帐户中包含的集群。</block>
+  <block id="50b3dac67cf083c4a4dd133f8b8d0076" category="paragraph"><block ref="50b3dac67cf083c4a4dd133f8b8d0076" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="19d0494f8c332b6872314cab23b38a2d" category="list-text">如果尚未发现集群作为工作环境、请选择*发现*并按照提示进行操作。</block>
+  <block id="87713871e17e5ef9a4e363132a527495" category="paragraph">发现集群后、它将在BlueXP中用作工作环境、以便于您对其进行管理。</block>
+  <block id="06afa66cf6eca938a45be835a47030e1" category="paragraph-title">相关链接</block>
+  <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">通过BlueXP数字市场了解有关管理内部ONTAP 集群许可证的更多信息</block>
+  <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
 </blocks>
