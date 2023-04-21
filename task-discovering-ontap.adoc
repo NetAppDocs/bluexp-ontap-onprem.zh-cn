@@ -14,7 +14,7 @@ summary: 从BlueXP中发现内部ONTAP 集群、以便您可以使用ONTAP Syste
 
 
 [role="lead"]
-从BlueXP中发现内部ONTAP 集群、以便您可以使用ONTAP System Manager开始管理卷并执行高级管理、该工具可从BlueXP获得。
+从BlueXP中发现内部ONTAP 集群、以便您可以开始使用ONTAP 系统管理器(可从BlueXP获得)管理卷和执行高级管理。
 
 
 
@@ -27,7 +27,7 @@ BlueXP提供了两种方法来发现和管理内部ONTAP 集群：
 --
 * 标准视图、提供基本卷操作
 * 高级视图、可通过System Manager进行管理(ONTAP 9.10.0及更高版本支持此视图)
-* 与BlueXP数据服务集成、提供数据复制、备份和恢复、数据分类和数据分层功能
+* 与BlueXP服务集成、提供数据复制、备份和恢复、数据分类和数据分层
 
 
 此选项需要一个Connector、您可以将其安装在云提供商或内部环境中。
@@ -80,7 +80,7 @@ https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-overview.html["�
 +
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/concept-connectors.html["了解连接器"^]
 ** https://docs.netapp.com/us-en/cloud-manager-setup-admin/task-managing-connectors.html["在连接器之间切换"^]
-** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["了解 Cloud Tiering"^]
+** https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["了解有关BlueXP分层的信息"^]
 
 
 * Connector 主机必须允许通过端口 443 进行出站 HTTPS 访问。

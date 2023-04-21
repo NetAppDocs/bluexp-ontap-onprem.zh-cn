@@ -31,7 +31,7 @@ BlueXP不支持某些System Manager功能：
 
 * Cloud Backup激活
 +
-直接从Cloud Backup在内部集群上启用Cloud Backup。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["了解如何开始使用"^]
+直接通过BlueXP备份和恢复在内部集群上启用Cloud Backup。 https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-ontap-backup-to-cloud.html["了解如何开始使用"^]
 
 * 按需升级
 +

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: concept-aiq-digital-advisor.html 
 keywords: concepts, active iq digital advisor, ontap 
-summary: Active IQ 数字顾问集成在BlueXP用户界面中、因此您可以在一个管理平台中优化ONTAP 集群的操作、安全性和性能。 
+summary: 通过BlueXP数字顾问、您可以优化ONTAP 集群的操作、安全性和性能。 
 ---
-= 使用Digital Advisor优化集群
+= 使用BlueXP数字顾问优化集群
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Active IQ 数字顾问集成在BlueXP用户界面中、因此您可以�
 
 
 [role="lead"]
-https://www.netapp.com/services/support/active-iq/["Digital Advisor"^] (以前称为Active IQ)集成在BlueXP UI中、因此您可以在一个管理平台中优化ONTAP 集群的操作、安全性和性能。
+通过BlueXP数字顾问、您可以优化ONTAP 集群的操作、安全性和性能。
 
 
 
 == 功能
 
-您可以使用Digital Advisor在监视列表级别查看存储系统的整体状态、有关系统运行状况的详细信息、清单、规划、升级以及有价值的见解。
+您可以使用BlueXP数字顾问在监视列表级别查看存储系统的整体状态、有关系统运行状况的高级别信息、清单、规划、升级以及有价值的见解。
 
 * 分析并优化存储系统的运行状况
 * 深入了解存储系统面临的所有风险以及降低风险的措施
@@ -34,10 +34,10 @@ https://www.netapp.com/services/support/active-iq/["Digital Advisor"^] (以前�
 
 == 支持的 ONTAP 系统
 
-Digital Advisor可提供有关NSS帐户中所有内部ONTAP 系统和Cloud Volumes ONTAP 系统的信息。
+Digital Advisor可提供与您的NetApp 支持站点 (NSS)帐户关联的所有内部ONTAP 系统和Cloud Volumes ONTAP 系统的信息。
 
 
 
-== Digital Advisor如何与BlueXP配合使用
+== 更多信息
 
-请参见 https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisor文档"^] 了解详细信息。
+https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisor文档"^]
