@@ -16,7 +16,17 @@ summary: 已知限制确定了本产品版本不支持的平台、设备或功�
 [role="lead"]
 已知限制确定了本产品版本不支持的平台、设备或功能、或者这些平台、设备或功能无法与产品正确交互操作。仔细审查这些限制。
 
-BlueXP不支持某些System Manager功能：
+
+
+== 集群不受支持
+
+BlueXP不支持配置了SAML身份验证的内部ONTAP 集群。
+
+
+
+== System Manager限制
+
+BlueXP不支持以下System Manager功能：
 
 * 集群设置
 +
