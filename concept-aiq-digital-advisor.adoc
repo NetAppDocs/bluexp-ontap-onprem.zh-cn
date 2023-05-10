@@ -40,4 +40,4 @@ Digital Advisor可提供与您的NetApp 支持站点 (NSS)帐户关联的所有�
 
 == 更多信息
 
-https://docs.netapp.com/us-en/active-iq/digital-advisor-integration-with-bluexp.html["Digital Advisor文档"^]
+https://["Digital Advisor文档"^]

@@ -207,11 +207,11 @@ image:screenshot-standard-view.png["内部ONTAP 工作环境的屏幕截图、�
 
 === 获取有关System Manager的帮助
 
-如果在ONTAP 中使用System Manager需要帮助、请参见 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文档"^] 了解分步说明。以下链接可能会有所帮助：
+如果在ONTAP 中使用System Manager需要帮助、请参见 https://["ONTAP 文档"^] 了解分步说明。以下链接可能会有所帮助：
 
-* https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["卷和LUN管理"^]
-* https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["网络管理"^]
-* https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["数据保护"^]
+* https://["卷和LUN管理"^]
+* https://["网络管理"^]
+* https://["数据保护"^]
 
 
 
@@ -223,37 +223,37 @@ image:screenshot-standard-view.png["内部ONTAP 工作环境的屏幕截图、�
 复制数据:: 在Cloud Volumes ONTAP 系统、适用于ONTAP 的Amazon FSx文件系统和ONTAP 集群之间复制数据。选择一次性数据复制(可帮助您将数据移入和移出云)、或者选择重复计划(有助于灾难恢复或长期数据保留)。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-replication/task-replicating-data.html["复制文档"^]
+https://["复制文档"^]
 
 --
 备份数据:: 将数据从内部ONTAP 系统备份到云中的低成本对象存储。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-backup-restore/concept-backup-to-cloud.html["备份和恢复文档"^]
+https://["备份和恢复文档"^]
 
 --
 扫描，映射和分类数据:: 扫描企业内部集群以映射数据并对数据进行分类、并确定私有信息。这有助于降低安全性和合规性风险，降低存储成本，并有助于您的数据迁移项目。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-data-sense/concept-cloud-compliance.html["分类文档"^]
+https://["分类文档"^]
 
 --
 将数据分层到云:: 通过自动将非活动数据从 ONTAP 集群分层到对象存储，将数据中心扩展到云。
 +
 --
-https://docs.netapp.com/us-en/cloud-manager-tiering/concept-cloud-tiering.html["层文档"^]
+https://["层文档"^]
 
 --
 保持运行状况、正常运行时间和性能:: 在发生中断或故障之前、对ONTAP 集群实施建议的修复。
 +
 --
-https://docs.netapp.com/us-en/bluexp-operational-resiliency/index.html["操作故障恢复能力文档"^]
+https://["操作故障恢复能力文档"^]
 
 --
 确定容量较低的集群:: 确定容量较低的集群、查看集群的当前容量和预测容量等。
 +
 --
-https://docs.netapp.com/us-en/bluexp-economic-efficiency/index.html["经济效率文档"^]
+https://["经济效率文档"^]
 
 --
 

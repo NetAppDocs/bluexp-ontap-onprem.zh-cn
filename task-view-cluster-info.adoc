@@ -38,4 +38,4 @@ image:screenshot_digital_wallet_onprem_main.png["展开集群详细信息以查�
 
 
 .相关链接
-https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["通过BlueXP数字市场了解有关管理内部ONTAP 集群许可证的更多信息"^]
+https://["通过BlueXP数字市场了解有关管理内部ONTAP 集群许可证的更多信息"^]
