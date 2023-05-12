@@ -59,7 +59,7 @@ BlueXP提供了两种方法来发现和管理内部ONTAP 集群：
 
 * 您应已开始使用BlueXP、其中包括登录和设置帐户。
 +
-https://["了解如何开始使用BlueXP"^]
+69c4d579a506c05e94d3e4986ec536a3
 
 * 您需要集群管理IP地址和管理员用户帐户的密码。
 * BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。
@@ -78,9 +78,9 @@ https://["了解如何开始使用BlueXP"^]
 如果您要将冷数据分层到云，则应根据您计划将冷数据分层的位置查看 Connector 的要求。
 
 +
-** https://["了解连接器"^]
-** https://["在连接器之间切换"^]
-** https://["了解有关BlueXP分层的信息"^]
+** da1264a616f156bd6836a85f7dfdea5a
+** 74d39f4b6fe0e32c5cfa2ed86891bf44
+** ab39f7f9b8000627309eae76de10963b
 
 
 * Connector 主机必须允许通过端口 443 进行出站 HTTPS 访问。

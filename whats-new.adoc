@@ -45,7 +45,7 @@ NOTE: 如果您没有Connector、则无法从本地计算机进行更新、只�
 
 当您从BlueXP控制台发现内部ONTAP 集群时、您将看到一个选项：
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-discover-on-prem-ontap.png["屏幕截图显示了在创建工作环境时可用的发现内部部署ONTAP 选项"]
+aea8878e3e5cb0f622cbe596cc98ef50
 
 以前、直接发现和使用Connector进行发现都有单独的流。这两个选项仍然可用、但会合并到一个流程中。
 
@@ -55,7 +55,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 * 如果您没有连接器、或者您的连接器没有连接到ONTAP 集群、则BlueXP将自动使用直接发现和管理选项。
 
 
-https://["详细了解发现和管理选项"]。
+d74db5b2b9703b60c98aead9c3c3275e
 
 
 
@@ -81,7 +81,7 @@ https://["了解有关此选项的更多信息。"]
 
 现在、您无需使用连接器即可直接发现内部ONTAP 集群。此选项仅支持通过System Manager进行集群管理。您无法在此类工作环境中启用任何BlueXP数据服务。
 
-https://["详细了解此发现和管理选项"]。
+7b755afb39a1416600c762f9fe472d98
 
 
 
@@ -89,7 +89,7 @@ https://["详细了解此发现和管理选项"]。
 
 对于通过连接器发现的内部ONTAP 集群、BlueXP中的标准视图现在显示通过System Manager或ONTAP 命令行界面创建的FlexGroup 卷。您还可以通过克隆这些卷、编辑其设置、删除这些卷等方式来管理这些卷。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-flexgroup-volumes.png["在内部ONTAP 集群的卷页面上显示FlexGroup 卷的屏幕截图。"]
+aa60f08e9c5a748d9b57c0e7689a43f5
 
 BlueXP不支持创建FlexGroup 卷。您需要继续使用System Manager或命令行界面创建FlexGroup 卷。
 
@@ -107,7 +107,7 @@ BlueXP不支持创建FlexGroup 卷。您需要继续使用System Manager或命�
 
 您还可以查看有关与其他BlueXP服务集成的详细信息、这些服务可实现数据分层、数据复制和备份。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-overview.png["显示内部ONTAP 集群的\"概述\"页面的屏幕截图。"]
+5277a2f54c2173b12f8eb86ae9da078e
 
 
 
@@ -115,7 +115,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 我们重新设计了卷页面、以提供集群上卷的摘要。此摘要将显示卷的总数、已配置容量、已用容量和预留容量以及分层数据的数量。
 
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/media/screenshot-volumes.png["显示内部ONTAP 集群的卷页面的屏幕截图。"]
+bb4feb07894e787f9d7a8a9c00fa4d55
 
 
 
@@ -145,7 +145,7 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 现在、您可以查看内部ONTAP 集群的清单及其硬件和服务合同到期日期。此外，我们还提供了有关这些集群的其他详细信息。
 
-https://["了解如何查看这一重要的集群内信息"]。您需要为集群创建一个 NetApp 支持站点 (NSS) 帐户，并且需要将 NSS 凭据附加到您的 Cloud Manager 帐户。
+09cc582da9a3118b6520cf72b79e82b3
 
 
 

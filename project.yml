@@ -69,5 +69,5 @@ homepage:
       url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
-  repo: bluexp-family
+  repo: cloud-manager-family
   sidebar_label: 所有BlueXP文档
