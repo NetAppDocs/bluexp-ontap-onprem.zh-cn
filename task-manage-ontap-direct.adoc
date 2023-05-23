@@ -41,12 +41,12 @@ image:screenshot-credentials.png["屏幕截图显示了输入ONTAP 集群用户�
 
 . 使用System Manager管理ONTAP。
 +
-如果在ONTAP 中使用System Manager需要帮助、请参见 https://["ONTAP 文档"^] 了解分步说明。以下链接可能会有所帮助：
+如果在ONTAP 中使用System Manager需要帮助、请参见 https://docs.netapp.com/us-en/ontap/index.html["ONTAP 文档"^] 了解分步说明。以下链接可能会有所帮助：
 
 +
-** https://["卷和LUN管理"^]
-** https://["网络管理"^]
-** https://["数据保护"^]
+** https://docs.netapp.com/us-en/ontap/volume-admin-overview-concept.html["卷和LUN管理"^]
+** https://docs.netapp.com/us-en/ontap/network-manage-overview-concept.html["网络管理"^]
+** https://docs.netapp.com/us-en/ontap/concept_dp_overview.html["数据保护"^]
 
 
 
