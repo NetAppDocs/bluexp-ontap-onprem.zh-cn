@@ -121,6 +121,9 @@ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 如果选择此选项、则每次打开工作环境时都不需要重新输入凭据。这些凭据仅与您的BlueXP用户关联。它们不会保存供您帐户中的任何其他人使用。
 
 . 选择*发现*。
++
+如果您没有连接器、并且无法从BlueXP访问IP地址、则系统将提示您创建连接器。
+
 
 
 .结果
