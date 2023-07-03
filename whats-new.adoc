@@ -18,6 +18,18 @@ summary: 了解BlueXP中的内部ONTAP 集群管理新增功能。
 
 
 
+== 2023年7月2日
+
+
+
+=== 从我的资产中发现集群
+
+现在、您可以通过*画布>我的资产*发现内部ONTAP集群、方法是根据与您的BlueXP登录电子邮件地址关联的ONTAP集群选择BlueXP预先发现的集群。
+
+https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html#add-a-pre-discovered-cluster["从我的资产页面了解如何发现集群"]。
+
+
+
 == 2023年5月4日
 
 

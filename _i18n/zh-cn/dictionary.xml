@@ -11,7 +11,6 @@
   <block id="5a2ebfb8baa378cfcfcba58bbb1380c2" category="section-title">要求</block>
   <block id="cb754929bd2884eb53bfc39ddd5aadad" category="paragraph">如果您要将冷数据分层到云，则应根据您计划将冷数据分层的位置查看 Connector 的要求。</block>
   <block id="e6e80588e9fe7cf89218fea44300f7ca" category="inline-link">了解连接器</block>
-  <block id="c870531773e82c374eb4125c8029e25e" category="inline-link">在连接器之间切换</block>
   <block id="b06972aadece5eaa3ac9cc962a035477" category="list-text">Connector 主机必须允许通过端口 443 进行出站 HTTPS 访问。</block>
   <block id="2b9e44ec073f65b2847ecb4d29f27fb3" category="paragraph">如果 Connector 位于云中，则预定义的安全组允许所有出站通信。</block>
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">默认的“管理”防火墙策略允许从所有 IP 地址进行入站 HTTPS 访问。如果您修改了此默认策略，或者创建了自己的防火墙策略，则必须将 HTTPS 协议与该策略关联，并启用从 Connector 主机进行访问。</block>
@@ -160,15 +159,11 @@
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">查看集群信息和合同详细信息</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">发现内部ONTAP 集群</block>
   <block id="e96ffca10c8548ba223da5a961f4e0bb" category="section-title">发现和管理选项</block>
-  <block id="a8b4b8a9fc6c5671a89f402cc069afda" category="paragraph">BlueXP提供了两种方法来发现和管理内部ONTAP 集群：</block>
-  <block id="a8fd54ba8c2928ea1b2a300ca75a00fa" category="list-text">通过Connector进行发现</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">标准视图、提供基本卷操作</block>
   <block id="95ef150c4c1c6bc6be1dda757b58c70c" category="paragraph">必须在云提供商或内部安装Connector。</block>
-  <block id="9023f6f288dd42621136db54ed1a4521" category="list-text">直接发现</block>
   <block id="5883223e097bdc0962b33579a610a819" category="paragraph">发现后、您的集群将在BlueXP Canvas上用作工作环境。</block>
   <block id="5b972456043217ec9e0b836b869e5061" category="list-text">您应已开始使用BlueXP、其中包括登录和设置帐户。</block>
   <block id="89e019c15bf54627a2a1e4918e66bab6" category="inline-link">了解如何开始使用BlueXP</block>
-  <block id="7d613f340824eb9c65d2bc768aa43577" category="list-text">在"画布"页面上、单击*添加工作环境*并选择*内部部署*。</block>
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要集群管理IP地址和管理员用户帐户的密码。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。</block>
   <block id="5c4425fb4da620b6fcdee80150d6eaf9" category="doc">管理使用Connector发现的内部ONTAP 集群</block>
@@ -236,7 +231,6 @@
   <block id="c09e2822c570628d904cc9ae1b81258c" category="section-title">数字电子邮件中提供了一个"内部部署ONTAP "选项卡</block>
   <block id="c4d0d6d40840ebb3d4f4f87b4309d6b6" category="inline-image-macro">屏幕截图显示了输入ONTAP 集群用户名和密码的提示。</block>
   <block id="ae0f0582f8fc53d392de639973d7187a" category="paragraph"><block ref="ae0f0582f8fc53d392de639973d7187a" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="085602a04bf66e6b72300eefb21c9c32" category="list-text">使用此选项、您可以使用System Manager管理运行ONTAP 9.12.1及更高版本的集群。没有其他可用管理选项。您无法使用标准视图、也无法启用数据服务。</block>
   <block id="8ab7236e714d67d0d2cdb0f6c0c6bdea" category="list-text">内部集群必须运行ONTAP 8.3或更高版本。</block>
   <block id="a3736487d08fb63c22adeaf7035f0bca" category="list-text">通过此选项、您可以使用以下功能管理运行ONTAP 8.3及更高版本的集群：</block>
   <block id="2901a10a7b1d7a91ad19913b88e371a6" category="list-text">在On-Premises ONTAP 旁边、选择*发现*。</block>
@@ -244,17 +238,10 @@
   <block id="e9b3b1686b45ea49547763029f379272" category="paragraph">此选项需要一个Connector、您可以将其安装在云提供商或内部环境中。</block>
   <block id="d7aa3f7ee53003f5d75a0f500ddb1e6a" category="paragraph">此选项不需要Connector。</block>
   <block id="f75478b929f43a364a455cc34445b807" category="paragraph">在运行9.12.1或更高版本并连接到BlueXP服务的内部ONTAP 集群上访问System Manager时、系统将提示您直接从BlueXP管理此集群。如果您按照此提示操作、它将使用直接发现选项在BlueXP中发现集群。</block>
-  <block id="0f7cd5e1a723722aba147a095960b6f2" category="paragraph">在发现内部ONTAP 集群之前、请确保满足以下要求。</block>
   <block id="a1a264e616e24563d4b8f8b5795ea403" category="section-title">一般要求</block>
-  <block id="57e3bd92879e52aabb2d704d581a7eca" category="section-title">连接器发现和管理的要求</block>
-  <block id="474308686741d3fac3585fee76ea82cb" category="section-title">直接发现和管理的要求</block>
-  <block id="20dbb48f93e265cf5e1f55346fd44629" category="section-title">发现集群</block>
-  <block id="16708274774701d9897c9865da185258" category="paragraph">从BlueXP中的"画布"中发现您的内部ONTAP 集群。启动发现过程时、BlueXP将按如下所示发现集群：</block>
-  <block id="a1a1b3734bc79dc28eff3fad266ee579" category="list-text">如果您的活动连接器已连接到ONTAP 集群、则BlueXP将使用此连接器发现和管理集群。</block>
   <block id="1f98df6cf22b8e11ecbe762c7b523860" category="list-text">如果您没有连接器、或者您的连接器没有连接到ONTAP 集群、则BlueXP将自动使用直接发现和管理选项。</block>
   <block id="1de006c684d29369fa4392137f9a3894" category="list-text">在_Discover页面上、输入集群管理IP地址和管理员用户帐户的密码。</block>
   <block id="f7372fe2a1c7b50e7c7d583296559005" category="list-text">如果您要直接发现集群(不使用Connector)、则可以选择*保存凭据*。</block>
-  <block id="da8239e44e04f0173e627074f8abe90c" category="paragraph">如果选择此选项、则每次打开工作环境时都不需要重新输入凭据。这些凭据仅与您的BlueXP用户关联。它们不会保存供您帐户中的任何其他人使用。</block>
   <block id="6717014f0e48b7ab08c9846925b42c93" category="list-text">选择*发现*。</block>
   <block id="150f022493510e4fc7851b23e0afdee7" category="paragraph">BlueXP会发现集群并将其添加为Canvas上的工作环境。现在、您可以开始管理集群。</block>
   <block id="299867ed6070a6cda18ae92e5d434213" category="inline-link-macro">了解如何管理直接发现的集群</block>
@@ -302,7 +289,6 @@
   <block id="73aa008a6b5cf018ef8dbd33a51ac3c7" category="inline-link">通过BlueXP数字市场了解有关管理内部ONTAP 集群许可证的更多信息</block>
   <block id="576b63b6009db82dbb03f5fa245eb11c" category="paragraph"><block ref="576b63b6009db82dbb03f5fa245eb11c" category="inline-link-rx"></block></block>
   <block id="eacd3ed630ae5b36126bd8cf27a43632" category="paragraph">从BlueXP中发现内部ONTAP 集群、以便您可以开始使用ONTAP 系统管理器(可从BlueXP获得)管理卷和执行高级管理。</block>
-  <block id="137ffb60b26b3895f9ae6f3042e0d587" category="list-text">与BlueXP服务集成、提供数据复制、备份和恢复、数据分类和数据分层</block>
   <block id="e920ef862d77b3f54bb7bf3e535062a3" category="inline-link">了解有关BlueXP分层的信息</block>
   <block id="6568b62a7d7e403aa25f80da4df48e9a" category="summary">从BlueXP管理您的NetApp AFF 和FAS 系统、以配置存储、复制数据和配置基于云的关键数据服务。</block>
   <block id="afecfcae87b8b8aa94335648c348ba12" category="summary">通过BlueXP数字顾问、您可以优化ONTAP 集群的操作、安全性和性能。</block>
@@ -473,7 +459,6 @@
   <block id="468caeffde72f6e5b0fda6369c3f5f0d" category="paragraph"><block ref="468caeffde72f6e5b0fda6369c3f5f0d" category="inline-link-rx"></block></block>
   <block id="0377f2dd7cfc90832cf86e4cdea18b27" category="paragraph"><block ref="0377f2dd7cfc90832cf86e4cdea18b27" category="inline-link-rx"></block></block>
   <block id="02156a4727415877195dc5302fa69275" category="list-text"><block ref="02156a4727415877195dc5302fa69275" category="inline-link-rx"></block></block>
-  <block id="2aeeba0020a7848f7902186fbd8cb9e8" category="list-text"><block ref="2aeeba0020a7848f7902186fbd8cb9e8" category="inline-link-rx"></block></block>
   <block id="0831a12ebe326ec4e6566367bf5ee293" category="list-text"><block ref="0831a12ebe326ec4e6566367bf5ee293" category="inline-link-rx"></block></block>
   <block id="6456f90a24e3ce74e10fac140453a9e4" category="paragraph"><block ref="6456f90a24e3ce74e10fac140453a9e4" category="inline-image-macro-rx" type="image"></block></block>
   <block id="31704fc30eb2f5485c6844b2921554ff" category="paragraph"><block ref="9ff7898ac3309c19fb8d99f370e44be1" category="inline-link-rx"></block>。</block>
@@ -521,4 +506,46 @@
   <block id="39f382b97080640c75604b5890f3a5d3" category="paragraph">将NSS凭据与BlueXP帐户关联与与与BlueXP用户登录关联的NSS帐户不同。</block>
   <block id="e3bc6d35311568d55f1c8ea11984b964" category="paragraph">这些NSS凭据与您的特定BlueXP帐户ID关联。属于BlueXP帐户的用户可以从*支持&gt; NSS管理*访问这些凭据。</block>
   <block id="37ec2d4ffcb59f0218e30feb37bff04e" category="paragraph">如果您没有连接器、并且无法从BlueXP访问IP地址、则系统将提示您创建连接器。</block>
+  <block id="f73b546b2cf111d3a080443f2cd3b97f" category="section-title">2023年7月2日</block>
+  <block id="11f4fef53a39b0e83d4fdb9f922e768e" category="section-title">从我的资产中发现集群</block>
+  <block id="4573c689742769edc01e3f45205fd784" category="paragraph">现在、您可以通过*画布&gt;我的资产*发现内部ONTAP集群、方法是根据与您的BlueXP登录电子邮件地址关联的ONTAP集群选择BlueXP预先发现的集群。</block>
+  <block id="5a7621b5dce7d879d4fc86499c34c6e6" category="inline-link">从我的资产页面了解如何发现集群</block>
+  <block id="92adae4e241e70163adb8c5469771a82" category="paragraph"><block ref="24b3a807a9407b81f5101322f988421d" category="inline-link-rx"></block>。</block>
+  <block id="0955e7586176682941c1bba912eb5cc4" category="paragraph">BlueXP为内置ONTAP集群提供了两个发现和管理选项：</block>
+  <block id="58bc91c6986031a5bbfcc403ec8f4e40" category="list-text">使用Connector进行发现和管理</block>
+  <block id="c0dfb4f052c58a84c6f41e4a6de3caae" category="list-text">与提供数据复制、备份和恢复、数据分类和数据分层的BlueXP服务集成</block>
+  <block id="ed2669e12a2aca1d23d0391fe9aa4d4f" category="list-text">直接发现和管理</block>
+  <block id="551bc5d8466ddd3cdacf44099db1c7ab" category="list-text">使用此选项、您可以使用System Manager管理运行ONTAP 9.12.1及更高版本的集群。没有其他可用管理选项。您不能使用标准视图、也不能启用BlueXP服务。</block>
+  <block id="6e66f27267404b1c78540790e471bc32" category="paragraph">在发现您的内置ONTAP集群之前、请确保满足以下要求。</block>
+  <block id="860b5a921910be87e98249197300aeb3" category="section-title">连接器发现的要求</block>
+  <block id="2c907b6caf1e28d6079ea82a7c2dae43" category="inline-link">了解如何在多个连接器之间切换</block>
+  <block id="80cc9f0ae996b19f3dc87ec1e851b9fc" category="list-text"><block ref="80cc9f0ae996b19f3dc87ec1e851b9fc" category="inline-link-rx"></block></block>
+  <block id="be8c0cb1018ac37d4931901b25f4d7b8" category="section-title">直接发现的要求</block>
+  <block id="381ebbd947b85d55ba63ca069f4fd6e2" category="section-title">发现集群</block>
+  <block id="5929920680ed1fe51a421ba27720d080" category="paragraph">通过手动提供有关集群的详细信息或从"我的资产"页面中选择预先发现的集群、从"画布"中发现您的内置ONTAP集群。</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="list-title">关于此任务</block>
+  <block id="b5dd4f91cc6db2ca2f45e3bb102fb889" category="list-text">您可以通过以下两种方式之一启动发现过程：</block>
+  <block id="e2283afc49db55afcdc12825748b74cc" category="list-text">通过手动添加有关内部ONTAP集群的详细信息、从*画布&gt;我的工作环境*。</block>
+  <block id="a5c0c470fe95d7a64c3b5fcb2a94828e" category="list-text">从*画布&gt;我的资产*中、选择BlueXP根据与您的BlueXP登录电子邮件地址关联的ONTAP集群预先发现的集群。</block>
+  <block id="2e064277badcd21c62e8fd2c2f433487" category="list-text">开始发现过程后、BlueXP将按如下所示发现集群：</block>
+  <block id="070663698acc2c2608384f63852f1471" category="list-text">如果您的活动连接器连接到ONTAP集群、则BlueXP将使用该连接器来发现和管理集群。</block>
+  <block id="c77ba8df974ac9ac198176dcff4f8f52" category="section-title">手动发现集群</block>
+  <block id="8c3cbd392f1e7d6c008b581f7fc4fc9b" category="paragraph">输入集群管理IP地址和管理员用户帐户的密码、在BlueXP中发现内部ONTAP集群。</block>
+  <block id="4e206327ecb5a9834b615078326acaec" category="list-text">在"画布"页面上、选择*添加工作环境&gt;内部*。</block>
+  <block id="744a5b98e0d4825f191a9e89b609949c" category="paragraph">如果选择此选项、则每次打开工作环境时都不需要重新输入凭据。这些凭据仅与您的BlueXP用户登录关联。它们不会保存供BlueXP帐户中的任何其他人使用。</block>
+  <block id="50bc63d3ce96c1c059c531930e9b1ccc" category="section-title">添加预先发现的集群</block>
+  <block id="9531ad82bf5dc45f66f60a601474ec73" category="paragraph">BlueXP会自动发现与您的BlueXP登录电子邮件地址关联的ONTAP集群的相关信息、并在*我的资产*页面上将其显示为未发现的集群。您可以查看未发现集群的列表、并一次添加一个集群。</block>
+  <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">请注意以下有关显示在"我的资产"页面上的内部ONTAP集群的信息：</block>
+  <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">用于登录到BlueXP的电子邮件地址必须与已注册的完整级别NetApp 支持站点(NSS)帐户关联。</block>
+  <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">如果使用NSS帐户登录到BlueXP并导航到"我的资产"页面、BlueXP将使用该NSS帐户查找与该帐户关联的集群。</block>
+  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">如果您使用云帐户登录到BlueXP并导航到"我的资产"页面、BlueXP会提示您验证电子邮件。如果该电子邮件地址与NSS帐户关联、BlueXP将使用该信息查找与该帐户关联的集群。</block>
+  <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">BlueXP仅显示已成功向NetApp发送AutoSupport消息的ONTAP集群。</block>
+  <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">要刷新清单列表、请退出"我的资产"页面、等待5分钟、然后返回该页面。</block>
+  <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">选择*我的资产*。</block>
+  <block id="ff24e889350068d5df46c75b1da1f5af" category="list-text">在"我的资产"页面上、为内部ONTAP选择*发现*。</block>
+  <block id="eb0bc6fee7fc89460407cbab71c71faf" category="inline-image-macro">"我的资产"页面的屏幕截图、其中显示12个未发现的内部ONTAP集群。</block>
+  <block id="9ea83282503d3d948b041ef70d87101f" category="paragraph"><block ref="9ea83282503d3d948b041ef70d87101f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">选择一个集群，然后选择*Discover。</block>
+  <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">输入管理员用户帐户的密码。</block>
 </blocks>
