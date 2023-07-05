@@ -181,7 +181,6 @@
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">复制数据</block>
   <block id="b76ae88aa754ea86825b84c8badae90a" category="section-title">备份数据</block>
   <block id="840a495adf1ad99ebc0b2945d0d37848" category="section-title">将数据分层到云</block>
-  <block id="9ac91148b1f0257152bc376ab38bf436" category="doc">内部ONTAP 集群文档</block>
   <block id="64b5ac71fb7ec208d91ceb7344aa0b37" category="summary">BlueXP可以发现在AFF/FAS控制器和ONTAP Select 上运行的ONTAP 集群。通过将内部ONTAP 系统添加到BlueXP、您可以从一个界面管理所有存储和数据资产。</block>
   <block id="fb24315d532abea28c978f8643868013" category="list-text">管理NFS和CIFS卷</block>
   <block id="3c5335f4270215aa7b16adf996cdf82d" category="list-text">使用ONTAP 系统管理器执行高级管理</block>
@@ -548,4 +547,5 @@
   <block id="7689e37bac08b82f66558bf21e5ea57d" category="list-text">选择一个集群，然后选择*Discover。</block>
   <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">输入管理员用户帐户的密码。</block>
+  <block id="3f155fde095b56c33aa16ebcf24a5d94" category="doc">使用BlueXP进行内部ONTAP集群管理</block>
 </blocks>
