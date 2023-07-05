@@ -537,7 +537,6 @@
   <block id="8b88ed64b6b30080910756ab3a0ea719" category="paragraph">请注意以下有关显示在"我的资产"页面上的内部ONTAP集群的信息：</block>
   <block id="06730fe7ddb260af67563763fb1cff3f" category="list-text">用于登录到BlueXP的电子邮件地址必须与已注册的完整级别NetApp 支持站点(NSS)帐户关联。</block>
   <block id="05df8b76be995f5a9cfa0f9805c5c671" category="list-text">如果使用NSS帐户登录到BlueXP并导航到"我的资产"页面、BlueXP将使用该NSS帐户查找与该帐户关联的集群。</block>
-  <block id="17579109afe537b92b0d58dc1b3a2261" category="list-text">如果您使用云帐户登录到BlueXP并导航到"我的资产"页面、BlueXP会提示您验证电子邮件。如果该电子邮件地址与NSS帐户关联、BlueXP将使用该信息查找与该帐户关联的集群。</block>
   <block id="cf28359d03fa5d995d85df0a5ebb62c8" category="list-text">BlueXP仅显示已成功向NetApp发送AutoSupport消息的ONTAP集群。</block>
   <block id="9e5b23122dc2a6feb6587ea531e0634e" category="list-text">要刷新清单列表、请退出"我的资产"页面、等待5分钟、然后返回该页面。</block>
   <block id="0c136b2a4c8e3fbb938288c9e135d82b" category="list-text">选择*我的资产*。</block>
@@ -548,4 +547,5 @@
   <block id="f44b1e23b4e1566aa16d4b2b0be52eb8" category="paragraph"><block ref="f44b1e23b4e1566aa16d4b2b0be52eb8" category="inline-image-macro-rx" type="image"></block></block>
   <block id="eecdf85dabb12fb229d35075dd322550" category="list-text">输入管理员用户帐户的密码。</block>
   <block id="3f155fde095b56c33aa16ebcf24a5d94" category="doc">使用BlueXP进行内部ONTAP集群管理</block>
+  <block id="9db4c476e2e5483cdbf8e71023278b72" category="list-text">如果您使用云帐户或联合连接登录到BlueXP、并导航到"我的资产"页面、BlueXP会提示您验证电子邮件。如果该电子邮件地址与NSS帐户关联、BlueXP将使用该信息查找与该帐户关联的集群。</block>
 </blocks>
