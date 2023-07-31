@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-manage-ontap-connector.html 
-keywords: system manager, advanced view, access system manager, load system manager, use system manager 
+keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
 summary: 如果您需要对ONTAP 内部集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。 
 ---
 = 管理使用Connector发现的内部ONTAP 集群
@@ -24,9 +24,9 @@ image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的�
 
 
 
-== 从标准视图创建卷
+== 从标准视图创建FlexVol卷
 
-在使用Connector从BlueXP发现内部ONTAP 集群后、您可以打开工作环境来配置和管理存储。
+在使用连接器从BlueXP发现您的内置ONTAP集群后、您可以打开工作环境来配置和管理FlexVol卷。
 
 
 
@@ -38,8 +38,8 @@ image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的�
 
 .步骤
 . 从导航菜单中、选择*存储>画布*。
-. 在 " 画布 " 页面上，双击要配置卷的内部 ONTAP 集群的名称。
-. 单击*卷>添加卷*。
+. 在"画布"页面上、选择要配置卷的内置ONTAP集群。
+. 选择*卷>添加卷*。
 . 按照向导中的步骤创建卷。
 +
 .. *详细信息、保护和标记*：输入有关卷的详细信息及其名称和大小、选择Snapshot策略并根据需要指定卷标记。
@@ -76,7 +76,7 @@ image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的�
 | 权限和用户 / 组 | 通过这些字段，您可以控制用户和组（也称为访问控制列表或 ACL ）对 SMB 共享的访问级别。您可以指定本地或域 Windows 用户或组、 UNIX 用户或组。如果指定域 Windows 用户名，则必须使用 domain\username 格式包含用户的域。 
 |===
 .. *使用情况配置文件*：选择是在卷上启用还是禁用存储效率功能、以减少所需的总存储量。
-.. * 审阅 * ：查看有关卷的详细信息，然后单击 * 添加 * 。
+.. *Review *：查看卷的详细信息，然后选择*Add*。
 
 
 
@@ -93,12 +93,12 @@ image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的�
 NOTE: 使用模板时，您只能创建 NFS 或 CIFS 卷。
 
 .步骤
-. 在 " 画布 " 页面上，单击要配置卷的内部 ONTAP 系统的名称。
-. 单击 image:screenshot_gallery_options.gif["包含三个点的图标。"] > * 从模板添加卷 * 。
+. 在"画布"页面上、选择要配置卷的内置ONTAP集群。
+. 选择 ... image:screenshot_gallery_options.gif["包含三个点的图标。"] > * 从模板添加卷 * 。
 +
 image:screenshot_template_add_vol_ontap.png["显示如何从模板添加新卷的屏幕截图。"]
 
-. 在 _Select Template_ 页面中，选择要用于创建卷的模板，然后单击 * 下一步 * 。
+. 在_Select Template _页面中，选择要用于创建卷的模板，然后选择*Next*。
 +
 image:screenshot_select_template_ontap.png["可用应用程序模板的屏幕截图。"]
 
@@ -109,14 +109,14 @@ image:screenshot_select_template_ontap.png["可用应用程序模板的屏幕截
 image:screenshot_define_ontap_vol_from_template.png["显示创建卷所需填写的空白模板的屏幕截图。"]
 
 +
-* 注： * 如果要查看这些参数的值，您可以单击 * 显示只读参数 * 复选框以显示模板锁定的所有字段。默认情况下，这些预定义字段将被隐藏，并且仅显示需要填写的字段。
+*注：*如果要查看这些参数的值，可以选中复选框*显示只读参数*以显示已被模板锁定的所有字段。默认情况下，这些预定义字段将被隐藏，并且仅显示需要填写的字段。
 
 . 在 _context_ 区域中，工作环境将使用您启动的工作环境的名称进行填充。您需要选择要在其中创建卷的 * 存储虚拟机 * 和 * 聚合 * 。
 . 为模板中未硬编码的所有参数添加值。
 +
 <<创建卷,了解创建卷所需的参数>>。
 
-. 定义完此卷所需的所有参数后，单击 * 运行模板 * 。
+. 定义完此卷所需的所有参数后，选择*运行模板*。
 
 
 .结果
@@ -130,6 +130,16 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 .完成后
 如果配置了 CIFS 共享、请授予用户或组对文件和文件夹的权限、并验证这些用户是否可以访问该共享并创建文件。
+
+
+
+== 创建 FlexGroup 卷
+
+您可以使用BlueXP API创建FlexGroup卷。FlexGroup 卷是一种横向扩展卷，可提供高性能以及自动负载分布。
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["了解如何使用API创建FlexGroup卷"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["了解什么是FlexGroup卷"^]
+
 
 
 
@@ -187,17 +197,17 @@ link:reference-limitations.html["查看限制列表"]。
 
 === 使用高级视图(System Manager)
 
-打开内部ONTAP 工作环境、然后单击高级视图选项。
+打开内部ONTAP工作环境、然后选择"高级视图"选项。
 
 .步骤
-. 在"画布"页面上、双击内部ONTAP 工作环境的名称。
-. 在右上角、单击*切换到高级视图*。
+. 在"画布"页面上、选择要配置卷的内置ONTAP集群。
+. 在右上角，选择*切换到高级视图*。
 +
 image:screenshot-advanced-view.png["内部ONTAP 工作环境的屏幕截图、其中显示了切换到高级视图选项。"]
 
-. 如果显示确认消息、请通读该消息并单击*关闭*。
+. 如果出现确认消息，请仔细阅读并选择*Close*(关闭*)。
 . 使用System Manager管理ONTAP。
-. 如果需要、请单击*切换到标准视图*以通过BlueXP返回到标准管理。
+. 如果需要，请选择*切换到标准视图*以通过BlueXP返回标准管理。
 +
 image:screenshot-standard-view.png["内部ONTAP 工作环境的屏幕截图、其中显示了切换到标准视图选项。"]
 

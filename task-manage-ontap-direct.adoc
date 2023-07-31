@@ -25,7 +25,7 @@ BlueXP不支持某些System Manager功能。
 link:reference-limitations.html["查看限制列表"]。
 
 .步骤
-. 在"画布"页面上、双击内部ONTAP 工作环境的名称。
+. 在"画布"页面上、选择内部ONTAP工作环境。
 +
 工作环境图标用于标识直接发现的集群：
 
