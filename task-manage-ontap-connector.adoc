@@ -137,7 +137,7 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 您可以使用BlueXP API创建FlexGroup卷。FlexGroup 卷是一种横向扩展卷，可提供高性能以及自动负载分布。
 
-* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_flexgroup_ontap_create_vol.html["了解如何使用API创建FlexGroup卷"^]
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["了解如何使用API创建FlexGroup卷"^]
 * https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["了解什么是FlexGroup卷"^]
 
 
