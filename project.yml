@@ -23,7 +23,7 @@ sidebar:
     entries:
     - title: 了解内部ONTAP 集群管理
       url: "/concept-onprem-ontap.html"
-    - title: 发现 ONTAP 集群
+    - title: 发现内部ONTAP 集群
       url: "/task-discovering-ontap.html"
   - title: 管理内部 ONTAP 集群
     entries:
@@ -33,7 +33,7 @@ sidebar:
       url: "/task-manage-ontap-connector.html"
     - title: 查看集群信息和合同详细信息
       url: "/task-view-cluster-info.html"
-    - title: 使用Digital Advisor优化集群
+    - title: 使用BlueXP数字顾问优化集群
       url: "/concept-aiq-digital-advisor.html"
     - title: 删除内部 ONTAP 工作环境
       url: "/task-remove-on-prem.html"

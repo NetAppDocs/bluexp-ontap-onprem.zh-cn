@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-manage-ontap-connector.html 
 keywords: system manager, advanced view, access system manager, load system manager, use system manager, flexgroup, flexgroup volumes, create flexgroup volume 
-summary: 如果您需要对ONTAP 内部集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。 
+summary: '如果您使用连接器发现内部ONTAP 集群、则可以从"标准"视图创建卷、从"高级"视图使用System Manager并启用BlueXP数据服务。' 
 ---
-= 管理使用Connector发现的内部ONTAP 集群
+= 管理使用Connector发现的集群
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -128,7 +128,7 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 此外、如果在模板中实施了任何二级操作、例如在卷上启用BlueXP备份和恢复、则也会执行该操作。
 
-.完成后
+.下一步是什么？
 如果配置了 CIFS 共享、请授予用户或组对文件和文件夹的权限、并验证这些用户是否可以访问该共享并创建文件。
 
 
@@ -143,7 +143,7 @@ image:screenshot_template_creating_resource_ontap.png["显示通过模板创建�
 
 
 
-== 使用高级视图管理ONTAP
+== 使用高级视图管理ONTAP (System Manager)
 
 如果您需要对内部ONTAP 集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。
 
@@ -195,7 +195,7 @@ link:reference-limitations.html["查看限制列表"]。
 
 
 
-=== 使用高级视图(System Manager)
+=== 使用高级视图
 
 打开内部ONTAP工作环境、然后选择"高级视图"选项。
 

@@ -4,7 +4,7 @@ permalink: concept-onprem-ontap.html
 keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
 summary: BlueXP可以发现在AFF/FAS控制器和ONTAP Select 上运行的ONTAP 集群。通过将内部ONTAP 系统添加到BlueXP、您可以从一个界面管理所有存储和数据资产。 
 ---
-= 通过BlueXP进行内部ONTAP 集群管理
+= 了解BlueXP中的内部ONTAP集群管理
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
