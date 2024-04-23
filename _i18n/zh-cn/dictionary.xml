@@ -12,7 +12,6 @@
   <block id="6f9f6c9a212736eda9e7ebc73ff5b991" category="paragraph">默认的“管理”防火墙策略允许从所有 IP 地址进行入站 HTTPS 访问。如果您修改了此默认策略，或者创建了自己的防火墙策略，则必须将 HTTPS 协议与该策略关联，并启用从 Connector 主机进行访问。</block>
   <block id="84c2c11254da9ee11c4482a60291186d" category="paragraph">每个集群的行上都会显示软件合同和硬件合同到期日期。</block>
   <block id="18f84cf96ce5861e5585468ef883b180" category="inline-image-macro">展开集群详细信息以查看集群许可证信息的屏幕截图。</block>
-  <block id="efc4120a3fbfbea33245fb931c324492" category="inline-xref">这些步骤</block>
   <block id="108a74a6cbb575c986177039e07dc411" category="list-text">按照向导中的步骤创建卷。</block>
   <block id="3b0e375a08fe94a129cba31916c9d2dc" category="paragraph">此页面上的某些字段不言自明。以下列表介绍了可能需要指导的字段：</block>
   <block id="6f16a5f8ff5d75ab84c018adacdfcbb7" category="cell">字段</block>
@@ -25,21 +24,6 @@
   <block id="8aaaedc342a0dce1d73d33f3fb69a2af" category="cell">访问控制</block>
   <block id="4f365bcd27fae641194545a5a823e30f" category="cell">权限和用户 / 组</block>
   <block id="5cd4beaa083f2301775c1a1bc84f2afc" category="cell">通过这些字段，您可以控制用户和组（也称为访问控制列表或 ACL ）对 SMB 共享的访问级别。您可以指定本地或域 Windows 用户或组、 UNIX 用户或组。如果指定域 Windows 用户名，则必须使用 domain\username 格式包含用户的域。</block>
-  <block id="afe466f073b1387a5eab0283552b7517" category="paragraph">如果您的组织已创建内部 ONTAP 卷模板，以便您可以部署针对特定应用程序的工作负载要求进行优化的卷，请按照本节中的步骤进行操作。</block>
-  <block id="7ae492186bd46e832a6b64cff9b1575a" category="paragraph">此模板应使您的工作更轻松，因为模板中已定义某些卷参数，例如磁盘类型，大小，协议，快照策略等。如果已预定义某个参数，则只需跳到下一个 volume 参数即可。</block>
-  <block id="395f4870d887a81edabc6ad40f5a84f0" category="admonition">使用模板时，您只能创建 NFS 或 CIFS 卷。</block>
-  <block id="74099e7b70c30e3a55db543cda9bfc1e" category="inline-image-macro">显示如何从模板添加新卷的屏幕截图。</block>
-  <block id="f5cfbd56be4d95a78f70efb70e2e9079" category="paragraph"><block ref="f5cfbd56be4d95a78f70efb70e2e9079" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="41fdbb8293e553892079d0e7ad8a9ad9" category="inline-image-macro">可用应用程序模板的屏幕截图。</block>
-  <block id="cfb983acad90faeddd99d211d0d05e99" category="paragraph"><block ref="cfb983acad90faeddd99d211d0d05e99" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="8675916eaff2fb10955e8a3b1b14108f" category="paragraph">此时将显示 _Define Parameters_页面 。</block>
-  <block id="19f5b7f92268b2f8e63e4083819666c9" category="inline-image-macro">显示创建卷所需填写的空白模板的屏幕截图。</block>
-  <block id="19c51733b2ad780abc1dd51dfb4774d0" category="paragraph"><block ref="19c51733b2ad780abc1dd51dfb4774d0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="44e06c3ed2de64bcd539ac10a3a31173" category="list-text">在 _context_ 区域中，工作环境将使用您启动的工作环境的名称进行填充。您需要选择要在其中创建卷的 * 存储虚拟机 * 和 * 聚合 * 。</block>
-  <block id="40136e65ff57723941fc2af2bf21d54a" category="inline-image-macro">显示通过模板创建新卷的进度的屏幕截图。</block>
-  <block id="1d2547b9bcbb0f13f704545fd4b3b7b0" category="paragraph"><block ref="1d2547b9bcbb0f13f704545fd4b3b7b0" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3fcf4599fd910141dcd628a7411238d5" category="paragraph">然后，新卷将添加到工作环境中。</block>
-  <block id="1e57268fd975664444ddbda428e56bf7" category="paragraph">如果配置了 CIFS 共享、请授予用户或组对文件和文件夹的权限、并验证这些用户是否可以访问该共享并创建文件。</block>
   <block id="b62196e30035e69996a2d1d3a9d64116" category="section-title">扫描，映射和分类数据</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">获取帮助</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
@@ -54,13 +38,9 @@
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">发行说明</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">入门</block>
-  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">发现 ONTAP 集群</block>
   <block id="019323681c39b462d0fd30312fc741c2" category="sidebar">管理内部 ONTAP 集群</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">知识和支持</block>
   <block id="1c27e11c5e65b93611e6f5ce640f8184" category="sidebar">创建卷</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客社区</block>
-  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
-  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="ba26e4556a0f160834687982b0479336" category="section-title">2022 年 2 月 27 日</block>
   <block id="ef1bf4095b622ba80ac24b48b8e45eac" category="section-title">2022 年 1 月 11 日</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
@@ -108,7 +88,6 @@
   <block id="57614f27dec39901199cca4b61cebfe9" category="list-text"><block ref="57614f27dec39901199cca4b61cebfe9" category="inline-link-rx"></block></block>
   <block id="7e7397a7b79323762c61941fc0e6b5f9" category="inline-link">数据保护</block>
   <block id="168463a2e30ac746441036fb49df730e" category="list-text"><block ref="168463a2e30ac746441036fb49df730e" category="inline-link-rx"></block></block>
-  <block id="6a9903314020e84e3af325216666825e" category="inline-image-macro">包含三个点的图标。</block>
   <block id="f7ba76d5c9beab0576f118a6254843e9" category="section-title">2022年9月18日</block>
   <block id="440be74a67502f9c3d55890782329328" category="paragraph">连接器3.9.22版引入了以下更改。</block>
   <block id="c8328d07fc05c4708c68f547ce6f5e77" category="section-title">新的"概述"页面</block>
@@ -117,7 +96,6 @@
   <block id="c76ff3fb4e35074fc6f04c1cb8ea02af" category="section-title">重新设计的卷页面</block>
   <block id="99cbfcbab5c608668044fc3849d8db46" category="paragraph">我们重新设计了卷页面、以提供集群上卷的摘要。此摘要将显示卷的总数、已配置容量、已用容量和预留容量以及分层数据的数量。</block>
   <block id="2f82cdfc06b6747c85937b5cceabaaee" category="inline-image-macro">显示内部ONTAP 集群的卷页面的屏幕截图。</block>
-  <block id="97a34ca7d328720ed48cf2e2010985be" category="list-text">*详细信息、保护和标记*：输入有关卷的详细信息及其名称和大小、选择Snapshot策略并根据需要指定卷标记。</block>
   <block id="17b6d3e2bf5506b5e797dfb98b76c0c2" category="list-text">*协议*：选择卷的协议(NFS、CIFS或iSCSI)、然后设置卷的访问控制或权限。</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp通过多种方式为BlueXP提供支持。全天候提供丰富的免费自助支持选项，例如知识库（ KB ）文章和社区论坛。您的支持注册包括通过 Web 服务单提供的远程技术支持。</block>
   <block id="a820c8babe9911ddf670332c6647b2cf" category="summary">如果您不想再从BlueXP管理内部ONTAP 工作环境、请将其删除。</block>
@@ -126,10 +104,8 @@
   <block id="69e6c31f6140607f08425260f2faecb5" category="list-text">从导航菜单中、选择*存储&gt;画布*。</block>
   <block id="886d154945ab6b1710e580c43bfabaf7" category="paragraph">如果您选择CIFS、但服务器尚未设置、则BlueXP会提示您使用Active Directory或工作组设置CIFS服务器。</block>
   <block id="c2cf3bd16a968cc398d9e36f7fee3e49" category="cell">NFS 导出策略定义子网中可访问卷的客户端。默认情况下、BlueXP输入一个值、用于访问子网中的所有实例。</block>
-  <block id="71fe7750eaf8ad346bfa5f8d17e350aa" category="paragraph">BlueXP会配置卷并显示一个页面、以便您可以查看进度。</block>
   <block id="243263104c829e77835d632f591230d5" category="summary">在向NetApp技术支持部门创建支持案例之前、您需要向BlueXP添加一个NetApp 支持站点 帐户、然后注册获取支持。</block>
   <block id="38ff1351e45b1e4303e79145f4bc10b4" category="paragraph">通过BlueXP中的高级视图、您可以访问其他管理功能：</block>
-  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="4bbcdd6338e8631576e63f1156b1c51d" category="doc">查看集群信息和合同详细信息</block>
   <block id="c5fbee6586294d81141f8dd158707985" category="doc">发现内部ONTAP 集群</block>
   <block id="dad407e605b93746e62dec356ab5303e" category="list-text">标准视图、提供基本卷操作</block>
@@ -139,12 +115,7 @@
   <block id="7d0b01345a5038f25fdd17dc04d8872e" category="list-text">您需要集群管理IP地址和管理员用户帐户的密码。</block>
   <block id="95773f82d1d681361d7f2215f3912515" category="paragraph">BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。</block>
   <block id="afb7adc3debe75aa13a1fc4fdb7c0a81" category="paragraph">通过BlueXP、您可以在现有聚合上创建NFS或CIFS卷。您不能从BlueXP标准视图在内部ONTAP 集群上创建新聚合。您需要使用高级视图创建聚合。</block>
-  <block id="890592abc0c43fcc710edb1dbdeaf2b3" category="paragraph">通过名为"模板"的BlueXP功能、您可以创建针对特定应用程序(例如数据库或流式服务)的工作负载要求进行优化的卷。如果您的组织已创建应使用的卷模板，请按照说明进行操作 <block ref="841f2986c591e442944fbc4b9e18c81f" category="inline-xref-macro-rx"></block>。</block>
   <block id="a17ea0b6ec5074b6e385c43de80e900d" category="list-text">*使用情况配置文件*：选择是在卷上启用还是禁用存储效率功能、以减少所需的总存储量。</block>
-  <block id="a37f6000ecd62b3a2058de32fa603d0a" category="section-title">使用模板创建卷</block>
-  <block id="c3865611609b6bd4b2a95ed4f83f6261" category="list-text">为模板中未硬编码的所有参数添加值。</block>
-  <block id="8b7f5e90385d9570cd1e8c028e829385" category="inline-xref">了解创建卷所需的参数</block>
-  <block id="88e156005e08cd20db096e992009e8e5" category="paragraph"><block ref="c936b096dc7fb0bdb7ac3b472aa3a0a3" category="inline-xref-macro-rx"></block>。</block>
   <block id="dce4384ee7fa334b58b3b529933aacef" category="paragraph">如果您需要对内部ONTAP 集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。</block>
   <block id="5d82c1ade2b4a73465d28377bf1ee806" category="section-title">获取有关System Manager的帮助</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="section-title">复制数据</block>
@@ -268,7 +239,6 @@
   <block id="e6855a96bbe46265b9ff5968ea2f7ea1" category="list-text">在BlueXP电子钱包中查看硬件和软件合同状态信息</block>
   <block id="df72ae90e7d4142f112bbc2859e6948b" category="list-text">是否使用备份和恢复、分层和分类等BlueXP服务。</block>
   <block id="8e8b2132d267e6b940332cd979b14732" category="paragraph">如果您使用连接器发现内部ONTAP 集群、则可以从"标准"视图创建卷、从"高级"视图使用System Manager并启用BlueXP数据服务。</block>
-  <block id="3cb732600caeb6ed3e89ade08544187b" category="paragraph">此外、如果在模板中实施了任何二级操作、例如在卷上启用BlueXP备份和恢复、则也会执行该操作。</block>
   <block id="c362ab732a9d440fb98db1e9b1395e29" category="section-title">启用BlueXP服务</block>
   <block id="32f4a4b77e8bb8a5997c35c84f226d07" category="list-text">将数据从内部ONTAP 系统备份到云中的低成本对象存储。</block>
   <block id="b781e6c9d1cf8ce1e5e954c2b07e6e8a" category="inline-link">备份和恢复文档</block>
@@ -313,7 +283,6 @@
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">如果您拥有客户级别的帐户、则可以添加一个或多个NSS帐户。</block>
   <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">如果您拥有合作伙伴或经销商帐户、则可以添加一个或多个NSS帐户、但不能将其与客户级别的帐户同时添加。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中列出的第一个选项为支持</block>
-  <block id="19d089db572ee6a1e154a0c9c9e57bfd" category="paragraph">NetApp 使用 Microsoft Azure Active Directory 作为身份提供程序来提供特定于支持和许可的身份验证服务。</block>
   <block id="465ec6d5eafa3524c948c99d8bfcd306" category="list-text">在登录页面上，提供 NetApp 支持站点注册的电子邮件地址和密码以执行身份验证过程。</block>
   <block id="cbc6cc3bb022583403171b447b2a962c" category="paragraph">通过这些操作、BlueXP可以使用您的NSS帐户执行许可证下载、软件升级验证和未来支持注册等操作。</block>
   <block id="cf3a2d2c139bf5c9cc87fe714bfff3b1" category="paragraph">请注意以下事项：</block>
@@ -355,8 +324,6 @@
   <block id="00c5fef3bb9d593ae96bf5d2ee60354a" category="paragraph">加入BlueXP社区、关注正在进行的讨论或创建新的讨论。</block>
   <block id="5b6cf869265c13af8566f192b4ab3d2a" category="list-text">文档。</block>
   <block id="a4a6c2ea0078252eac2d74ef3e6c917c" category="paragraph">您当前正在查看的BlueXP文档。</block>
-  <block id="80b1b0d2b1ebf2b3cba2d25759801afd" category="list-text">mailto ： ng-cloudmanager-feedback@netapp.com （反馈电子邮件）</block>
-  <block id="6702efec14563f45f1ee2f8c613b8ad8" category="paragraph">我们非常重视您的反馈意见。提交反馈以帮助我们改进BlueXP。</block>
   <block id="d88bacf2a9fdcbbc844edcba97c34e30" category="section-title">向NetApp支持部门创建案例</block>
   <block id="82812db645b6ff5e9c2a24ddfb66c8d6" category="paragraph">除了上述自助支持选项之外、您还可以在激活支持后与NetApp支持专家合作解决任何问题。</block>
   <block id="8fece025a1a8fef7018449bf104a2527" category="paragraph-title">开始之前</block>
@@ -511,10 +478,6 @@
   <block id="8d2b311f9b9d9270715e282b3f9a0738" category="list-text">在"画布"页面上、选择要配置卷的内置ONTAP集群。</block>
   <block id="ba426b409f9ec6763d7b1ecebd5d576f" category="list-text">选择*卷&gt;添加卷*。</block>
   <block id="b664e4294e5d14d6fd3d39615d4e3341" category="list-text">*Review *：查看卷的详细信息，然后选择*Add*。</block>
-  <block id="41efc0cb3ec8dc0be40bd6cef8036869" category="list-text">选择 ... <block ref="8891ca04a345a35bd7da25d57718d9b7" category="inline-image-macro-rx" type="image"></block> &gt; * 从模板添加卷 * 。</block>
-  <block id="9e1283eb7fbf6e762fdae86f50b35f77" category="list-text">在_Select Template _页面中，选择要用于创建卷的模板，然后选择*Next*。</block>
-  <block id="71f2916937cb366e2caf599a6feda2a1" category="paragraph">*注：*如果要查看这些参数的值，可以选中复选框*显示只读参数*以显示已被模板锁定的所有字段。默认情况下，这些预定义字段将被隐藏，并且仅显示需要填写的字段。</block>
-  <block id="251cee18a5cc71eca251e760cf761ae2" category="list-text">定义完此卷所需的所有参数后，选择*运行模板*。</block>
   <block id="17946fbbcc494462c1dfafa59978ba50" category="paragraph">您可以使用BlueXP API创建FlexGroup卷。FlexGroup 卷是一种横向扩展卷，可提供高性能以及自动负载分布。</block>
   <block id="b72566f4d301c9dec06189b65b061300" category="inline-link">了解如何使用API创建FlexGroup卷</block>
   <block id="67bdff562faa68c471571176e3844346" category="paragraph">打开内部ONTAP工作环境、然后选择"高级视图"选项。</block>
@@ -547,7 +510,6 @@
   <block id="3880ae5df9fdc4d0fc4a6d00a2239530" category="paragraph">要获得针对BlueXP及其存储解决方案和服务的技术支持、请使用下面所述的支持选项。</block>
   <block id="c65dc56e9af1b59f20d971d9f8ecd361" category="doc">管理直接发现的集群</block>
   <block id="842394c4883838b029db28103480c404" category="doc">管理使用Connector发现的集群</block>
-  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="paragraph-title">下一步是什么？</block>
   <block id="9403a7672f0137bf2158d9662b27dbd0" category="section-title">使用高级视图管理ONTAP (System Manager)</block>
   <block id="48208e085946470d7aeaad6b13dcda66" category="section-title">使用高级视图</block>
   <block id="1822d12a7b10a50fdd93b84fc0c9f70e" category="doc">了解BlueXP中的内部ONTAP集群管理</block>
@@ -558,4 +520,9 @@
   <block id="3293cc9f12e1fa232d9a61b0022166b9" category="list-text">连接器主机必须允许通过端口443 (HTTPS)进行出站连接、而ONTAP集群必须允许通过端口443进行入站HTTP访问。</block>
   <block id="f06497cae9ab6e78fd37893cdca029bd" category="section-title">第3步：发现集群</block>
   <block id="9d96bd9b544805d33ce76bcba91e4c62" category="paragraph">通过以下两种方式之一从Canvas中发现您的内置ONTAP集群：</block>
+  <block id="9d5b3307d5a7d5905623bf21ab049bdd" category="section-title">2024年4月22日</block>
+  <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">不再支持卷模板</block>
+  <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您无法再使用模板创建卷。此操作与BlueXP修复服务关联、此服务不再可用。</block>
+  <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用Microsoft Entra ID作为特定于支持和许可的身份验证服务的身份提供程序。</block>
+  <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">*详细信息、保护和标记*：输入卷的详细信息(如名称和大小)、然后选择Snapshot策略。</block>
 </blocks>
