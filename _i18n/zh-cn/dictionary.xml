@@ -525,4 +525,9 @@
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">您无法再使用模板创建卷。此操作与BlueXP修复服务关联、此服务不再可用。</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp使用Microsoft Entra ID作为特定于支持和许可的身份验证服务的身份提供程序。</block>
   <block id="a28aaa114e91d430f853038c9ac17766" category="list-text">*详细信息、保护和标记*：输入卷的详细信息(如名称和大小)、然后选择Snapshot策略。</block>
+  <block id="a1ebf612d281c8e7fb16bbfa253b9627" category="sidebar">发现 ONTAP 集群</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
+  <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
+  <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
+  <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
 </blocks>
