@@ -76,7 +76,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["了解�
 
 +
 ** https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["了解连接器"^]
-** https://docs.netapp.com/us-en/bluexp-setup-admin/task-managing-connectors.html["了解如何在多个连接器之间切换"^]
+** https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-multiple-connectors.html["了解如何在多个连接器之间切换"^]
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["了解有关BlueXP分层的信息"^]
 
 
