@@ -80,7 +80,7 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["了解�
 ** https://docs.netapp.com/us-en/bluexp-tiering/concept-cloud-tiering.html["了解有关BlueXP分层的信息"^]
 
 
-* 连接器主机必须允许通过端口443 (HTTPS)进行出站连接、而ONTAP集群必须允许通过端口443进行入站HTTP访问。
+* 连接器主机必须允许通过端口443 (HTTPS)进行出站连接、并且ONTAP集群必须允许通过端口443对集群管理LIF进行入站HTTP访问。
 +
 如果 Connector 位于云中，则预定义的安全组允许所有出站通信。
 
