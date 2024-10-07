@@ -18,6 +18,16 @@ summary: 已知限制确定了本产品版本不支持的平台、设备或功�
 
 
 
+== ASA r2系统
+
+发现NetApp ASA R2系统并打开工作环境后、您将直接转到System Manager。
+
+ASA R2系统没有其他可用的管理选项。您不能使用标准视图、也不能启用BlueXP服务。
+
+https://docs.netapp.com/us-en/asa-r2/index.html["详细了解ASA R2系统"^]
+
+
+
 == 集群不受支持
 
 BlueXP不支持配置了SAML身份验证的内部ONTAP 集群。

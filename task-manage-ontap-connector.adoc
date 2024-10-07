@@ -149,9 +149,9 @@ link:reference-limitations.html["查看限制列表"]。
 
 .步骤
 . 在"画布"页面上、选择要配置卷的内置ONTAP集群。
-. 在右上角，选择*切换到高级视图*。
+. 从右侧面板的*Services*下，找到*System Manager*并选择*Open*。
 +
-image:screenshot-advanced-view.png["内部ONTAP 工作环境的屏幕截图、其中显示了切换到高级视图选项。"]
+image:screenshot-advanced-view.png["BlueXP  画布的屏幕截图、显示在选择内部ONTAP工作环境后的可用服务列表。"]
 
 . 如果出现确认消息，请仔细阅读并选择*Close*(关闭*)。
 . 使用System Manager管理ONTAP。

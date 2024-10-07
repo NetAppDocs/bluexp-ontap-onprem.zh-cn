@@ -130,7 +130,7 @@ https://cloudmanager.cloud.netapp.com/ontap-service/check-service-connection
 . 在_Discover页面上、输入集群管理IP地址和管理员用户帐户的密码。
 . 如果您要直接发现集群(不使用Connector)、则可以选择*保存凭据*。
 +
-如果选择此选项、则每次打开工作环境时都不需要重新输入凭据。这些凭据仅与您的BlueXP用户登录关联。它们不会保存供BlueXP帐户中的任何其他人使用。
+如果选择此选项、则每次打开工作环境时都不需要重新输入凭据。这些凭据仅与您的BlueXP用户登录关联。它们不会保存供BlueXP  组织中的任何其他人使用。
 
 . 选择*发现*。
 +
