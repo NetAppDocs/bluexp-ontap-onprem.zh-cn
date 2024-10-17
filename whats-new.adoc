@@ -24,7 +24,7 @@ summary: 了解BlueXP中的内部ONTAP 集群管理新增功能。
 
 === 支持ASA R2系统
 
-现在、如果在标准模式或专用模式下使用BlueXP 、则可以在BlueXP  中发现NetApp ASA R2系统。发现NetApp ASA R2系统并打开工作环境后、您将直接转到System Manager。
+现在、如果在标准模式或受限模式下使用BlueXP 、则可以在BlueXP  中发现NetApp ASA R2系统。发现NetApp ASA R2系统并打开工作环境后、您将直接转到System Manager。
 
 ASA R2系统没有其他可用的管理选项。您不能使用标准视图、也不能启用BlueXP服务。
 
