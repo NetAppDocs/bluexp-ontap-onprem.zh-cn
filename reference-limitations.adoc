@@ -18,11 +18,14 @@ summary: 已知限制确定了本产品版本不支持的平台、设备或功�
 
 
 
-== ASA r2系统
+== 与ASA R2系统相关的限制
 
-发现NetApp ASA R2系统并打开工作环境后、您将直接转到System Manager。
-
+* 在专用模式下使用BlueXP  时、不支持发现ASA R2系统。
+* 发现NetApp ASA R2系统并打开工作环境后、您将直接转到System Manager。
++
 ASA R2系统没有其他可用的管理选项。您不能使用标准视图、也不能启用BlueXP服务。
+
+
 
 https://docs.netapp.com/us-en/asa-r2/index.html["详细了解ASA R2系统"^]
 

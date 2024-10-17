@@ -516,7 +516,6 @@
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
   <block id="74702430dfc941eaabc5007d9e5554f6" category="list-text"><block ref="74702430dfc941eaabc5007d9e5554f6" category="inline-link-rx"></block></block>
   <block id="3ebda767e5f86db4657a423fd661132a" category="list-text">连接器主机必须允许通过端口443 (HTTPS)进行出站连接、并且ONTAP集群必须允许通过端口443对集群管理LIF进行入站HTTP访问。</block>
-  <block id="fde1abb5537b55c34521d414267b3f70" category="section-title">ASA r2系统</block>
   <block id="0bf2301f5cb3996192947186158c2e09" category="paragraph">发现NetApp ASA R2系统并打开工作环境后、您将直接转到System Manager。</block>
   <block id="d5861f4539296095cd7c9fdfd0c5a2c9" category="paragraph">ASA R2系统没有其他可用的管理选项。您不能使用标准视图、也不能启用BlueXP服务。</block>
   <block id="989977a18a476a92018e04dd60ec37c1" category="inline-link">详细了解ASA R2系统</block>
@@ -537,5 +536,9 @@
   <block id="8166996cb4a59c147200d89a061bb49c" category="paragraph">这些NSS凭据与您的特定BlueXP  组织ID相关联。属于BlueXP  组织的用户可以从*Support &gt; NSS Management*访问这些凭据。</block>
   <block id="e5182edc3707e8e354c40ab7fa819f39" category="section-title">2024年10月7日</block>
   <block id="1e095c69621645fccc8f12cd7f35f6fc" category="section-title">支持ASA R2系统</block>
-  <block id="effcb34ce55a7b0374e99feabbc3c970" category="paragraph">现在、您可以在BlueXP  中发现NetApp ASA R2系统。发现NetApp ASA R2系统并打开工作环境后、您将直接转到System Manager。</block>
+  <block id="835e40a074ba47935e3e68e3452eb52f" category="section-title">与ASA R2系统相关的限制</block>
+  <block id="f2fba5567ec0d8ae5addf04c960ba6d0" category="list-text">在专用模式下使用BlueXP  时、不支持发现ASA R2系统。</block>
+  <block id="d26c29507d869d48f4861c9b4bae1f6e" category="paragraph">现在、如果在标准模式或专用模式下使用BlueXP 、则可以在BlueXP  中发现NetApp ASA R2系统。发现NetApp ASA R2系统并打开工作环境后、您将直接转到System Manager。</block>
+  <block id="62bd7572081df25dd3f1f52151883c4a" category="inline-link">了解BlueXP部署模式</block>
+  <block id="d3342e15149bfef7fd9289d7025e506e" category="list-text"><block ref="d3342e15149bfef7fd9289d7025e506e" category="inline-link-rx"></block></block>
 </blocks>
