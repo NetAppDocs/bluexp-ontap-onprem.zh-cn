@@ -127,8 +127,6 @@ https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-manage-ontap-direct.html[
 
 == 2022年12月4日
 
-连接器3.9.24版引入了以下更改。
-
 
 
 === 发现内部ONTAP 集群的新方法
@@ -151,8 +149,6 @@ BlueXP不支持创建FlexGroup 卷。您需要继续使用System Manager或命�
 
 == 2022年9月18日
 
-连接器3.9.22版引入了以下更改。
-
 
 
 === 新的"概述"页面
@@ -174,8 +170,6 @@ image:https://raw.githubusercontent.com/NetAppDocs/bluexp-ontap-onprem/main/medi
 
 
 == 2022年6月7日
-
-连接器3.9.19版引入了以下更改。
 
 
 
