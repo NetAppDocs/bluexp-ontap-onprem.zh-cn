@@ -1,0 +1,13 @@
+= 支持使用专用模式的ASA R2系统
+:allow-uri-read: 
+
+
+
+
+=== 支持使用专用模式的ASA R2系统
+
+现在、在私有模式下使用BlueXP  时、您可以发现NetApp ASA R2系统。从BlueXP  的3.9.46专用模式版本开始、可提供此支持。
+
+* https://docs.netapp.com/us-en/asa-r2/index.html["详细了解ASA R2系统"^]
+* https://docs.netapp.com/us-en/bluexp-setup-admin/concept-modes.html["了解BlueXP部署模式"^]
+
