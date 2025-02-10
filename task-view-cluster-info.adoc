@@ -16,26 +16,4 @@ summary: 您可以通过BlueXP数字电子钱包查看每个内部ONTAP 集群�
 [role="lead"]
 您可以通过BlueXP数字电子钱包查看每个内部ONTAP 集群的合同详细信息。如果您尚未在BlueXP中发现集群、也可以从数字市场中进行此操作。
 
-.开始之前
-BlueXP数字电子钱包显示有关您发现为工作环境或与您添加到BlueXP的NetApp 支持站点 帐户关联的内部ONTAP 集群的详细信息。
-
-.步骤
-. 从BlueXP导航菜单中、选择*监管>数字电子钱包*。
-. 选择*内部部署ONTAP *。
-+
-如果系统提示您先输入 NetApp 支持站点 (NSS) 帐户凭据，请在支持信息板中输入这些凭据。添加帐户后，将显示该帐户中包含的集群。
-
-+
-每个集群的行上都会显示软件合同和硬件合同到期日期。
-
-+
-image:screenshot_digital_wallet_onprem_main.png["展开集群详细信息以查看集群许可证信息的屏幕截图。"]
-
-. 如果尚未发现集群作为工作环境、请选择*发现*并按照提示进行操作。
-+
-发现集群后、它将在BlueXP中用作工作环境、以便于您对其进行管理。
-
-
-
-.相关链接
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["通过BlueXP数字市场了解有关管理内部ONTAP 集群许可证的更多信息"^]
