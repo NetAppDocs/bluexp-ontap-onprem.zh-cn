@@ -16,4 +16,7 @@ summary: 您可以通过BlueXP数字电子钱包查看每个内部ONTAP 集群�
 [role="lead"]
 您可以通过BlueXP数字电子钱包查看每个内部ONTAP 集群的合同详细信息。如果您尚未在BlueXP中发现集群、也可以从数字市场中进行此操作。
 
+.所需的BlueXP角色：
+组织管理员，或文件夹或项目管理员。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP访问角色。"^]
+
 https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-on-prem-clusters.html["通过BlueXP数字市场了解有关管理内部ONTAP 集群许可证的更多信息"^]

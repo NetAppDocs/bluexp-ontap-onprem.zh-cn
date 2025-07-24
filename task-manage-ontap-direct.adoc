@@ -14,7 +14,10 @@ summary: 如果您在未使用连接器的情况下直接发现了内部ONTAP �
 
 
 [role="lead"]
-如果您在未使用连接器的情况下直接发现了内部ONTAP 集群、则可以使用System Manager打开工作环境来管理集群。
+如果您未使用连接器而直接发现了本地ONTAP集群，则可以打开工作环境并使用ONTAP系统管理器来管理集群。
+
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP访问角色。"^]
 
 .开始之前
 用于访问BlueXP控制台的计算机必须与内部ONTAP 集群建立网络连接、就像在专用网络中提供与其他资源的连接一样。
@@ -34,7 +37,7 @@ image:screenshot-direct-discovery-we.png["\"画布\"上显示的工作环境图�
 
 . 如果出现提示、请输入您的ONTAP 凭据。
 +
-每次打开工作环境时、如果不保存ONTAP 凭据、系统都会提示您使用这些凭据登录。您可以选择保存凭据、这样每次都不需要输入凭据。如果使用此选项、则凭据仅与您的BlueXP用户关联。它们不会保存供您帐户中的任何其他人使用。
+如果您未保存凭据，每次打开工作环境时，系统都会提示您使用ONTAP凭据登录。您可以选择保存凭据，这样就无需每次都输入。您可以在“用户凭据”页面上管理这些凭据。在某些情况下，您的BlueXP管理员（组织管理员角色）可能已禁用此选项，并要求您每次都输入凭据。
 
 +
 image:screenshot-credentials.png["屏幕截图显示了输入ONTAP 集群用户名和密码的提示。"]

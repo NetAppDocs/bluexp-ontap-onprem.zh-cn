@@ -14,9 +14,12 @@ summary: '如果您使用连接器发现内部ONTAP 集群、则可以从"标准
 
 
 [role="lead"]
-如果您使用连接器发现内部ONTAP 集群、则可以从"标准"视图创建卷、从"高级"视图使用System Manager并启用BlueXP数据服务。
+如果您使用连接器发现了本地ONTAP集群，则可以直接从BlueXP界面创建卷，访问ONTAP系统管理器（从BlueXP）进行高级管理，并启用BlueXP数据服务。
 
-在Canvas上、您使用Connector发现的集群的工作环境图标应类似于以下内容：
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP访问角色。"^]
+
+在画布上，使用连接器发现的集群的工作环境图标类似于以下内容：
 
 image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的屏幕截图"]
 
@@ -24,15 +27,11 @@ image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的�
 
 
 
-== 从标准视图创建FlexVol卷
+== 从BlueXP创建FlexVol卷
 
-在使用连接器从BlueXP发现您的内置ONTAP集群后、您可以打开工作环境来配置和管理FlexVol卷。
+使用连接器从BlueXP发现您的本地ONTAP集群后，您可以直接从BlueXP配置和管理FlexVol卷。
 
-
-
-=== 创建卷
-
-通过BlueXP、您可以在现有聚合上创建NFS或CIFS卷。您不能从BlueXP标准视图在内部ONTAP 集群上创建新聚合。您需要使用高级视图创建聚合。
+BlueXP允许您在现有聚合上创建 NFS 或 CIFS 卷。您无法通过原生BlueXP界面在本地ONTAP集群上创建新聚合；但是，您可以从BlueXP访问相应的ONTAP系统管理器来创建聚合。
 
 .步骤
 . 从导航菜单中、选择*存储>画布*。
@@ -81,7 +80,7 @@ image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的�
 
 
 
-== 创建 FlexGroup 卷
+== 使用BlueXP API 创建FlexGroup卷
 
 您可以使用BlueXP API创建FlexGroup卷。FlexGroup 卷是一种横向扩展卷，可提供高性能以及自动负载分布。
 
@@ -91,17 +90,15 @@ image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的�
 
 
 
-== 使用高级视图管理ONTAP (System Manager)
+== 从BlueXP访问ONTAP系统管理器
 
-如果您需要对内部ONTAP 集群执行高级管理、可以使用ONTAP 系统管理器执行此操作、该管理接口随ONTAP 系统提供。我们直接在BlueXP中提供了System Manager界面、因此您无需离开BlueXP即可进行高级管理。
-
-此高级视图可作为预览版使用。我们计划改进此体验、并在即将发布的版本中添加增强功能。请通过产品内聊天向我们发送反馈。
+如果您需要对本地ONTAP集群进行高级管理，可以使用ONTAP系统管理器。您可以直接在BlueXP内部访问ONTAP系统管理器界面，无需离开BlueXP即可进行高级管理。
 
 
 
 === 功能
 
-通过BlueXP中的高级视图、您可以访问其他管理功能：
+当您从BlueXP访问ONTAP系统管理器时，您可以访问其他管理功能：
 
 * 高级存储管理
 +
@@ -137,15 +134,15 @@ image:screenshot-connector-we.png["\"画布\"上显示的工作环境图标的�
 
 === 限制
 
-在BlueXP中使用高级视图时、内部ONTAP 集群不支持某些System Manager功能。
+通过BlueXP访问ONTAP系统管理器时，本地ONTAP集群不支持某些系统管理器功能。
 
 link:reference-limitations.html["查看限制列表"]。
 
 
 
-=== 使用高级视图
+=== 从BlueXP访问ONTAP系统管理器
 
-打开内部ONTAP工作环境、然后选择"高级视图"选项。
+打开本地ONTAP工作环境并打开该环境的系统管理器。
 
 .步骤
 . 在"画布"页面上、选择要配置卷的内置ONTAP集群。

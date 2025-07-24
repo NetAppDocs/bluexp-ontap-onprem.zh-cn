@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task-discovering-ontap.html 
-keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet 
+keywords: ontap, cluster, discover, manage, discovering, fas, aff, discover onprem, discover aff cluster, discover cluster, add cluster, active iq, digital wallet, roles 
 summary: 从BlueXP中发现内部ONTAP 集群、以便您可以使用ONTAP System Manager开始管理卷并执行高级管理、该工具可从BlueXP获得。 
 ---
 = 发现内部ONTAP 集群
@@ -16,6 +16,9 @@ summary: 从BlueXP中发现内部ONTAP 集群、以便您可以使用ONTAP Syste
 [role="lead"]
 从BlueXP中发现内部ONTAP 集群、以便您可以开始使用ONTAP 系统管理器(可从BlueXP获得)管理卷和执行高级管理。
 
+.所需的BlueXP角色：
+组织管理员、文件夹或项目管理员、存储管理员或系统健康专家。 link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP访问角色。"^]
+
 
 
 == 第1步：查看发现和管理选项
@@ -25,12 +28,11 @@ BlueXP为内置ONTAP集群提供了两个发现和管理选项：
 使用Connector进行发现和管理:: 通过此选项、您可以使用以下功能管理运行ONTAP 8.3及更高版本的集群：
 +
 --
-* 标准视图、提供基本卷操作
-* 高级视图、可通过System Manager进行管理(ONTAP 9.10.0及更高版本支持此视图)
+* 通过BlueXP界面原生提供基本卷操作
+* ONTAP系统管理器（支持ONTAP 9.10.0 及更高版本），直接从BlueXP访问每个相应集群的系统管理器
 * 与提供数据复制、备份和恢复、数据分类和数据分层的BlueXP服务集成
+* 您必须拥有组织管理员角色才能安装连接器。如果您不确定您的组织是否有连接器，或者是否需要创建连接器，请联系您的BlueXP管理员。  https://review.docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator["联系您的组织管理员。"^]
 
-
-此选项需要一个Connector、您可以将其安装在云提供商或内部环境中。
 
 --
 直接发现和管理:: 使用此选项、您可以使用System Manager管理运行ONTAP 9.12.1及更高版本的集群。没有其他可用管理选项。您不能使用标准视图、也不能启用BlueXP服务。
@@ -45,7 +47,7 @@ BlueXP为内置ONTAP集群提供了两个发现和管理选项：
 
 发现后、您的集群将在BlueXP Canvas上用作工作环境。
 
-如果您决定稍后使用另一个发现选项、则需要在Canvas上将内部集群作为单独的工作环境进行发现。然后、您可以选择删除另一个工作环境。
+如果您决定将连接器添加到您的BlueXP部署中，则需要在 Canvas 上将您的本地集群重新发现为单独的工作环境。这将启用本机BlueXP管理以及对BlueXP数据服务的访问。然后，您可以选择移除其他工作环境。
 
 
 
@@ -56,8 +58,7 @@ BlueXP为内置ONTAP集群提供了两个发现和管理选项：
 一般要求::
 +
 --
-* 您应已开始使用BlueXP、其中包括登录和设置帐户。
-https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["了解如何开始使用BlueXP"^]
+* 您需要拥有以下BlueXP访问角色之一：组织管理员、文件夹或项目管理员或存储管理员。
 * 您需要集群管理IP地址和管理员用户帐户的密码。
 * BlueXP使用HTTPS发现ONTAP 集群。如果您使用自定义防火墙策略、则ONTAP 集群必须允许通过端口443进行入站HTTPS访问。
 +

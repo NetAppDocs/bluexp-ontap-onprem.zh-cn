@@ -21,7 +21,7 @@ BlueXP可以发现在AFF/FAS控制器和ONTAP Select 上运行的ONTAP 集群。
 == 功能
 
 * 管理NFS和CIFS卷
-* 使用ONTAP 系统管理器执行高级管理
+* 通过BlueXP访问任何托管集群的ONTAP系统管理器
 * 借助BlueXP分析和控制功能、获得运行状况和性能可观察性
 * 使用BlueXP服务复制、备份、扫描、分类和分层数据
 * 在BlueXP电子钱包中查看硬件和软件合同状态信息
@@ -35,7 +35,7 @@ BlueXP可以发现在AFF/FAS控制器和ONTAP Select 上运行的ONTAP 集群。
 
 * 是否部署Connector来发现和管理集群。
 +
-您可以在云中或内部环境中安装Connector。
+您可以在云端或本地安装连接器。在云端安装连接器会产生费用。
 
 * 是否使用备份和恢复、分层和分类等BlueXP服务。
 
